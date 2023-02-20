@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: jackyisme123@gmail.com
-    phone: 0210542542
+    phone: "0210542542"
     # timezone: America/Cancun Timezone
     # citizenship:
     # website: https://www.linkedin.com/in/jackyisme123/ #do not add http://
@@ -61,11 +61,15 @@ education:
     info:
       - degree: Graduate Diploma with Distinction in Computer Science
         university: University of Canterbury
-        time: 2012 - 2014
+        time: 2017 - 2018
 
       - degree: MBA
         university: Tianjin University
         time: 2012 - 2014
+        
+      - degree: Bachelor in Chemical Engineering and Process
+        university: Tianjin University of Technology
+        time: 2014 - 2008
 
 experiences:
     title: Experiences
