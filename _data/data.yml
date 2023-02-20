@@ -96,15 +96,15 @@ projects:
     
     assignments:
       - title: Lubricating oil
-        link: "https://wxxtrh.com/"
+        link: https://wxxtrh.com/
         tagline: "A responsive website designed to help company display and sell their products."
 
       - title: FIS Hackthon project
-        link: "#"
+        link: #
         tagline: "A mobile app to help client manage their daily expense." Flutter / Azure / vioce recoginition / mechine learning
 
       - title: Wechat
-        link: "https://github.com/jackyisme123/itchat"
+        link: https://github.com/jackyisme123/itchat
         tagline: "Some intersting functions communicating via api of wechat. i.e. Auto reply celebration message, generate a image on the word frequncy from friends' signature"
 
 skills:
