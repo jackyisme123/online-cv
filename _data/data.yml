@@ -75,12 +75,12 @@ experiences:
     title: Experiences
     info:
       - role: Software Engineer
-        time: 2017 - Present
+        time: 2018 - Present
         company: FIS, Christchurch
         details: |
-          I have been working in delivery and client service teams separately.
+          I have been working in delivery and client service teams.
             - Ensured the successful delivery of complex software, from planning to deployment and ongoing maintenance and support.
-            - Optimized code or stored procedure for improved performance.
+            - Optimized code and stored procedure for improved performance.
             - Orgnized meetings with consultants and clients for them to quickly understand new feature.
             - Mentored Graduate/Junior developer.
             
@@ -88,8 +88,8 @@ experiences:
         time: 2017 - 2018
         company: Weta Workshop, Wellington
         details: |
-          Did some internal plugin/spa for their product management system and confluence. (python & node.js & Docker)
-          Did a desktop application for fetching & representing some data. (python)
+          - Did some internal plugin/spa for their product management system and confluence. (python & node.js & Docker)
+          - Did a desktop application for fetching & representing some data. (python)
 
 projects:
     title: Projects
