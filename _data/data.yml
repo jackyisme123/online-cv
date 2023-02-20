@@ -70,7 +70,6 @@ education:
       - degree: Bachelor in Chemical Engineering and Process
         university: Tianjin University of Technology
         time: 2014 - 2008
-
 experiences:
     title: Experiences
     info:
@@ -90,7 +89,6 @@ experiences:
         details: |
           - Did some internal plugin/spa for their product management system and confluence. (python & node.js & Docker)
           - Did a desktop application for fetching & representing some data. (python)
-
 projects:
     title: Projects
     
@@ -106,7 +104,6 @@ projects:
       - title: Wechat
         link: "github.com/jackyisme123/itchat"
         tagline: "Some intersting functions communicating via api of wechat. i.e. Auto reply celebration message, generate a image on the word frequncy from friends' signature"
-
 skills:
     title: Skills &amp; Proficiency
 
