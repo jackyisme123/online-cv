@@ -56,6 +56,7 @@ career-profile:
       Experienced software developer with nearly five years of experience in finance product development.
       Proficient in C#, Typescript, and accounting, with a track record of completing projects on time and contributing to successful product launches.
       Skilled in Agile development and collaboration, with a passion for developing innovative solutions to complex problems.
+
 education:
     title: Education
     info:
@@ -70,6 +71,7 @@ education:
       - degree: Bachelor in Chemical Engineering and Process
         university: Tianjin University of Technology
         time: 2014 - 2008
+
 experiences:
     title: Experiences
     info:
@@ -89,6 +91,7 @@ experiences:
         details: |
           - Did some internal plugin/spa for their product management system and confluence. (python & node.js & Docker)
           - Did a desktop application for fetching & representing some data. (python)
+
 projects:
     title: Projects
     
@@ -99,11 +102,12 @@ projects:
 
       - title: FIS Hackthon project
         link: "#"
-        tagline: "A mobile app to help client manage their daily expense." Flutter / Azure / vioce recoginition / mechine learning
+        tagline: "A mobile app to help client manage their daily expense. Flutter / Azure / vioce recoginition / mechine learning"
 
       - title: Wechat
         link: "github.com/jackyisme123/itchat"
-        tagline: "Some intersting functions communicating via api of wechat. i.e. Auto reply celebration message, generate a image on the word frequncy from friends' signature"
+        tagline: "Some intersting functions communicating via api of wechat. i.e. Auto reply celebration message"
+ 
 skills:
     title: Skills &amp; Proficiency
 
