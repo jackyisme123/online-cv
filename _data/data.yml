@@ -73,16 +73,16 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Intermediate Software Engineer (Delivery)
+      - role: Intermediate Software Engineer - Delivery
         time: 2022 - Present
         company: FIS, Christchurch
         details: |
-        - Work in an agile team and rotate to be a scrum master. (to hold or join stand-up, sprint planning/review and retro).
-        - Collebrate with other team members (i.e. PO / Designer / Dev / QA) to ensure new features are delivered on time and meet client's need.
-        - Full stack development (Knockout.js with Typescript + C#, usally on On Premise but a few of clients using Azure) + Unit test.
-        - Writing automation for QA when all dev cards done. (integration, selenium and smoke tests).
+        - Work in an agile team and rotate to be a scrum master to hold or join stand-up, sprint planning/review and retro.
+        - Collebrate with other team members i.e. PO / Designer / Dev / QA to ensure new features are delivered on time and meet client's need.
+        - Full stack development - Knockout.js with Typescript + C#, usally on On Premise but a few of clients using Azure + Unit test.
+        - Writing automation for QA when all dev cards done. integration, selenium and smoke tests.
         - Learn new technology from pluralsight and mentor graduates.
-      - role: Graduate/Junior Software Engineer (Client Service)
+      - role: Graduate/Junior Software Engineer - Client Service
         time: 2018 - 2022
         company: FIS, Christchurch
         details: |
@@ -90,14 +90,14 @@ experiences:
         - Quickly response consultants/clients' queries with root cause analysis. i.e. design gap, env setting, defect or data issue.
         - Implement new feature via a design call and add unit tests / integration tests to cover the scenario.
         - Fix client reported bugs and provide them a release note which includes root cause analysis by business words.
-        - Provide clients data fix script to fix data issue on their production db with some instructions (can run once or multiple times or data revertable).
+        - Provide clients data fix script to fix data issue on their production db with some instructions i.e. can run once or multiple times or data revertable.
         - Create internal plugin / tool for internal use. And make wiki / video to show colleagues how to use them.
       - role: Software Engineer Intern
         time: 2017 - 2018
         company: Weta Workshop, Wellington
         details: |
-          - Did some internal plugin/spa for their product management system and confluence. (python & vue.js & Docker)
-          - Did a desktop application for fetching & representing data. (python)
+          - Did some internal plugin/spa for their product management system and confluence. - python & vue.js & Docker
+          - Did a desktop application for fetching & representing data. - python
 projects:
     title: Projects
     intro: >
@@ -114,24 +114,24 @@ projects:
         link: "github.com/jackyisme123/itchat"
         tagline: "Some intersting functions communicating via api of wechat. i.e. Auto reply celebration message"
 
-skills:
-    title: Skills &amp; Proficiency
+# skills:
+#     title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+#       - name: Javascript & jQuery
+#         level: 98%
 
-      - name: Angular
-        level: 98%
+#       - name: Angular
+#         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+#       - name: HTML5 & CSS
+#         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+#       - name: Ruby on Rails
+#         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+#       - name: Sketch & Photoshop
+#         level: 60%
