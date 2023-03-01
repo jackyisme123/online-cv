@@ -75,22 +75,33 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Software Engineer
-        time: 2018 - Present
+      - role: Software Engineer (Delivery)
+        time: 2022 - present
         company: FIS, Christchurch
         details: |
-          I have been working in delivery and client service teams.
-            - Ensured the successful delivery of complex software, from planning to deployment and ongoing maintenance and support.
-            - Optimized code and stored procedure for improved performance.
-            - Orgnized meetings with consultants and clients for them to quickly understand new feature.
-            - Mentored Graduate/Junior developer.
+        - Work in an agile team and rotate to be a scrum master. (to hold or join stand-up, sprint planning/review and retro).
+        - Collebrate with other team members (i.e. PO / Designer / Dev / QA) to ensure new features are delivered on time and meet client's need.
+        - Full stack development (Knockout.js with Typescript + C#, usally on On Premise but a few of clients using Azure) + Unit test.
+        - Writing automation for QA when all dev cards done. (integration, selenium and smoke tests).
+        - Learn new technology from pluralsight and mentor graduates.
+
+      - role: Software Engineer (Client Service)
+        time: 2018 - 2022
+        company: FIS, Christchurch
+        details: |
+        - Familiar with different products / accounting principals of clients from different countries.
+        - Quickly response consultants/clients' queries with root cause analysis. i.e. design gap, env setting, defect or data issue.
+        - Implement new feature via a design call and add unit tests / integration tests to cover the scenario.
+        - Fix client reported bugs and provide them a release note which includes root cause analysis by business words.
+        - Provide clients data fix script to fix data issue on their production db with some instructions (can run once or multiple times or data revertable).
+        - Create internal plugin / tool for internal use. And make wiki / video to show colleagues how to use them.
             
       - role: Software Engineer Intern
         time: 2017 - 2018
         company: Weta Workshop, Wellington
         details: |
-          - Did some internal plugin/spa for their product management system and confluence. (python & node.js & Docker)
-          - Did a desktop application for fetching & representing some data. (python)
+          - Did some internal plugin/spa for their product management system and confluence. (python & vue.js & Docker)
+          - Did a desktop application for fetching & representing data. (python)
 
 projects:
     title: Projects
@@ -108,21 +119,21 @@ projects:
         link: "github.com/jackyisme123/itchat"
         tagline: "Some intersting functions communicating via api of wechat. i.e. Auto reply celebration message"
  
-skills:
-    title: Skills &amp; Proficiency
+# skills:
+#     title: Skills &amp; Proficiency
 
-    toolset:
-      - name: C# and .Net
-        level: 98%
+#     toolset:
+#       - name: C# and .Net
+#         level: 98%
 
-      - name: TypeScript
-        level: 95%
+#       - name: TypeScript
+#         level: 95%
 
-      - name: Knockout.js
-        level: 90%
+#       - name: Knockout.js
+#         level: 90%
 
-      - name: SQL Server & Oracle
-        level: 80%
+#       - name: SQL Server & Oracle
+#         level: 80%
 
-      - name: Docker
-        level: 70%
+#       - name: Docker
+#         level: 70%
