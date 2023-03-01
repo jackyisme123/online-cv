@@ -56,7 +56,6 @@ career-profile:
       Experienced software developer with nearly five years of experience in finance product development.
       Proficient in C#, Typescript, and accounting, with a track record of completing projects on time and contributing to successful product launches.
       Skilled in Agile development and collaboration, with a passion for developing innovative solutions to complex problems.
-
 education:
     title: Education
     info:
@@ -71,12 +70,11 @@ education:
       - degree: Bachelor in Chemical Engineering and Process
         university: Tianjin University of Technology
         time: 2014 - 2008
-
 experiences:
     title: Experiences
     info:
-      - role: Software Engineer (Delivery)
-        time: 2022 - present
+      - role: Intermediate Software Engineer (Delivery)
+        time: 2022 - Present
         company: FIS, Christchurch
         details: |
         - Work in an agile team and rotate to be a scrum master. (to hold or join stand-up, sprint planning/review and retro).
@@ -84,8 +82,7 @@ experiences:
         - Full stack development (Knockout.js with Typescript + C#, usally on On Premise but a few of clients using Azure) + Unit test.
         - Writing automation for QA when all dev cards done. (integration, selenium and smoke tests).
         - Learn new technology from pluralsight and mentor graduates.
-
-      - role: Software Engineer (Client Service)
+      - role: Graduate/Junior Software Engineer (Client Service)
         time: 2018 - 2022
         company: FIS, Christchurch
         details: |
@@ -95,17 +92,15 @@ experiences:
         - Fix client reported bugs and provide them a release note which includes root cause analysis by business words.
         - Provide clients data fix script to fix data issue on their production db with some instructions (can run once or multiple times or data revertable).
         - Create internal plugin / tool for internal use. And make wiki / video to show colleagues how to use them.
-            
       - role: Software Engineer Intern
         time: 2017 - 2018
         company: Weta Workshop, Wellington
         details: |
           - Did some internal plugin/spa for their product management system and confluence. (python & vue.js & Docker)
           - Did a desktop application for fetching & representing data. (python)
-
 projects:
     title: Projects
-    
+    intro: >
     assignments:
       - title: Lubricating oil
         link: "wxxtrh.com"
@@ -118,22 +113,3 @@ projects:
       - title: Wechat
         link: "github.com/jackyisme123/itchat"
         tagline: "Some intersting functions communicating via api of wechat. i.e. Auto reply celebration message"
- 
-# skills:
-#     title: Skills &amp; Proficiency
-
-#     toolset:
-#       - name: C# and .Net
-#         level: 98%
-
-#       - name: TypeScript
-#         level: 95%
-
-#       - name: Knockout.js
-#         level: 90%
-
-#       - name: SQL Server & Oracle
-#         level: 80%
-
-#       - name: Docker
-#         level: 70%
