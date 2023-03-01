@@ -104,7 +104,7 @@ projects:
     intro: >
     assignments:
       - title: Lubricating oil
-        link: "wxxtrh.com"
+        link: "#wxxtrh.com"
         tagline: "A responsive website designed to help company display and sell their products."
 
       - title: FIS Hackthon project
@@ -112,7 +112,7 @@ projects:
         tagline: "A mobile app to help client manage their daily expense. Flutter / Azure / vioce recoginition / mechine learning"
 
       - title: Wechat
-        link: "github.com/jackyisme123/itchat"
+        link: "#github.com/jackyisme123/itchat"
         tagline: "Some intersting functions communicating via api of wechat. i.e. Auto reply celebration message"
 
 # skills:
