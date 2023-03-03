@@ -49,6 +49,10 @@ sidebar:
 
         - item: Warcraft 3
           link:
+          
+    volunteer:
+      title: volunteer
+      info: ccc volunteer
 
 career-profile:
     title: Career Profile
@@ -88,7 +92,7 @@ experiences:
         company: FIS, Christchurch
         details: |
           - Familiar with different products / accounting principals of clients from different countries.
-          - Quickly triage consultants/clients' queries and assigh task to downstream. i.e. design gap, env setting, defect or data issue.
+          - Quickly triage consultants/clients' queries and assign task to downstream. i.e. design gap, env setting, defect or data issue.
           - Implement new feature via a design call and add unit tests / integration tests to cover the scenario.
           - Fix client reported bugs and provide them a release note which includes root cause analysis by business words.
           - Provide clients data fix script to fix data issue on their production db with some instructions i.e. can run once or multiple times or data revertable.
