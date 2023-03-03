@@ -50,13 +50,13 @@ sidebar:
     referee:
       title: referee
       info: 
-        - item: Suzanne Whyte
-        - item: FIS - Client Service Team Lead
-        - item: 021349023
-        - item:          
-        - item: Rui Zhang
-        - item: Phocas - Software Engineer
-        - item: 0210542558
+        - name: Suzanne Whyte
+        - jobtitle: FIS - Client Service Team Lead
+        - mobile: 021349023
+ 
+        - name: Rui Zhang
+        - jobtitle: Phocas - Software Engineer
+        - mobile: 0210542558
 
 career-profile:
     title: Career Profile
