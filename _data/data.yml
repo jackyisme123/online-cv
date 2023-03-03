@@ -27,7 +27,7 @@ sidebar:
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://github.com/jackyisme123/online-cv/blob/master/_data/yuan-cv.pdf
 
     languages:
       title: Languages
