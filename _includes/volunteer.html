@@ -1,0 +1,22 @@
+{% assign volunteer = site.data.data.sidebar.volunteer %}
+{% if volunteer %}
+<div class="volunteer-container container-block">
+
+  <h2 class="container-block-title">
+    {{ volunteer.title }}
+  </h2>
+
+  <ul class="list-unstyled volunteer-list">
+    {% for v in volunteer.info %}
+
+      {% if v.link %}
+      <li><a href="{{ v.link }}">{{ v.item }}</a></li>
+      {% else %}
+      <li>{{ v.item }}</li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div><!--//volunteer-->
+{% endif %}
