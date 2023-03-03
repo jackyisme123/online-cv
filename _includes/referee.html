@@ -6,15 +6,15 @@
     {{ referee.title }}
   </h2>
 
-  <ul class="list-unstyled referee-list">
-    {% for r in referee.info %}
-    <div class="item">
-      <h4 class="name">{{ r.degree }}</h4>
-      <h5 class="jobtitle">{{ r.university }}</h5>
-      <div class="mobile">{{ r.time }}</div>
-    </div><!--//item-->
-    {% endfor %}
-  </ul>
+
+  {% for r in referee.info %}
+  <div class="item">
+    <h4 class="name">{{ r.degree }}</h4>
+    <h5 class="jobtitle">{{ r.university }}</h5>
+    <h5 class="mobile">{{ r.time }}</h5>
+  </div><!--//item-->
+  {% endfor %}
+
 
 </div><!--//referee-->
 {% endif %}
