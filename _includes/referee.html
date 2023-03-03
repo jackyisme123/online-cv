@@ -1,20 +1,55 @@
 {% assign referee = site.data.data.sidebar.referee %}
 {% if referee %}
-<div class="referee-container container-block">
+  {% if site.data.data.sidebar.education %}
+  <div class="referee-container container-block">
 
-  <h2 class="container-block-title">
-    {{ referee.title }}
-  </h2>
-
-
-  {% for r in referee.info %}
-  <div class="item">
-    <h4 class="name">{{ r.degree }}</h4>
-    <h5 class="jobtitle">{{ r.university }}</h5>
-    <h5 class="mobile">{{ r.time }}</h5>
-  </div><!--//item-->
-  {% endfor %}
+    <h2 class="container-block-title">
+      {{ referee.title }}
+    </h2>
 
 
-</div><!--//referee-->
+    {% for r in referee.info %}
+    <div class="item">
+      <h4 class="name">{{ r.degree }}</h4>
+      <h5 class="jobtitle">{{ r.university }}</h5>
+      <h5 class="mobile">{{ r.time }}</h5>
+    </div><!--//item-->
+    {% endfor %}
+  </div><!--//referee-->
+
+  {% else %}
+  <section class="section referee-section">
+
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ referee.title }}
+    </h2>
+
+    {% for r in referee.info %}
+    <div class="item">
+
+      <div class="meta">
+
+        <div class="upper-row">
+          <h3 class="name">{{ r.name }}</h3>
+          <div class="mobile">{{ r.mobile }}</div>
+        </div><!--//upper-row-->
+
+        <div class="jobtitle">{{ r.jobtitle }}</div>
+      </div><!--//meta-->
+
+      {% if r.details %}
+      <div class="details">
+        {{ r.details | markdownify }}
+      </div><!--//details-->
+      {% endif %}
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </section><!--//section-->
+  {% endif %}
 {% endif %}
