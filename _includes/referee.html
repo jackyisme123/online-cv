@@ -1,0 +1,22 @@
+{% assign referee = site.data.data.sidebar.referee %}
+{% if referee %}
+<div class="referee-container container-block">
+
+  <h2 class="container-block-title">
+    {{ referee.title }}
+  </h2>
+
+  <ul class="list-unstyled referee-list">
+    {% for r in referee.info %}
+
+      {% if r.link %}
+      <li><a href="{{ r.link }}">{{ r.item }}</a></li>
+      {% else %}
+      <li>{{ r.item }}</li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div><!--//referee-->
+{% endif %}
