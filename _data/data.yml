@@ -37,26 +37,23 @@ sidebar:
 
         - idiom: Mandarin
           level: Native
-
     interests:
       title: Interests
       info:
         - item: NBA
         - item: Hiking
         - item: Warcraft 3
-
     volunteer:
       title: volunteer
       info: 
-        - item: CCC volunteer
-      
+        - item: CCC volunteer      
     referee:
       title: referee
       info: 
         - item: Suzanne Whyte
         - item: FIS - Client Service Team Lead
         - item: 021349023
-        - item: 
+        - item:          
         - item: Rui Zhang
         - item: Phocas - Software Engineer
         - item: 0210542558
