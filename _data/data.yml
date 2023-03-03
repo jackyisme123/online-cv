@@ -46,9 +46,16 @@ sidebar:
     volunteer:
       title: volunteer
       info: 
-        - item: CCC volunteer weeding and grow trees 
-
-
+        - item: CCC volunteer weeding and grow trees
+referee:
+  title: referee
+  info: 
+    - name: Suzanne Whyte
+      jobtitle: FIS - Client Service Team Lead
+      mobile: "021349023"
+    - name: Rui Zhang
+      jobtitle: Phocas - Software Engineer
+      mobile: "0210542558"
 career-profile:
     title: Career Profile
     summary: |
@@ -70,16 +77,6 @@ education:
       - degree: Bachelor in Chemical Engineering and Process
         university: Tianjin University of Technology
         time: 2004 - 2008
-referee:
-  title: referee
-  info: 
-    - name: Suzanne Whyte
-      jobtitle: FIS - Client Service Team Lead
-      mobile: 021349023
-
-    - name: Rui Zhang
-      jobtitle: Phocas - Software Engineer
-      mobile: 0210542558
 experiences:
     title: Experiences
     info:
