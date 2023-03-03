@@ -8,13 +8,11 @@
 
   <ul class="list-unstyled referee-list">
     {% for r in referee.info %}
-
-      {% if r.link %}
-      <li><a href="{{ r.link }}">{{ r.item }}</a></li>
-      {% else %}
-      <li>{{ r.item }}</li>
-      {% endif %}
-
+    <div class="item">
+      <h4 class="name">{{ r.degree }}</h4>
+      <h5 class="jobtitle">{{ r.university }}</h5>
+      <div class="mobile">{{ r.time }}</div>
+    </div><!--//item-->
     {% endfor %}
   </ul>
 
