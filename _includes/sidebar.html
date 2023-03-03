@@ -26,7 +26,10 @@
   {% include language.html %}
   {% include interests.html %}
   {% include volunteer.html %}
-  {% include referee.html %}
+
+  {% if sidebar.referee %}
+    {% include referee.html %}
+  {% endif %}
 
   {% if sidebar.about %}
     {% include about.html %}
