@@ -81,13 +81,14 @@ experiences:
           - Collebrate with other team members i.e. PO / Designer / Dev / QA to ensure new features are delivered on time and meet client's need.
           - Full stack development (Knockout.js with Typescript + C# + Nunit tests, Usally on On Premise but a few of clients using Azure)
           - Writing automation for QA when all dev cards done. integration, selenium and smoke tests.
+          - Refactor current codes and make them more robust and efficient.
           - Learn new technology from pluralsight and mentor graduates.
       - role: Graduate/Junior Software Engineer (Client Service)
         time: 2018 - 2022
         company: FIS, Christchurch
         details: |
           - Familiar with different products / accounting principals of clients from different countries.
-          - Quickly response consultants/clients' queries with root cause analysis. i.e. design gap, env setting, defect or data issue.
+          - Quickly triage consultants/clients' queries and assigh task to downstream. i.e. design gap, env setting, defect or data issue.
           - Implement new feature via a design call and add unit tests / integration tests to cover the scenario.
           - Fix client reported bugs and provide them a release note which includes root cause analysis by business words.
           - Provide clients data fix script to fix data issue on their production db with some instructions i.e. can run once or multiple times or data revertable.
