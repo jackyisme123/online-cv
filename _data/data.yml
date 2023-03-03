@@ -42,17 +42,19 @@ sidebar:
       title: Interests
       info:
         - item: NBA
-          link:
-
         - item: Hiking
-          link:
-
         - item: Warcraft 3
-          link:
-          
+
     volunteer:
       title: volunteer
-      info: ccc volunteer
+      info: 
+        - item: CCC volunteer
+      
+    referee:
+      title: referee
+      info: 
+        - item: Suzanne - FIS - Client Service Team Lead - Suzanne Whyte - 021349023
+        - item: Rui Zhang - Phocas - Software Engineer - 02105422258
 
 career-profile:
     title: Career Profile
