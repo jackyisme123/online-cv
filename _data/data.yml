@@ -53,8 +53,13 @@ sidebar:
     referee:
       title: referee
       info: 
-        - item: Suzanne - FIS - Client Service Team Lead - Suzanne Whyte - 021349023
-        - item: Rui Zhang - Phocas - Software Engineer - 02105422258
+        - item: Suzanne Whyte
+        - item: FIS - Client Service Team Lead
+        - item: 021349023
+        - item: 
+        - item: Rui Zhang
+        - item: Phocas - Software Engineer
+        - item: 0210542558
 
 career-profile:
     title: Career Profile
@@ -121,25 +126,3 @@ projects:
       - title: Lubricating Oil
         link: "#"
         tagline: "A responsive website designed to help company display and sell their products."
-
-# skills:
-#     title: Skills &amp; Proficiency
-
-#     toolset:
-#       - name: Python & Django
-#         level: 98%
-
-#       - name: Javascript & jQuery
-#         level: 98%
-
-#       - name: Angular
-#         level: 98%
-
-#       - name: HTML5 & CSS
-#         level: 95%
-
-#       - name: Ruby on Rails
-#         level: 85%
-
-#       - name: Sketch & Photoshop
-#         level: 60%
