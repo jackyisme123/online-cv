@@ -52,12 +52,10 @@ referee:
   title: Referee
   info: 
     - name: Suzanne Whyte
-      jobtitle: FIS (Team Lead)
-      mobile: "021349023"
+      jobtitle: FIS (Team Lead) 021349023
 
     - name: Bo Li
-      jobtitle: Verizon Connect (Senior Software Engineer)
-      mobile: "0212376782"
+      jobtitle: Verizon Connect (Senior Software Engineer) 0212376782
 career-profile:
     title: Career Profile
     summary: |
