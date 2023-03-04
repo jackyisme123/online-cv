@@ -108,16 +108,13 @@ p {
     margin-top: 0;
     margin-bottom: 15px;
   }
-  .rname {
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 5px;
-  }
+  .rname,
   .degree {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 5px;
   }
+  .referee-container,
   .education-container {
     .item {
       margin-bottom: 15px;
@@ -125,31 +122,15 @@ p {
         margin-bottom: 0;
       }
     }
-  .referee-container {
-    .item {
-      margin-bottom: 15px;
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
+  .jobtitle,
   .meta {
       color: rgba(256, 256, 256, 0.6);
       font-weight: 500;
       margin-bottom: 0px;
       margin-top: 0;
     }
-    .jobtitle {
-      color: rgba(256, 256, 256, 0.6);
-      font-weight: 500;
-      margin-bottom: 0px;
-      margin-top: 0;
-    }
-    .time {
-      color: rgba(256, 256, 256, 0.6);
-      font-weight: 500;
-      margin-bottom: 0px;
-    }
-    .mobile {
+  .mobile,
+  .time {
       color: rgba(256, 256, 256, 0.6);
       font-weight: 500;
       margin-bottom: 0px;
