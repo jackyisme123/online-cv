@@ -120,6 +120,13 @@ p {
         margin-bottom: 0;
       }
     }
+  .referee-container {
+    .item {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
     .meta {
       color: rgba(256, 256, 256, 0.6);
       font-weight: 500;
