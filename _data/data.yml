@@ -60,7 +60,7 @@ career-profile:
     title: Career Profile
     summary: |
       Experienced software developer with nearly five years of experience in commercial product development.
-      Proficient in C#, Typescript, and accounting, completing projects on time and contributing to successful product launches.
+      Proficient in C#, Typescript, and SQL, completing projects on time and contributing to successful product launches.
       Skilled in Agile development and collaboration, with a passion for developing innovative solutions to complex problems.
       Learning new technologies with a proactive and curious mindset.
 education:
@@ -80,17 +80,17 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Intermediate Software Engineer (Delivery TEAM)
+      - role: Intermediate Software Engineer (Delivery Team)
         time: 2022 - Present
         company: FIS, Christchurch
         details: |
+          - Prepare, design and present approach of new feature on tech approach meeting.
+          - Work on full stack development includes Unit Tests (Knockout.js with Typescript / ASP.Net, C# / SQL, Oracle).
+          - Code review (refactor related codes if needed) and make them more robust and efficient.
+          - Work in an agile team and be a scrum master to hold stand-up, sprint planning / review and retro.
           - Collebrate with team members (PM / Designer / Dev / QA) to ensure new features are delivered on time and meet client's need.
-          - Prepare, design and present tech approach about new feature then work on full stack development (Knockout.js with Typescript + C# + Nunit tests, both On Premise and Azure)
-          - Developed and executed test plans and scripts as part of CI/CD workflows to ensure code quality and identify issues early in the development process.
-          - Refactor related codes if needed and make them more robust and efficient.
-          - Work in an agile team and be a scrum master to hold stand-up, sprint planning/review and retro.
-          - Mentor junior and graduates.
-      - role: Graduate/Junior Software Engineer (Client Service TEAM)
+          - Mentor junior and graduates / Pair programming.
+      - role: Graduate/Junior Software Engineer (Client Service Team)
         time: 2018 - 2022
         company: FIS, Christchurch
         details: |
@@ -104,10 +104,10 @@ experiences:
         time: 2017 - 2018 Summer
         company: Weta Workshop, Wellington
         details: |
-          - Create some internal plugins (python) and a SPA (vue.js) for product management system and confluence.
-          - Use python to build a desktop application for fetching & representing data.
-          - Deploy these tools on internal server via Docker container.
-          - Do presentation to IT manager and supervisor.
+          - Create internal plugins (Python) and a SPA (Vue.js) for product management system and confluence.
+          - Use Python to build a desktop application for fetching & representing data.
+          - Deploy tools on internal server by using Docker container.
+          - Present projects to IT manager and supervisor.
 projects:
     title: Projects
     intro: >
@@ -115,11 +115,7 @@ projects:
       - title: FIS Hackthon Project
         link: "#"
         tagline: "A mobile app to help client manage their daily expense. Flutter / Azure / vioce recoginition / mechine learning / Serverless"
-
-      - title: Wechat
-        link: "#"
-        tagline: "Some intersting functions communicating via api of wechat. i.e. Auto reply celebration message"
         
       - title: Lubricating Oil
         link: "#"
-        tagline: "A responsive website designed to help company display and sell their products."
+        tagline: "A responsive website designed to help company display and sell their products. Javascript / HTML / CSS / Bootstrap / DNS / SMTP"
