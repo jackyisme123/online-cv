@@ -62,7 +62,7 @@ career-profile:
       Experienced software developer with nearly five years of experience in commercial product development.
       Proficient in C#, Typescript, and SQL, completing projects on time and contributing to successful product launches.
       Skilled in Agile development and collaboration, with a passion for developing innovative solutions to complex problems.
-      AWS Certified Cloud Practitioner, love to learn new technologies with a proactive and curious mindset.
+      AWS Certified Cloud Practitioner, loves to learn new technologies with a proactive and curious mindset.
 education:
     title: Education
     info:
@@ -84,38 +84,38 @@ experiences:
         time: 2022 - Present
         company: FIS, Christchurch
         details: |
-          - Prepare, design and present new feature on tech approach meeting.
-          - Work on full stack development includes Unit and Integraion Tests (Knockout.js with Typescript / .Net, C# / SQL, Oracle).
-          - Peer review (refactor related codes if needed) and make product more robust and efficient.
+          - Prepare, design and present new features on tech approach meetings.
+          - Work on full stack development includes Unit and Integration Tests (Knockout.js with Typescript / .Net, C# / SQL, Oracle).
+          - Peer review (refactor related codes if needed) and make the product more robust and efficient.
           - Work in an agile team and sometimes to be a scrum master to hold stand-up, sprint planning / review and retro.
-          - Collebrate with team members (PM / Designer / Dev / QA) to ensure new features are delivered on time and meet client's need.
+          - Collaborate with team members (PM / Designer / Dev / QA) to ensure new features are delivered on time and meet client's needs.
           - Mentor juniors and graduates / Pair programming.
       - role: Graduate/Junior Software Engineer (Client Service Team)
         time: 2018 - 2022
         company: FIS, Christchurch
         details: |
           - Familiar with different products / accounting principals of clients from different countries.
-          - Quickly triage consultants/clients' queries and assign task to downstream.
-          - Implement new feature via a design call and add unit tests / integration tests to cover the scenario.
+          - Quickly triage consultants/clients' queries and assign tasks to downstream.
+          - Implement new features via a design call and add unit tests / integration tests to cover the scenario.
           - Fix clients' reported bugs and provide a release note which includes root cause analysis by business words.
-          - Provide clients data fix script to fix data issue on their production db with some instructions i.e. can run once or multiple times or data revertable.
-          - Create internal plugin / tool for internal use. And create wiki page / video to show colleagues how to use them.
+          - Provide clients data fix scripts to fix data issues on their production db with some instructions i.e. can run once or multiple times or data revertible.
+          - Create some internal plugins / tools for internal use. And create wiki pages / videos to show colleagues how to use them.
       - role: Software Engineer Intern
         time: 2017 - 2018 Summer
         company: Weta Workshop, Wellington
         details: |
-          - Create internal plugins (Python) and a SPA (Vue.js) for product management system and confluence.
+          - Create internal plugins (Python) and a SPA (Vue.js) for product management system and confluence page.
           - Use Python to build a desktop application for fetching & representing data.
-          - Deploy tools on internal server by using Docker container.
-          - Present projects to IT manager and supervisor.
+          - Deploy tools on the internal server by using Docker container.
+          - Present projects to the IT manager and supervisor.
 projects:
     title: Projects
     intro: >
     assignments:
       - title: FIS Hackthon Project
         link: "#"
-        tagline: "A mobile app to help client manage their daily expense. Flutter / Azure / vioce recoginition / mechine learning / Serverless"
+        tagline: "A mobile app to help clients manage their daily expenses. Flutter / Azure / voice recognition / machine learning / Serverless"
         
       - title: Lubricating Oil
         link: "#"
-        tagline: "A responsive website designed to help company display and sell their products. Javascript / HTML / CSS / Bootstrap / DNS / SMTP"
+        tagline: "A responsive static website designed to help the company display and sell its products. Javascript / HTML / CSS / Bootstrap / DNS / SMTP"
