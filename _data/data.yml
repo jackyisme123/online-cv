@@ -51,11 +51,13 @@ sidebar:
 referee:
   title: Referee
   info: 
+    - name: Nancy Godwin
+      jobtitle: University of Canterbury (Product Manager) 0211417884
+      
     - name: Suzanne Whyte
       jobtitle: FIS (Team Lead) 021349023
 
-    - name: Nancy Godwin
-      jobtitle: University of Canterbury (Product Manager) 0211417884
+
 career-profile:
     title: Career Profile
     summary: |
