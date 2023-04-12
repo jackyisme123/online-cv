@@ -86,31 +86,30 @@ experiences:
         time: 2018 - Present
         company: FIS, Christchurch
         details: |
-          - Prepare, design and present tech solution on tech approach meetings.
+          - Prepare, design and present tech solution at tech approach meetings.
           - Code on full stack development(Knockout.js with Typescript / .Net, C# / SQL, Oracle) and peer review.
           - Write, monitor and maintain unit / integration / ac / UI / performance tests in both test and pre-production env with CI/CD tools.
           - Collaborate with team members (PM / Designer / Dev / QA) via an Agile framework to ensure new features are delivered on time and meet client's needs.
           - Create and maintain internal plugins / tools for improving development productivity. And create wiki pages / videos to show colleagues how to use them.
-          - Work in an agile team and sometimes to be a scrum master to hold stand-up, sprint planning / review and retro.
-          - Quickly triage consultants/clients' queries, trouble shooting and positionning defect with root cause.
-          - Devops experience in executing and maintaining scripts, services, VMs which used for CI/CD or IDP.
+          - Quickly triage consultants/clients' queries, troubleshoot and position defects with root cause.
+          - Devops experience in executing and maintaining scripts, services, VMs which are used for CI/CD and IDP.
           - Mentor juniors and graduates / Pair programming. 
       - role: Software Engineer Intern
         time: 2017 - 2018 Summer
         company: Weta Workshop, Wellington
         details: |
-          - Create internal plugins (Python) and a SPA (Vue.js, Nodejs) for product management system and confluence page.
-          - Use Python to build a desktop application for fetching & representing data.
-          - Deploy tools on the internal server by using Docker container.
+          - Create plugins executed on Docker container, i.e. Images switch to thumbnails, batch submit/delete/download notes and change states.
+          - Create a confluence page addon (a single page application) to support a special 3D model file extension.
+          - A desktop application for fetching & representing data.
           - Present projects to the IT manager and supervisor.
 projects:
     title: Projects
     intro: >
     assignments:
-      - title: FIS Hackthon Project
+      - title: FIS Hackathon Project
         link: "#"
         tagline: "A mobile app to help clients manage their daily expenses. Flutter / Azure / voice recognition / machine learning / Serverless"
         
-      - title: Lubricating Oil
+      - title: Lubricating Oil company website and email system
         link: "#"
-        tagline: "A responsive static website designed to help the company display and sell its products. Javascript / HTML / CSS / Bootstrap / DNS / SMTP"
+        tagline: "A responsive static website and email system. Javascript / HTML / CSS / Bootstrap / DNS / SMTP"
