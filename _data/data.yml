@@ -91,7 +91,7 @@ experiences:
           - Collaborate with team members (PM/Designer/Dev/QA) via an Agile framework to ensure new features are delivered on time and meet client's needs.
           - Excel in triaging queries & issues, troubleshooting and communicating effective workarounds and solutions to customers.
           - Devops experience in executing and maintaining scripts, services, infrastructures(VMs & Docker Containers) for CI/CD and IDP usages.
-          - Create and maintain internal plugins/tools for improving development productivity. Show colleagues how to use them via Wiki pages and videos.
+          - Create and maintain internal plugins/tools for improving development productivity shared by Wiki pages and videos.
           - Prepare, design and present tech solution at tech approach meetings before a new project / feature kicked off.
           - Code on full stack development(Knockout.js with Typescript / .Net, C# / SQL, Oracle) and peer reviewing.
           - Write, monitor and maintain unit/integration/ac/UI/performance tests in both test and pre-production env.
@@ -100,7 +100,7 @@ experiences:
         time: 2017 - 2018 Summer
         company: Weta Workshop, Wellington
         details: |
-          - Build Ftrack plugins executed on Docker containers, includings images switch to thumbnails, batch job on submiting, deleting and downloading notes and changing states.
+          - Build Ftrack plugins executed on Docker containers, including images switch to thumbnails, batch job on submiting, deleting and downloading notes and changing states.
           - Create a Confluence page addon (a single page application written by Vue and Node.js) to support huge size 3D models displayed properly.
           - Build a python desktop application for fetching & presenting data in IT meetings.
           - Present projects to the IT managers and supervisors.
