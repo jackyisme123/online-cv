@@ -51,8 +51,8 @@ sidebar:
 referee:
   title: Referee
   info: 
-    - name: Nancy Godwin
-      jobtitle: University of Canterbury (Product Manager) 0211417884
+    - name: Paul Williams
+      jobtitle: IAG (Operations Analysis) 0273816891
       
     - name: Suzanne Whyte
       jobtitle: FIS (Team Lead) 021349023
@@ -86,21 +86,21 @@ experiences:
         time: 2018 - Present
         company: FIS, Christchurch
         details: |
-          - Prepare, design and present tech solution at tech approach meetings.
+          - Prepare, design and present tech solution at tech approach meetings before a new project / feature kicked off.
           - Code on full stack development(Knockout.js with Typescript / .Net, C# / SQL, Oracle) and peer review.
           - Write, monitor and maintain unit / integration / ac / UI / performance tests in both test and pre-production env with CI/CD tools.
           - Collaborate with team members (PM / Designer / Dev / QA) via an Agile framework to ensure new features are delivered on time and meet client's needs.
           - Create and maintain internal plugins / tools for improving development productivity. And create wiki pages / videos to show colleagues how to use them.
           - Quickly triage consultants/clients' queries, troubleshoot and position defects with root cause.
-          - Devops experience in executing and maintaining scripts, services, VMs which are used for CI/CD and IDP.
+          - Devops experience in executing and maintaining scripts, services, infrastructures(VMs & Docker Containers) which are used for CI/CD and IDP.
           - Mentor juniors and graduates / Pair programming. 
-      - role: Software Engineer Intern
+      - role: Software Engineer Intern (IT related)
         time: 2017 - 2018 Summer
         company: Weta Workshop, Wellington
         details: |
-          - Create plugins executed on Docker container, i.e. Images switch to thumbnails, batch submit/delete/download notes and change states.
-          - Create a confluence page addon (a single page application) to support a special 3D model file extension.
-          - A desktop application for fetching & representing data.
+          - Create python plugins executed on Docker containers, i.e. Images switch to thumbnails, batch submit/delete/download notes and change states.
+          - Create a confluence page addon (a single page application written by Vue and Node.js) to support a special 3D model file extension.
+          - A python desktop application for fetching & representing data.
           - Present projects to the IT manager and supervisor.
 projects:
     title: Projects
@@ -112,4 +112,4 @@ projects:
         
       - title: Lubricating Oil company website and email system
         link: "#"
-        tagline: "A responsive static website and email system. Javascript / HTML / CSS / Bootstrap / DNS / SMTP"
+        tagline: "Create and manage responsive website and email system for the company. Javascript / HTML / CSS / Bootstrap / DNS / SMTP"
