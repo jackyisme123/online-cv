@@ -62,7 +62,7 @@ referee:
 career-profile:
     title: Career Profile
     summary: |
-      Experienced software developer with nearly five years of experience in commercial product development, delivery, application support and custom service.
+      Experienced software developer with nearly five years of experience in commercial product development, delivery, application support and client service.
       Proficient in C#, Typescript, and SQL, completing projects on time and contributing to successful product launches.
       Knowledge of IT service management, CI/CD and automation.
       Skilled in Agile development and collaboration, with a passion for developing innovative solutions to complex problems.
@@ -84,7 +84,7 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Intermediate Software Engineer (Delivery & Custom Service)
+      - role: Intermediate Software Engineer (Delivery & Client Service)
         time: 2018 - Present
         company: FIS, Christchurch
         details: |
@@ -93,7 +93,7 @@ experiences:
           - Write, monitor and maintain unit / integration / ac / UI / performance tests in both test and pre-production env.
           - Collaborate with team members (PM / Designer / Dev / QA) via an Agile framework to ensure new features are delivered on time and meet client's needs.
           - Create and maintain internal plugins / tools for improving development productivity. And create wiki pages / videos to show colleagues how to use them.
-          - Excel in triaging queries & issues, troubleshooting and communicating effective workarounds and code fix solutions to customers.
+          - Excel in triaging queries & issues, troubleshooting and communicating effective workarounds and solutions to customers.
           - Devops experience in executing and maintaining scripts, services, infrastructures(VMs & Docker Containers) for CI/CD and IDP usages.
           - Mentor juniors and graduates / Pair programming. 
       - role: Software Engineer Intern (IT related)
