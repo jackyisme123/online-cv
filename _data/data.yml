@@ -89,12 +89,12 @@ experiences:
         company: FIS, Christchurch
         details: |
           - Collaborate with team members (PM/Designer/Dev/QA) via an Agile framework to ensure new features are delivered on time and meet client's needs.
+          - Code on full stack development(Knockout.js with Typescript / .Net, C# / SQL, Oracle) and peer reviewing.
+          - Prepare, design and present tech solution at tech approach meetings before a new project / feature kicked off.
+          - Write, monitor and maintain unit/integration/ac/UI/performance tests in both test and pre-production env.          
           - Excel in triaging queries & issues, troubleshooting and communicating effective workarounds and solutions to customers.
           - Devops experience in executing and maintaining scripts, services, infrastructures(VMs & Docker Containers) for CI/CD and IDP usages.
           - Create and maintain internal plugins/tools for improving development productivity shared by Wiki pages and videos.
-          - Prepare, design and present tech solution at tech approach meetings before a new project / feature kicked off.
-          - Code on full stack development(Knockout.js with Typescript / .Net, C# / SQL, Oracle) and peer reviewing.
-          - Write, monitor and maintain unit/integration/ac/UI/performance tests in both test and pre-production env.
           - Mentor juniors and graduates/Pair programming. 
       - role: Software Engineer Intern (IT department)
         time: 2017 - 2018 Summer
