@@ -8,12 +8,12 @@ sidebar:
 
     # Profile information
     name: Yuan Cui
-    tagline: Software Engineer
+    tagline: SRE/Devops Engineer
     avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: jackyisme123@gmail.com
-    phone: "0210542542"
+    phone: "0272523131"
     # timezone: America/Cancun Timezone
     # citizenship:
     # website: https://www.linkedin.com/in/jackyisme123/ #do not add http://
@@ -44,29 +44,24 @@ sidebar:
         - item: Hiking
         - item: Travel
         - item: Make my cat happy
-    volunteer:
-      title: volunteer
-      info: 
-        - item: Chch City Council (weeding and tree planting)
 
 referee:
   title: Referee
   info: 
-    - name: Nancy Godwin
-      jobtitle: University of Canterbury (Product Manager) 0211417884
+    - name: Kathy Grant
+      jobtitle: IAG | Iteration Manager | 0278072000
       
-    - name: Suzanne Whyte
-      jobtitle: FIS (Team Lead) 021349023
+    - name: Rui Zhang
+      jobtitle: Phocas Software | Software Engineer | 0210542558
 
 
 career-profile:
     title: Career Profile
     summary: |
-      Experienced software developer with five years of experience in commercial product development, delivery, support and client service.
-      Proficient in C#, Typescript, and SQL, completing projects on time and contributing to successful product launches.
-      Knowledge of IT service management, CI/CD and automation.
-      Skilled in Agile development and collaboration, with a passion for developing innovative solutions to complex problems.
-      AWS Certified Cloud Practitioner, loves to learn new technologies with a proactive and curious mindset.
+      Experienced Platform Support Engineer with 7+ years in full-stack development, DevOps, and SRE.
+      Skilled in automation, production support, CI/CD, and observability across cloud and on-prem environments.
+      Strong foundation in software engineering principles, 
+      with hands-on experience designing, developing, and maintaining scalable and maintainable applications across the full development lifecycle
 education:
     title: Education
     info:
@@ -74,44 +69,60 @@ education:
         university: University of Canterbury
         time: 2017 - 2018
 
-      - degree: MBA
-        university: Tianjin University
-        time: 2012 - 2014
+      - degree: AWS Certified Solutions Architect – Associate
+        university: Amazon
+        time: 2023-2026
         
-      - degree: Bachelor in Chemical Engineering and Process
-        university: Tianjin University of Technology
-        time: 2004 - 2008
+      - degree: GitHub Actions
+        university: GitHub
+        time: 2025 - 2028
+
+      - degree: Guidewire Certified Specialist on Dev and Config
+        university: Guidewire
+        time: 2025 - No expiry
 experiences:
     title: Experiences
     info:
-      - role: Intermediate Software Engineer (Client Service & Delivery)
-        time: 2018 - Present
+      - role: Platform Support Engineer (SRE & Devops)
+          time: 2023 - Present
+          company: IAG, Christchurch
+          details: |
+            - Support six core platforms including two AWS-based and four on-prem ecosystems, servicing over 160 microservices.
+            - Build and maintain CI/CD pipelines using Jenkins/GitHub Actions to enable safe, automated deployments.
+            - Improve platform reliability through synthetic testing, monitoring, and alerting
+            - Lead automation initiatives to reduce toil and operational overhead
+            - Built a Python LLM-based incident triaging app that automates ticket classification and remediation using log and ticket data.
+            - Created a self-service web portal allowing business users to independently resolve data validation issues without contacting support.
+            - Manage containers and orchestration (Docker, Kubernetes) in both cloud and on-prem environments.
+            - Work with a broad range of technologies including AWS (EC2, S3, DynamoDB, Lambda), Azure Cosmos DB, GDP, Mule API, Kafka, ActiveMQ.
+            - Participate in on-call rotations to provide 24/7 support, quickly troubleshooting and resolving critical production issues to minimize downtime.
+            - Contribute to knowledge sharing and team growth by mentoring junior staff, delivering automation demos, and peer reviewing platform changes.
+      - role: Software Engineer
+        time: 2018 - 2023
         company: FIS, Christchurch
         details: |
-          - Collaborate with team members (PM/Designer/Dev/QA) via an Agile framework to ensure new features are delivered on time and meet client's needs.
+          - Delivered full-stack features in Agile sprints while actively participating in planning, code reviews, testing, and customer communication.
           - Code on full stack development(Knockout.js with Typescript / .Net, C# / SQL, Oracle) and peer reviewing.
           - Prepare, design and present tech solution at tech approach meetings before a new project / feature kicked off.
-          - Write, monitor and maintain unit/integration/ac/UI/performance tests in both test and pre-production env.          
+          - Write, monitor and maintain unit/integration/ac/UI/performance tests in dev, test and UAT environments.          
           - Excel in triaging queries & issues, troubleshooting and communicating effective workarounds and solutions to customers.
           - Devops experience in executing and maintaining scripts, services, infrastructures(VMs & Docker Containers) for CI/CD and IDP usages.
           - Create and maintain internal plugins/tools for improving development productivity shared by Wiki pages and videos.
-          - Mentor juniors and graduates/Pair programming. 
-      - role: Software Engineer Intern (IT department)
+          - Mentor juniors and graduates. 
+      - role: Software Engineer Intern
         time: 2017 - 2018 Summer
         company: Weta Workshop, Wellington
         details: |
-          - Build Ftrack plugins executed on Docker containers, including images switch to thumbnails, batch job on submiting, deleting and downloading notes and changing states.
-          - Create a Confluence page addon (a single page application written by Vue and Node.js) to support huge size 3D models displayed properly.
-          - Build a python desktop application for fetching & presenting data in IT meetings.
-          - Present projects to the IT managers and supervisors.
+          - Developed and Dockerized Ftrack plugins and a Confluence page add-on to streamline asset management and large-scale 3D model rendering.
+          - Created a Python-based desktop tool to visualize data for IT meetings.
 projects:
     title: Projects
     intro: >
     assignments:
-      - title: FIS Hackathon Project
+      - title: LLM-based Incident Triaging App
         link: "#"
-        tagline: "A mobile app to help clients manage their daily expenses. Flutter / Azure / voice recognition / machine learning / Serverless"
+        tagline: "Developed in Python, this application leverages the LLaMA large language model to classify incidents by analyzing ticket descriptions. It integrates with log systems to perform incident analysis following predefined workflows and automatically provides triaging or remediation actions once the analysis is complete. The application is containerized using Docker and features a CI/CD pipeline designed with GitHub Actions for automated testing and deployment."
         
-      - title: Lubricating Oil company website and email system
+      - title: MlOps Side Project
         link: "#"
-        tagline: "Create and manage responsive website and email system for the company. Javascript / HTML / CSS / Bootstrap / DNS / SMTP"
+        tagline: "Built an end-to-end ML pipeline covering data ingestion, model training (MLflow), deployment (Docker + Flask), and CI/CD automation (GitHub Actions). Implemented monitoring for data drift and service health. Demonstrated full MLOps lifecycle from development to production."
