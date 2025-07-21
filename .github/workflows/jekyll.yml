@@ -51,7 +51,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
-          path: ./_site_clean
+          path: ./_site
 
   # Deployment job
   deploy:
