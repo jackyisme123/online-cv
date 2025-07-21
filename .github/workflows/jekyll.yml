@@ -61,8 +61,8 @@ jobs:
     runs-on: ubuntu-22.04
     needs: build
     permissions:
-    pages: write
-    id-token: write 
+      pages: write
+      id-token: write 
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
