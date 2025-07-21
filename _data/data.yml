@@ -84,19 +84,19 @@ experiences:
     title: Experiences
     info:
       - role: Platform Support Engineer (SRE & Devops)
-          time: 2023 - Present
-          company: IAG, Christchurch
-          details: |
-            - Support six core platforms including two AWS-based and four on-prem ecosystems, servicing over 160 microservices.
-            - Build and maintain CI/CD pipelines using Jenkins/GitHub Actions to enable safe, automated deployments.
-            - Improve platform reliability through synthetic testing, monitoring, and alerting
-            - Lead automation initiatives to reduce toil and operational overhead
-            - Built a Python LLM-based incident triaging app that automates ticket classification and remediation using log and ticket data.
-            - Created a self-service web portal allowing business users to independently resolve data validation issues without contacting support.
-            - Manage containers and orchestration (Docker, Kubernetes) in both cloud and on-prem environments.
-            - Work with a broad range of technologies including AWS (EC2, S3, DynamoDB, Lambda), Azure Cosmos DB, GDP, Mule API, Kafka, ActiveMQ.
-            - Participate in on-call rotations to provide 24/7 support, quickly troubleshooting and resolving critical production issues to minimize downtime.
-            - Contribute to knowledge sharing and team growth by mentoring junior staff, delivering automation demos, and peer reviewing platform changes.
+        time: 2023 - Present
+        company: IAG, Christchurch
+        details: |
+          - Support six core platforms including two AWS-based and four on-prem ecosystems, servicing over 160 microservices.
+          - Build and maintain CI/CD pipelines using Jenkins/GitHub Actions to enable safe, automated deployments.
+          - Improve platform reliability through synthetic testing, monitoring, and alerting
+          - Lead automation initiatives to reduce toil and operational overhead
+          - Built a Python LLM-based incident triaging app that automates ticket classification and remediation using log and ticket data.
+          - Created a self-service web portal allowing business users to independently resolve data validation issues without contacting support.
+          - Manage containers and orchestration (Docker, Kubernetes) in both cloud and on-prem environments.
+          - Work with a broad range of technologies including AWS (EC2, S3, DynamoDB, Lambda), Azure Cosmos DB, GDP, Mule API, Kafka, ActiveMQ.
+          - Participate in on-call rotations to provide 24/7 support, quickly troubleshooting and resolving critical production issues to minimize downtime.
+          - Contribute to knowledge sharing and team growth by mentoring junior staff, delivering automation demos, and peer reviewing platform changes.
       - role: Software Engineer
         time: 2018 - 2023
         company: FIS, Christchurch
