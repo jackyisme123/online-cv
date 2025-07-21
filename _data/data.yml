@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Yuan Cui
-    tagline: SRE/Devops Engineer
+    tagline: SRE/DevOps Engineer
     avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -62,12 +62,10 @@ referee:
 career-profile:
     title: Career Profile
     summary: |
-      Experienced Platform Support Engineer with 7+ years in full-stack development, DevOps, and SRE.
-      Skilled in automation, production support, CI/CD, and observability across cloud and on-prem environments.
-      Strong foundation in software engineering principles, 
-      with hands-on experience designing, developing, and maintaining scalable and maintainable applications across the full development lifecycle
+      Professional Platform Support Engineer with 7+ years of experience in full-stack development, DevOps, and SRE. Skilled in automation, production support, CI/CD, and observability across both cloud and on-prem environments. Strong foundation in software engineering principles, with practical experience designing, developing, and maintaining scalable, maintainable applications throughout the full development lifecycle. Proactive in staying current with industry trends, sensitive to evolving technology landscapes, and committed to continuous learning and innovation.
+
 education:
-    title: Education
+    title: Education & Certificates
     info:
       - degree: Graduate Diploma with Distinction in Computer Science
         university: University of Canterbury
@@ -75,26 +73,26 @@ education:
 
       - degree: AWS Certified Solutions Architect – Associate
         university: Amazon
-        time: 2023-2026
+        time: 2023 - 2026
         
       - degree: GitHub Actions
         university: GitHub
         time: 2025 - 2028
 
-      - degree: Guidewire Certified Specialist on Dev and Config
+      - degree: Guidewire Certified Specialist on Dev and Configuration
         university: Guidewire
         time: 2025 - No expiry
 experiences:
-    title: Experiences
+    title: Working Experiences
     info:
-      - role: Platform Support Engineer (SRE & Devops)
+      - role: Platform Support Engineer (SRE & DevOps)
         time: 2023 - Present
         company: IAG, Christchurch
         details: |
           - Support six core platforms including two AWS-based and four on-prem ecosystems, servicing over 160 microservices.
           - Build and maintain CI/CD pipelines using Jenkins/GitHub Actions to enable safe, automated deployments.
-          - Improve platform reliability through synthetic testing, monitoring, and alerting
-          - Lead automation initiatives to reduce toil and operational overhead
+          - Improve platform reliability through synthetic testing, monitoring, and alerting.
+          - Proactively identify opportunities and gaps, leading automation initiatives that reduce toil and save 800+ hours last year.
           - Built a Python LLM-based incident triaging app that automates ticket classification and remediation using log and ticket data.
           - Created a self-service web portal allowing business users to independently resolve data validation issues without contacting support.
           - Manage containers and orchestration (Docker, Kubernetes) in both cloud and on-prem environments.
@@ -110,7 +108,7 @@ experiences:
           - Prepare, design and present tech solution at tech approach meetings before a new project / feature kicked off.
           - Write, monitor and maintain unit/integration/ac/UI/performance tests in dev, test and UAT environments.          
           - Excel in triaging queries & issues, troubleshooting and communicating effective workarounds and solutions to customers.
-          - Devops experience in executing and maintaining scripts, services, infrastructures(VMs & Docker Containers) for CI/CD and IDP usages.
+          - DevOps experience in executing and maintaining scripts, services, infrastructures(VMs & Docker Containers) for CI/CD and IDP usages.
           - Create and maintain internal plugins/tools for improving development productivity shared by Wiki pages and videos.
           - Mentor juniors and graduates. 
       - role: Software Engineer Intern
@@ -127,6 +125,6 @@ projects:
         link: "#"
         tagline: "Developed in Python, this application leverages the LLaMA large language model to classify incidents by analyzing ticket descriptions. It integrates with log systems to perform incident analysis following predefined workflows and automatically provides triaging or remediation actions once the analysis is complete. The application is containerized using Docker and features a CI/CD pipeline designed with GitHub Actions for automated testing and deployment."
         
-      - title: MlOps Side Project
+      - title: MLOps Side Project
         link: "#"
-        tagline: "Built an end-to-end ML pipeline covering data ingestion, model training (MLflow), deployment (Docker + Flask), and CI/CD automation (GitHub Actions). Implemented monitoring for data drift and service health. Demonstrated full MLOps lifecycle from development to production."
+        tagline: "Built an end-to-end ML pipeline covering data ingestion, model training (MLflow), deployment (Docker + Flask), and CI/CD automation (GitHub Actions). Implemented monitoring for data drift and service health(Evidently & Grafana). Demonstrated full MLOps lifecycle from development to production."
