@@ -62,10 +62,13 @@ referee:
 career-profile:
     title: Career Profile
     summary: |
-      Professional Platform Support Engineer with 7+ years of experience in full-stack development, DevOps, and SRE. Skilled in automation, production support, CI/CD, and observability across both cloud and on-prem environments. Strong foundation in software engineering principles, with practical experience designing, developing, and maintaining scalable, maintainable applications throughout the full development lifecycle. Proactive in staying current with industry trends, sensitive to evolving technology landscapes, and committed to continuous learning and innovation.
+      Professional Platform Support Engineer with 7+ years of experience in full-stack development, DevOps, and SRE.
+      Skilled in automation, production support, CI/CD, and observability across both cloud and on-prem environments.
+      Strong foundation in software engineering principles, with practical experience designing, developing, and maintaining scalable, maintainable applications throughout the full development lifecycle.
+      Proactive in staying current with industry trends, sensitive to evolving technology landscapes, and committed to continuous learning and innovation.
 
 education:
-    title: Education
+    title: Education & Certificates
     info:
       - degree: Graduate Diploma with Distinction in Computer Science
         university: University of Canterbury
@@ -83,7 +86,7 @@ education:
         university: Guidewire
         time: 2025 - No expiry
 experiences:
-    title: Experiences
+    title: Working Experiences
     info:
       - role: Platform Support Engineer (SRE & DevOps)
         time: 2023 - Present
