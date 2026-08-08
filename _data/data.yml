@@ -4,12 +4,12 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Yuan Cui
-    tagline: SRE/DevOps Engineer
-    avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Platform Support Engineer (Automation & AI)
+    # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: jackyisme123@gmail.com
@@ -46,15 +46,15 @@ sidebar:
         - item: Make my cat happy
     volunteer:
       title: volunteer
-      info: 
+      info:
         - item: Chch City Council (weeding and tree planting)
 
 referee:
   title: Referee
-  info: 
+  info:
     - name: Kathy Grant
       jobtitle: IAG | Iteration Manager | 0278072000
-      
+
     - name: Rui Zhang
       jobtitle: Phocas Software | Software Engineer | 0210542558
 
@@ -62,58 +62,64 @@ referee:
 career-profile:
     title: Career Profile
     summary: |
-      Professional Platform Support Engineer with 7+ years of experience in full-stack development, DevOps, and SRE.
-      Skilled in automation, production support, CI/CD, and observability across both cloud and on-prem environments.
-      Strong foundation in software engineering principles, with practical experience designing, developing, and maintaining scalable, maintainable applications throughout the full development lifecycle.
-      Proactive in staying current with industry trends, sensitive to evolving technology landscapes, and committed to continuous learning and innovation.
+      Production Support & Platform Engineer with 8+ years of software engineering experience — 5 years as a full-stack software engineer and 3 years as a platform support engineer — specializing in application-level reliability, internal developer enablement, and enterprise workflow automation.
+      Proven track record of architecting API/SDK integrations across hybrid enterprise ecosystems (ServiceNow, Jira, Teams, Salesforce, Google Data Platform suite, AWS), deploying GenAI agents on internal platforms, and enforcing identity governance (IAM) and secrets management (HashiCorp Vault).
+      Skilled in executing cross-platform developer migrations, engineering self-healing and AIOps solutions for incident triage and automated remediation, designing data masking layers, and maintaining robust observability across complex production environments.
+      Highly proactive, adaptable to fast-changing technology landscapes, and committed to continuous improvement, architectural thinking, and operational excellence.
 
 education:
     title: Education & Certificates
     info:
       - degree: Graduate Diploma with Distinction in Computer Science
         university: University of Canterbury
-        time: 2017 - 2018
+        time: 2017 - 2019
+
+      - degree: MBA
+        university: Tianjin University
+        time: 2019 - 2021
 
       - degree: AWS Certified Solutions Architect – Associate
         university: Amazon
         time: 2023 - 2026
-        
-      - degree: GitHub Actions
-        university: GitHub
+
+      - degree: AWS Certified AI Practitioner
+        university: Amazon
         time: 2025 - 2028
 
-      - degree: Guidewire Certified Specialist on Dev and Configuration
+      - degree: GitHub Actions
+        university: GitHub
+        time: 2025 - 9999
+
+      - degree: Guidewire Certified Ace – PolicyCenter Configuration
         university: Guidewire
-        time: 2025 - No expiry
+        time: 2026 - 9999
 experiences:
     title: Working Experiences
     info:
-      - role: Platform Support Engineer (SRE & DevOps)
-        time: 2023 - Present
-        company: IAG, Christchurch
+      - role: Production Support Engineer / Platform Support Engineer
+        time: Aug 2023 - Present
+        company: IAG, Christchurch (Hybrid)
         details: |
-          - Support six core platforms including two AWS-based and four on-prem ecosystems, servicing over 160 microservices.
-          - Build and maintain CI/CD pipelines using Jenkins/GitHub Actions to enable safe, automated deployments.
-          - Improve platform reliability through synthetic testing, monitoring, and alerting.
-          - Proactively identify opportunities and gaps, leading automation initiatives that reduce toil and save 800+ hours last year.
-          - Built a Python LLM-based incident triaging app that automates ticket classification and remediation using log and ticket data.
-          - Created a self-service web portal allowing business users to independently resolve data validation issues without contacting support.
-          - Manage containers and orchestration (Docker, Kubernetes) in both cloud and on-prem environments.
-          - Work with a broad range of technologies including AWS (EC2, S3, DynamoDB, Lambda), Azure Cosmos DB, GDP, Mule API, Kafka, ActiveMQ.
-          - Participate in on-call rotations to provide 24/7 support, quickly troubleshooting and resolving critical production issues to minimize downtime.
-          - Contribute to knowledge sharing and team growth by mentoring junior staff, delivering automation demos, and peer reviewing platform changes.
-      - role: Software Engineer
+          - Reliability & SRE Transformation: Shifted the team from traditional ops to an SRE model by driving culture change, an engineering-first mindset, and moving away from reactive firefighting toward proactive automation and toil reduction.
+          - AIOps Incident Management: Architected and deployed an AI Agent system using loop engineering and agentic workflows to autonomously enrich, triage, and perform root-cause analysis (RCA) on incoming incidents, providing customer workarounds and drafting code fixes/PRs for developer review and merge to accelerate MTTR.
+          - Multi-Platform API & Integration Pipelines: Built data and event integration pipelines connecting diverse SaaS, cloud, and legacy ecosystems — ServiceNow, Salesforce (SDK), Oracle (via ODBC), Google Data Platform, AWS — to automate operational syncs and cross-platform workflows.
+          - Self-Service & Identity Governance: Engineered an end-to-end self-service portal for internal and business requests submitted via ServiceNow, with automated identity and entitlement verification against enterprise IAM (myAccess) to validate auth and RBAC before provisioning.
+          - Observability & Incident Response: Monitored and maintained service health across 160+ production services on Kubernetes using Datadog, Splunk, and New Relic; created custom log dashboards, cut alert noise via synthetic monitoring, and led service-level recovery and deep RCAs during live incidents.
+          - Secrets & Access Governance: Enforced security standards using HashiCorp Vault for dynamic secret management and OAuth 2.0/SSO credentials; spearheaded a Bitbucket-to-GitHub migration enforcing multi-tiered org structures and least-privilege RBAC.
+          - AI Governance & Risk Mitigation: Designed an AI pre-release review tool using prompt engineering to validate implementation plans and metadata, catching system-level risks such as build mismatches and documentation gaps before production deployment.
+          - Enterprise AI Agent Deployment (GitHub Actions assisted): Deployed the "Release Whisperer" AI Agent on an internal GenAI platform to streamline release communications and operational context sharing.
+          - Data Privacy & Logging Hygiene: Designed a data masking layer for AI Agent ingress/egress pipelines to prevent sensitive data exposure and created data audit dashboards in Splunk/Datadog.
+          - Costs, Tooling & License Optimization: Cut software licensing fees via a Jenkins pipeline optimizing Akamai account usage and eliminated license compliance risk by whitelisting IP ranges, replacing non-compliant tooling with homegrown automations.
+          - On-Call & 24/7 Support: Delivered high-availability on-call coverage across production and vendor environments, managing critical incidents, escalation paths, and fast service recovery.
+      - role: Full Stack Software Engineer
         time: 2018 - 2023
         company: FIS, Christchurch
         details: |
-          - Delivered full-stack features in Agile sprints while actively participating in planning, code reviews, testing, and customer communication.
-          - Code on full stack development(Knockout.js with Typescript / .Net, C# / SQL, Oracle) and peer reviewing.
-          - Prepare, design and present tech solution at tech approach meetings before a new project / feature kicked off.
-          - Write, monitor and maintain unit/integration/ac/UI/performance tests in dev, test and UAT environments.          
-          - Excel in triaging queries & issues, troubleshooting and communicating effective workarounds and solutions to customers.
-          - DevOps experience in executing and maintaining scripts, services, infrastructures(VMs & Docker Containers) for CI/CD and IDP usages.
-          - Create and maintain internal plugins/tools for improving development productivity shared by Wiki pages and videos.
-          - Mentor juniors and graduates. 
+          - Designed, developed, and supported enterprise applications across client service and delivery teams, building RESTful APIs and modern frontend interfaces (Knockout.js/TypeScript, .Net/C#, SQL, Oracle).
+          - Integrated third-party APIs and automated backend CI/CD pipelines, improving application response times and maintainability.
+          - Participated in on-call rotations, blameless postmortems, and release engineering, ensuring software updates met strict production readiness standards across QA and UAT environments.
+          - Wrote and maintained unit/integration/UI/performance tests across development, test, and UAT environments.
+          - Created and maintained internal plugins/tools and automated processes shared via wiki and videos to improve development productivity; mentored juniors and graduates.
       - role: Software Engineer Intern
         time: 2017 - 2018 Summer
         company: Weta Workshop, Wellington
@@ -124,10 +130,33 @@ projects:
     title: Projects
     intro: >
     assignments:
-      - title: LLM-based Incident Triaging App
+      - title: IAG AI Activator
         link: "#"
-        tagline: "Developed in Python, this application leverages the LLaMA large language model to classify incidents by analyzing ticket descriptions. It integrates with log systems to perform incident analysis following predefined workflows and automatically provides triaging or remediation actions once the analysis is complete. The application is containerized using Docker and features a CI/CD pipeline designed with GitHub Actions for automated testing and deployment."
-        
+        tagline: "Selected as one of IAG's AI Activators, a role that grants the authority to guide teams in building AI projects — from ideation and responsible AI best practices to delivery — championing AI adoption and enabling AI-enabled capabilities across the organization."
+      - title: Agentic Incident Triage
+        link: "#"
+        tagline: "Developed in Python, this system leverages LLaMA-based agentic workflows to classify incidents by analyzing ticket data and logs, perform guided data-driven analysis, and deliver automated triaging or remediation actions. Containerized with Docker and released through GitHub Actions CI/CD."
+      - title: Release Whisperer AI Agent
+        link: "#"
+        tagline: "Deployed on an internal GenAI platform with agentic workflows to streamline release communications and operational context sharing, reducing manual coordination overhead and easing cross-team updates."
       - title: MLOps Side Project
         link: "#"
-        tagline: "Built an end-to-end ML pipeline covering data ingestion, model training (MLflow), deployment (Docker + Flask), and CI/CD automation (GitHub Actions). Implemented monitoring for data drift and service health(Evidently & Grafana). Demonstrated full MLOps lifecycle from development to production."
+        tagline: "Built an end-to-end ML pipeline covering data ingestion, model training (MLflow), deployment (Docker + Flask), and CI/CD automation (GitHub Actions). Implemented monitoring for data drift and service health (Evidently, Grafana & Datadog). Demonstrated full MLOps lifecycle from development to production."
+      - title: Enterprise Self-Service Portal
+        link: "#"
+        tagline: "Engineered a self-service web portal allowing business users to independently resolve data validation issues, integrated with ServiceNow and enterprise IAM (myAccess) for automated identity, entitlement, and RBAC checks prior to provisioning."
+skills:
+    title: Core Competencies & Tech Stack
+    toolset:
+      - name: Developer Enablement & Enterprise APIs
+        level: 95
+      - name: Identity & Access (IAM, HashiCorp Vault, OAuth 2.0/SSO)
+        level: 90
+      - name: Observability & Telemetry (Datadog, Splunk, New Relic)
+        level: 95
+      - name: AI & Workflow Automation (GenAI, agentic workflows, Python)
+        level: 92
+      - name: Data & Storage (Oracle, AWS, Google Platforms, REST/APIs)
+        level: 88
+      - name: Kubernetes & CI/CD (K8s, Jenkins, GitHub Actions)
+        level: 90
