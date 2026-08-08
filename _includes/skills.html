@@ -17,6 +17,10 @@
 
       <h3 class="level-title">{{ skill.name }}</h3>
 
+      {% if skill.text %}
+      <div class="level-text">{{ skill.text }}</div>
+      {% endif %}
+
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
