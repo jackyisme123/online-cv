@@ -157,6 +157,27 @@ p {
     }
   }
 
+  .skills-container {
+    .item {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .level-title {
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    .level-text {
+      color: rgba(256, 256, 256, 0.6);
+      font-size: 13px;
+      line-height: 1.4;
+      margin: 0;
+    }
+  }
+
   .languages-list {
     margin-bottom: 0;
     li {

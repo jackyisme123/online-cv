@@ -1,45 +1,203 @@
-@media print
-   {
+@media print {
     @page {
-        size: A4;
+        size: A4 portrait;
+        margin: 8mm 9mm;
     }
+
+    html,
     body {
-       font-size: 12pt;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: #ffffff !important;
+        color: #222222 !important;
+        font-size: 9.5pt;
+        line-height: 1.35;
+    }
+
+    a {
+        color: #222222 !important;
+        text-decoration: none !important;
+    }
+
+    p {
+        margin: 0 0 4pt 0;
+        orphans: 3;
+        widows: 3;
+    }
+
+    .wrapper {
+        display: grid !important;
+        grid-template-columns: minmax(0, 66fr) minmax(0, 34fr) !important;
+        max-width: none !important;
+        margin: 0 !important;
+        box-shadow: none !important;
+        background: #ffffff !important;
+    }
+
+    /* No filled icon circles in print (they render as black spots). */
+    .fa-stack,
+    .fa-circle,
+    .section-title .fas,
+    .container-block-title .fas {
+        display: none !important;
+    }
+
+    .section-title,
+    .container-block-title {
+        border-bottom: 1pt solid #b8b2a4;
+        padding-bottom: 2pt;
+    }
+
+    /* ======= Right sidebar (white, dark text — no background graphics needed) ======= */
+    .sidebar-wrapper {
+        grid-column: 2 !important;
+        grid-row: 1 !important;
+        order: 0 !important;
+        float: none !important;
+        width: auto !important;
+        background: #ffffff !important;
+        color: #222222 !important;
+        border-left: 1pt solid #b8b2a4;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        a {
+            color: #222222 !important;
+        }
+        .item {
+            margin-bottom: 4pt;
+            orphans: 2;
+            widows: 2;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+        .profile-container {
+            padding: 9pt 10pt 6pt 10pt;
+        }
+        .name {
+            font-size: 14pt;
+            margin-bottom: 2pt;
+        }
+        .tagline {
+            font-size: 7.5pt;
+            line-height: 1.25;
+            color: #444444 !important;
+        }
+        .container-block {
+            padding: 6pt 10pt;
+        }
+        .container-block-title {
+            font-size: 7.5pt;
+            margin-bottom: 4pt;
+            color: #000000 !important;
+        }
+        .degree,
+        .level-title,
+        .meta,
+        .jobtitle,
+        .lang-desc,
+        .level-text,
+        .contact-list {
+            font-size: 7pt !important;
+            line-height: 1.3;
+            color: #222222 !important;
+        }
+        .contact-list li {
+            margin-bottom: 2pt;
+        }
+        .time {
+            color: #444444 !important;
+        }
+    }
+
+    /* ---------- Main column ---------- */
+    .main-wrapper {
+        grid-column: 1;
+        grid-row: 1;
+        background: #ffffff !important;
+        padding: 12pt 14pt 10pt 14pt;
+        .section {
+            margin-bottom: 9pt;
+        }
+        .section-title {
+            font-size: 9.5pt;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 4pt;
+            color: #000000 !important;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+        .upper-row {
+            margin-bottom: 1pt;
+        }
+        .job-title,
+        .degree,
+        .project-title,
+        .publication-title {
+            font-size: 9.5pt !important;
+            color: #151515 !important;
+            margin-top: 0;
+            margin-bottom: 0;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+        .time {
+            font-size: 8pt !important;
+            color: #444444 !important;
+        }
+        .company,
+        .university {
+            font-size: 8pt;
+            color: #555555 !important;
+            margin-bottom: 2pt;
+        }
+        .details {
+            font-size: 8.5pt;
+            ul {
+                margin: 0;
+                padding-left: 10pt;
+            }
+            li {
+                margin-bottom: 2pt;
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+        }
+        .experiences-section .item,
+        .educations-section .item {
+            margin-bottom: 6pt;
+            page-break-inside: auto;
+            break-inside: auto;
+        }
+        .projects-section {
+            .item {
+                margin: 0 0 5pt 0;
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+            .intro {
+                margin-bottom: 5pt;
+            }
+        }
+        .skillset .level-title {
+            font-size: 8pt !important;
+        }
+        .skillset .level-bar-inner {
+            background-color: #000000 !important;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+    }
+
+    .remove-container.container-block,
+    footer,
+    .btn,
+    .navbar {
+        display: none !important;
     }
 
     img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
     }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
-    .sidebar-wrapper {
-        position: static;
-        float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact; 
-    }
-
-    .remove-container.container-block {
-       display: none;
-    }
-
-    footer {
-       display: none;
-    }
-
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
-    }
-
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
-   }
-
 }

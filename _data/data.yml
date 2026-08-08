@@ -9,12 +9,12 @@ sidebar:
 
     # Profile information
     name: Yuan Cui
-    tagline: Platform Support Engineer (Automation & AI)
+    tagline: Platform Engineer & SRE
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: jackyisme123@gmail.com
-    phone: "0272523131"
+    phone: "+64272523131"
     # timezone: America/Cancun Timezone
     # citizenship:
     # website: https://www.linkedin.com/in/jackyisme123/ #do not add http://
@@ -28,7 +28,6 @@ sidebar:
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://github.com/jackyisme123/online-cv/raw/master/_data/yuan-cv.pdf
 
     languages:
       title: Languages
@@ -41,33 +40,28 @@ sidebar:
     interests:
       title: Interests
       info:
+        - item: AI & Innovation
         - item: NBA
-        - item: Hiking
-        - item: Travel
-        - item: Make my cat happy
+        - item: Hiking & Travel
     volunteer:
-      title: volunteer
+      title: Volunteer
       info:
         - item: Chch City Council (weeding and tree planting)
 
 referee:
   title: Referee
   info:
-    - name: Kathy Grant
-      jobtitle: IAG | Iteration Manager | 0278072000
-
-    - name: Rui Zhang
-      jobtitle: Phocas Software | Software Engineer | 0210542558
+    - name: Available on request
+      jobtitle: Contact details provided upon request
 
 
 career-profile:
     title: Career Profile
     summary: |
-      Production Support & Platform Engineer with 8+ years of software engineering experience — 5 years as a Full Stack Software Engineer and 3 years as a Platform Support Engineer — specializing in application-layer reliability, internal developer enablement, and enterprise workflow automation.
-      Selected as an internal AI Activator, leading AI adoption, responsible AI practices, and agentic workflows across teams.
-      Proven track record of architecting API/SDK integrations across hybrid enterprise ecosystems (ServiceNow, Jira, Teams, Salesforce, Google Data Platform, AWS), deploying GenAI tools on internal enterprise platforms (Geni), and enforcing identity governance (IAM/myAccess) and secrets management (HashiCorp Vault).
-      Skilled in executing cross-platform developer migrations, engineering self-service portals, designing PII data masking layers, and maintaining robust observability across complex production environments.
-      Highly proactive, adaptable to fast-changing technology landscapes, and committed to continuous improvement, architectural thinking, and operational excellence.
+      Platform Engineer & SRE with broad full-stack experience and a deep focus on platform architecture, DevOps, and site reliability engineering, passionate about building systems that stay stable, observable, and cost-effective over the long term.
+      Extensive hands-on experience designing, operating, and evolving production platforms across AWS and on-premises environments, backed by a strong software engineering foundation in system design, automation, CI/CD, and complex production operations.
+      Practical experience building AI-driven solutions for service self-healing, incident auto-triage, intelligent troubleshooting, and automated remediation, delivering measurable gains in resilience and operational efficiency.
+      Highly proactive and adaptable in fast-moving technology landscapes, committed to continuous learning, architectural thinking, and operational excellence.
 
 education:
     title: Education & Certificates
@@ -98,38 +92,35 @@ education:
 experiences:
     title: Working Experiences
     info:
-      - role: Production Support Engineer / Platform Support Engineer
+      - role: Platform Engineer & SRE
         time: Aug 2023 - Present
         company: IAG, Christchurch, New Zealand (Hybrid)
         details: |
-          - AI Activation & Enterprise Enablement: Selected as one of IAG's AI Activators, guiding cross-functional teams in building AI projects—from ideation and responsible AI governance to delivery—championing AI adoption and enabling AI-enabled capabilities across the organization.
-          - Enterprise AI Agent Deployment (Release Whisperer): Architected and deployed the "Release Whisperer" AI Agent onto IAG's internal GenAI platform (Geni) utilizing GitHub Actions pipelines, streamlining release communications, operational context sharing, and cross-team deployment updates.
-          - AIOps Incident Triage Architecture & Prototyping: Completed end-to-end architecture design (currently under formal architecture review) and built a local MVP for an autonomous AI Triage Agent. Utilized loop engineering and agentic workflows to parse incoming incident webhooks, execute automated root-cause analysis (RCA), and draft code fixes/PRs for developer review (architected for cloud deployment on GCP).
-          - AI Governance & Risk Mitigation: Designed an AI pre-release review tool using prompt engineering and metadata validation, catching system-level risks and documentation gaps prior to production deployment.
-          - Data Privacy & Logging Hygiene: Designed a PII data masking layer for AI Agent ingress/egress pipelines to prevent sensitive data exposure and built data audit dashboards in Splunk and Datadog for strict compliance.
-          - Automated Self-Service & Identity Governance: Engineered an end-to-end self-service portal for internal and business requests submitted via ServiceNow, integrating automated identity and entitlement verification against enterprise IAM (myAccess) to validate auth and RBAC prior to provisioning.
-          - Multi-Platform API & Integration Pipelines: Built data and event integration pipelines connecting diverse SaaS, cloud, and legacy ecosystems—including ServiceNow, Salesforce (SDK), Oracle (via ODBC), Google Data Platform, AWS, and Azure—to automate operational syncs and cross-platform workflows.
-          - Observability & Incident Response: Monitored and maintained service health across 160+ production services deployed across cloud and on-premises environments using Datadog, Splunk, and New Relic; created custom log dashboards, cut alert noise via synthetic monitoring, and led service-level recovery and deep RCAs during live incidents.
-          - Secrets & Access Governance: Enforced security standards using HashiCorp Vault for dynamic secret management and OAuth 2.0/SSO credentials; spearheaded a Bitbucket-to-GitHub migration enforcing multi-tiered org structures and least-privilege RBAC.
-          - Reliability & SRE Transformation: Shifted the team from traditional ops to an SRE model by driving culture change, an engineering-first mindset, and moving away from reactive firefighting toward proactive automation and toil reduction.
-          - Costs, Tooling & License Optimization: Cut software licensing fees via a Jenkins pipeline optimizing account usage and eliminated license compliance risk by allowing IP ranges, replacing non-compliant tooling with homegrown automations.
-          - On-Call & 24/7 Support: Delivered high-availability on-call coverage across production and vendor environments, managing critical incidents, escalation paths, and fast service recovery.
+          - Ops to SRE Transformation: Led the shift from traditional ops to an SRE model by driving cultural alignment, an engineering-first mindset, and moving the team from reactive firefighting to proactive automation and toil reduction, reclaiming ~1,000 hours per year through the automation I built and rolled out across the team.
+          - Agentic Incident Management (AIOps): Architected an AI Agent system using loop engineering and agentic workflows to autonomously enrich, triage, and perform RCA on incoming incidents, providing customer workarounds and drafting code fixes/PRs to accelerate MTTR. Local MVP validated with GitHub Copilot; production with Gemini and Cloud Run in progress after released architecture review. Impact: ~30x faster incident triage to resolution.
+          - Guidewire Cloud Ecosystem Ownership: Owned reliability and observability architecture for Guidewire Cloud Policy Center, driving end-to-end incident management, deep RCAs, and direct code fixes while leveraging automated telemetry and New Relic synthetic monitoring to track availability, cut alert noise, and align Datadog dashboards with release readiness.
+          - Release Whisperer AI Agent: Architected and deployed a specialized GenAI agent on our internal GenAI platform to automate release communication synthesis, operational context sharing, and cross-team deployment updates, saving roughly half an hour per release.
+          - Service-Level On-Call & Incident Response: Delivered high-availability on-call coverage across 160+ production services in hybrid cloud environments, managing critical incidents, escalation paths, and rapid service recovery.
+          - AI Governance & Risk Mitigation: Designed an AI pre-release review tool using prompt engineering to validate implementation plans and metadata, catching system-level risks like build mismatches and documentation gaps before production deployment.
+          - GitHub Migration & Organizational Design: Spearheaded the Bitbucket-to-GitHub migration, designing multi-tiered org architectures, team structures, and enforcing strict least-privilege access across organizational repositories.
+          - Cost, Tooling & License Optimization: Cut software licensing fees via a Jenkins pipeline optimizing Akamai account usage and eliminated commercial license compliance risks by whitelisting S3 IPs via Netskope, recovering hundreds of dollars per year in licensing with compliant WinSCP and automated transfers replacing non-compliant S3 tools.
+          - Coaching, Mentoring & Knowledge Sharing: Serve as one of IAG's AI Activators, coaching colleagues on AI adoption, prompt engineering, and tooling; mentor on SRE practices and foundations as lead of the ops-to-SRE transformation; and share production and cloud engineering knowledge built across the Guidewire Policy Center and AWS programs through demos, documentation, and postmortems.
       - role: Full Stack Software Engineer
         time: 2018 - 2023
-        company: FIS, Christchurch, New Zealand
+        company: FIS, Christchurch, New Zealand (Hybrid)
         details: |
-          - Designed, developed, and supported enterprise applications across client service and delivery teams, building RESTful APIs and modern frontend interfaces (Knockout.js/TypeScript, .NET/C#, SQL, Oracle).
-          - Integrated third-party APIs and automated backend CI/CD pipelines, improving application response times, system maintainability, and deployment speed.
-          - Authored and maintained comprehensive unit, integration, UI, and performance test suites across development, test, and UAT environments.
-          - Participated in on-call rotations, blameless postmortems, and release engineering, ensuring software updates met strict production readiness standards across QA and UAT environments.
-          - Engineered internal plugins, tools, and developer productivity automations shared via internal wikis and video documentation; mentored junior engineers and graduates.
+          - Full Stack Software Engineer on an enterprise finance and accounting platform, delivered to international banks and financial service providers. Designed and built RESTful APIs and modern front-end interfaces (Knockout.js/TypeScript, .NET/C#, SQL, Oracle) across the full lifecycle, from requirements and architecture through to production support.
+          - Led technical analysis, estimation, and delivery of complex client and regulatory requirements, translating business and compliance needs into robust, scalable software while ensuring strict financial data accuracy and audit-readiness.
+          - Architectured performance and scalability improvements and integrated third-party SaaS APIs and backend CI/CD pipelines, improving application response times, maintainability, and deployment speed across global deployments.
+          - Built and maintained comprehensive unit, integration, UI, and performance test suites across development, test, and UAT environments, applying analytical, critical thinking to quality engineering and release readiness.
+          - Developed internal plugins, tools, and developer productivity automations shared via internal wikis and video documentation; mentored junior engineers and graduates and raised capability across the wider team.
 projects:
     title: Projects
     intro: >
     assignments:
       - title: Agentic Incident Triage (Architecture & MVP)
         link: "#"
-        tagline: "Designed an automated triage system using Python and agentic workflows (LLaMA / loop engineering) to parse incident webhooks and logs, perform automated root-cause analysis (RCA), and generate draft remediation PRs. Containerized with Docker, automated via GitHub Actions CI/CD, with cloud deployment architecture completed and under formal review."
+        tagline: "Designed an automated triage system using agentic workflows to parse incident webhooks, execute automated root-cause analysis (RCA), and generate draft remediation PRs. Built and validated a local MVP with GitHub Copilot; production implementation with Gemini and Cloud Run is underway after the architecture review passed."
       - title: Release Whisperer AI Agent
         link: "#"
         tagline: "Architected and deployed a specialized GenAI agent on an internal enterprise platform (Geni) to automate release communication synthesis, operational context sharing, and cross-team deployment updates."
@@ -142,21 +133,21 @@ projects:
 skills:
     title: Core Competencies & Tech Stack
     toolset:
-      - name: Developer Tooling & APIs
+      - name: Observability, Reliability & Incident Management
         level: 95
-        text: ServiceNow, Jira, Confluence, Teams, Salesforce SDK, Power Automate, SMTP, Custom Webhooks, Self-Service Portals
-      - name: Identity & Access (IAM)
-        level: 90
-        text: Enterprise IAM (myAccess), HashiCorp Vault, OAuth 2.0 / SSO, Least-Privilege RBAC, GitHub Governance
-      - name: Observability & Telemetry
+        text: Datadog, Splunk, New Relic, Automated Alerting & Log Analytics, Self-Service Runbooks, Automated RCA & Postmortems, On-Call & Incident Response, Service-Level Recovery, ITIL
+      - name: Cloud, CI/CD & Platform Engineering
         level: 95
-        text: Datadog, Splunk, New Relic (APM, Custom Log Dashboards, Synthetic Monitors, Alert Suppression)
+        text: AWS, GCP, Kubernetes, Docker, Linux, Windows Server, GitHub Actions, Jenkins, Terraform, GitOps
       - name: AI & Automation
         level: 92
-        text: GenAI Agents (Geni), Agentic Workflows, Prototype AI Services (Python, GCP), Loop Engineering, PII Data Masking
-      - name: Data & Cloud Platforms
-        level: 88
-        text: Oracle DB (ODBC), Google Data Platform SDKs, AWS, REST APIs, JSON Data Pipelines
-      - name: Languages & Environments
+        text: LLM-powered applications, AI coding assistants (GitHub Copilot), GenAI agents (Geni), Agentic Workflows, Prompt & Harness & Loop Engineering
+      - name: Languages & Software Engineering
         level: 90
-        text: Python, Java, C# / .NET, TypeScript, Shell/Bash, Kubernetes, Linux, Docker, CI/CD (GitHub Actions, Jenkins)
+        text: Python, Java, Gosu, C# / .NET, TypeScript, SQL, PowerShell, Selenium
+      - name: Security & Compliance
+        level: 88
+        text: Enterprise IAM (myAccess), HashiCorp Vault, OAuth 2.0 / SSO, Least-Privilege RBAC, PII Data Masking, Privacy Act 2020 (NZ) compliant data handling
+      - name: API & Integration Engineering
+        level: 88
+        text: REST APIs, Custom Webhooks, JSON Data Pipelines, MuleSoft, MCP servers, ServiceNow/Jira/Confluence/GitHub integrations
