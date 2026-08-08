@@ -128,7 +128,7 @@ projects:
         tagline: "Built an end-to-end MLOps pipeline to evaluate ticket classification approaches. Benchmarked traditional supervised ML models against local LLM prompts (Ollama / early LLaMA 3), finding classic ML superior for structured routing latency. Implemented model tracking (MLflow), containerized API serving (Docker/Flask), CI/CD pipelines (GitHub Actions), and drift monitoring (Evidently, Grafana, Datadog)."
       - title: Enterprise Self-Service Portal
         link: "#"
-        tagline: "Engineered a self-service application enabling business users to resolve data issues independently. Integrated with ServiceNow APIs and enterprise IAM (myAccess) to enforce automated identity, entitlement, and RBAC security checks prior to service execution."
+        tagline: "Engineered a self-service application enabling business users to fulfill requests independently, such as user creation, deactivation, and modification, and data extracts. Integrated with ServiceNow APIs and enterprise IAM (myAccess) to enforce automated identity, entitlement, and RBAC security checks before execution. For data extracts, incorporated an AI agent integrated with Google Data Platform to convert natural language requests into BigQuery."
 skills:
     title: Core Competencies & Tech Stack
     toolset:
