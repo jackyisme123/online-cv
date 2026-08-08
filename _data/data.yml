@@ -142,21 +142,3 @@ projects:
       - title: MLOps Side Project
         link: "#"
         tagline: "Built an end-to-end ML pipeline covering data ingestion, model training (MLflow), deployment (Docker + Flask), and CI/CD automation (GitHub Actions). Implemented monitoring for data drift and service health (Evidently, Grafana & Datadog). Demonstrated full MLOps lifecycle from development to production."
-      - title: Enterprise Self-Service Portal
-        link: "#"
-        tagline: "Engineered a self-service web portal allowing business users to independently resolve data validation issues, integrated with ServiceNow and enterprise IAM (myAccess) for automated identity, entitlement, and RBAC checks prior to provisioning."
-skills:
-    title: Core Competencies & Tech Stack
-    toolset:
-      - name: Developer Enablement & Enterprise APIs
-        level: 95
-      - name: Identity & Access (IAM, HashiCorp Vault, OAuth 2.0/SSO)
-        level: 90
-      - name: Observability & Telemetry (Datadog, Splunk, New Relic)
-        level: 95
-      - name: AI & Workflow Automation (GenAI, agentic workflows, Python)
-        level: 92
-      - name: Data & Storage (Oracle, AWS, Google Platforms, REST/APIs)
-        level: 88
-      - name: Kubernetes & CI/CD (K8s, Jenkins, GitHub Actions)
-        level: 90
