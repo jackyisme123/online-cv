@@ -97,7 +97,7 @@ experiences:
         company: IAG, Christchurch, New Zealand (Hybrid)
         details: |
           - Ops to SRE Transformation: Led the shift from traditional ops to an SRE model by driving cultural alignment, an engineering-first mindset, and moving the team from reactive firefighting to proactive automation and toil reduction, reclaiming ~1,000 hours per year through the automation I built and rolled out across the team.
-          - Agentic Incident Management (AIOps): Architected an AI Agent system using loop engineering and agentic workflows to autonomously enrich, triage, and perform RCA on incoming incidents, providing customer workarounds and drafting code fixes/PRs to accelerate MTTR. Local MVP validated with GitHub Copilot; production with Gemini and Cloud Run in progress after released architecture review. Impact: ~30x faster incident triage to resolution.
+          - Agentic Incident Management (AIOps): Architected an AI Agent system using loop engineering and agentic workflows to autonomously enrich, triage, and perform RCA on incoming incidents, providing customer workarounds and drafting code fixes/PRs to accelerate MTTR. Local MVP validated with GitHub Copilot; architecture review passed and production implementation with Gemini and Cloud Run is underway. Impact: ~30x faster incident triage to resolution.
           - Guidewire Cloud Ecosystem Ownership: Owned reliability and observability architecture for Guidewire Cloud Policy Center, driving end-to-end incident management, deep RCAs, and direct code fixes while leveraging automated telemetry and New Relic synthetic monitoring to track availability, cut alert noise, and align Datadog dashboards with release readiness.
           - Release Whisperer AI Agent: Architected and deployed a specialized GenAI agent on our internal GenAI platform to automate release communication synthesis, operational context sharing, and cross-team deployment updates, saving roughly half an hour per release.
           - Service-Level On-Call & Incident Response: Delivered high-availability on-call coverage across 160+ production services in hybrid cloud environments, managing critical incidents, escalation paths, and rapid service recovery.
@@ -120,7 +120,7 @@ projects:
     assignments:
       - title: Agentic Incident Triage (Architecture & MVP)
         link: "#"
-        tagline: "Designed an automated triage system using agentic workflows to parse incident webhooks, execute automated root-cause analysis (RCA), and generate draft remediation PRs. Built and validated a local MVP with GitHub Copilot; production implementation with Gemini and Cloud Run is underway after the architecture review passed."
+        tagline: "Designed an automated triage system using agentic workflows to parse incident webhooks, execute automated root-cause analysis (RCA), and generate draft remediation PRs. Built and validated a local MVP with GitHub Copilot; architecture review passed and production implementation with Gemini and Cloud Run is underway."
       - title: Release Whisperer AI Agent
         link: "#"
         tagline: "Architected and deployed a specialized GenAI agent on an internal enterprise platform (Geni) to automate release communication synthesis, operational context sharing, and cross-team deployment updates."
