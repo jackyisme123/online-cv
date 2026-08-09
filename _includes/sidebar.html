@@ -1,6 +1,17 @@
 {% assign sidebar = site.data.data.sidebar %}
 <div class="sidebar-wrapper">
 
+  <div class="print-sidebar-header">
+    <h1 class="name">{{ sidebar.name }}</h1>
+    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    <ul class="print-contact-list">
+      <li>{{ sidebar.email }}</li>
+      <li>{{ sidebar.phone }}</li>
+      <li>{{ sidebar.linkedin }}</li>
+      <li>{{ sidebar.github }}</li>
+    </ul>
+  </div><!--//print-sidebar-header-->
+
   <div class="profile-container">
 
     {% if sidebar.avatar %}

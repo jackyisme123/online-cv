@@ -10,20 +10,6 @@
   </h2>
 
   {% for experience in experiences.info %}
-
-  {% if forloop.index >= 2 %}
-  <div class="print-fake-header">
-    <h1 class="name">{{ site.data.data.sidebar.name }}</h1>
-    <h3 class="tagline">{{ site.data.data.sidebar.tagline }}</h3>
-    <ul class="contact-list">
-      <li class="email">{{ site.data.data.sidebar.email }}</li>
-      <li class="phone">{{ site.data.data.sidebar.phone }}</li>
-      <li class="linkedin">{{ site.data.data.sidebar.linkedin }}</li>
-      <li class="github"><a href="https://github.com/{{ site.data.data.sidebar.github }}">{{ site.data.data.sidebar.github }}</a></li>
-    </ul>
-  </div><!--//print-fake-header-->
-  {% endif %}
-
   <div class="item">
 
     <div class="meta">

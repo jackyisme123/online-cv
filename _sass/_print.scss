@@ -49,6 +49,38 @@
     }
 
     /* ======= Right sidebar (white, dark text — no background graphics needed) ======= */
+    .print-sidebar-header {
+        display: block !important;
+        position: fixed;
+        top: 8mm;
+        right: 9mm;
+        width: 33%;
+        background: #ffffff !important;
+        color: #222222 !important;
+        z-index: 10;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        .name {
+            font-size: 14pt;
+            margin: 0 0 2pt 0;
+            color: #000000 !important;
+        }
+        .tagline {
+            font-size: 7.5pt;
+            line-height: 1.25;
+            color: #444444 !important;
+            margin: 0 0 4pt 0;
+        }
+        .print-contact-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 7pt;
+            line-height: 1.4;
+            color: #222222 !important;
+        }
+    }
+
     .sidebar-wrapper {
         grid-column: 2 !important;
         grid-row: 1 !important;
@@ -69,6 +101,10 @@
             widows: 2;
             page-break-inside: avoid;
             break-inside: avoid;
+        }
+        .profile-container,
+        .contact-container {
+            display: none !important;
         }
         .profile-container {
             padding: 9pt 10pt 6pt 10pt;
@@ -169,26 +205,10 @@
             page-break-inside: auto;
             break-inside: auto;
         }
-        .print-fake-header {
-            display: block !important;
+        /* Keep the second role (Full Stack Software Engineer) at the top of page 2. */
+        .experiences-section .item:nth-of-type(2) {
             page-break-before: always;
             break-before: page;
-        }
-        .print-fake-header .name {
-            font-size: 14pt;
-            margin: 0;
-        }
-        .print-fake-header .tagline {
-            font-size: 7.5pt;
-            color: #444444 !important;
-            margin: 0 0 4pt 0;
-        }
-        .print-fake-header .contact-list {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            font-size: 7pt;
-            line-height: 1.4;
         }
         .projects-section {
             .item {
