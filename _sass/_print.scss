@@ -156,14 +156,15 @@
         background: #ffffff !important;
         padding: 12pt 14pt 10pt 14pt;
         .section {
-            margin-bottom: 22pt;
+            margin-bottom: 30pt;
         }
         .section-title {
             font-size: 9.5pt;
             text-transform: uppercase;
             letter-spacing: 0.05em;
-            margin-bottom: 4pt;
+            margin-bottom: 6pt;
             color: #000000 !important;
+            font-weight: 700 !important;
             page-break-after: avoid;
             break-after: avoid;
         }
