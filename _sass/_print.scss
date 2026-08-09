@@ -167,6 +167,11 @@
             page-break-after: avoid;
             break-after: avoid;
         }
+        .print-experiences-title {
+            display: block !important;
+            margin-top: 0;
+            margin-bottom: 6pt;
+        }
         .upper-row {
             margin-bottom: 1pt;
         }
