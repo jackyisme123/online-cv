@@ -38,9 +38,22 @@
     {% include skills.html %}
   {% endif %}
 
-  {% include language.html %}
-  {% include interests.html %}
-  {% include referee.html %}
+  <div class="print-sidebar-page2">
+    <div class="print-sidebar-header">
+      <h1 class="name">{{ sidebar.name }}</h1>
+      <h3 class="tagline">{{ sidebar.tagline }}</h3>
+      <ul class="print-contact-list">
+        <li>{{ sidebar.email }}</li>
+        <li>{{ sidebar.phone }}</li>
+        <li>{{ sidebar.linkedin }}</li>
+        <li>{{ sidebar.github }}</li>
+      </ul>
+    </div><!--//print-sidebar-header-->
+    {% include language.html %}
+    {% include interests.html %}
+    {% include referee.html %}
+  </div><!--//sidebar-footer-->
+
   {% if sidebar.about %}
     {% include about.html %}
   {% endif %}

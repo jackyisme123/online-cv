@@ -51,15 +51,8 @@
     /* ======= Right sidebar (white, dark text — no background graphics needed) ======= */
     .print-sidebar-header {
         display: block !important;
-        position: fixed;
-        top: 8mm;
-        right: 9mm;
-        width: 33%;
-        background: #ffffff !important;
-        color: #222222 !important;
-        z-index: 10;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
+        padding: 12pt 10pt 6pt 10pt;
+        border-bottom: 1pt solid #b8b2a4;
         .name {
             font-size: 14pt;
             margin: 0 0 2pt 0;
@@ -79,6 +72,11 @@
             line-height: 1.4;
             color: #222222 !important;
         }
+    }
+
+    .print-sidebar-page2 {
+        page-break-before: always;
+        break-before: page;
     }
 
     .sidebar-wrapper {
