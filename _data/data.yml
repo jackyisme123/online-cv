@@ -58,10 +58,7 @@ referee:
 career-profile:
     title: Career Profile
     summary: |
-      Platform Engineer & SRE with broad full-stack experience and a deep focus on platform architecture, DevOps, and site reliability engineering, passionate about building systems that stay stable, observable, and cost-effective over the long term.
-      Extensive hands-on experience designing, operating, and evolving production platforms across AWS and on-premises environments, backed by a strong software engineering foundation in system design, automation, CI/CD, and complex production operations.
-      Practical experience building AI-driven solutions for service self-healing, incident auto-triage, intelligent troubleshooting, and automated remediation, delivering measurable gains in resilience and operational efficiency.
-      Highly proactive and adaptable in fast-moving technology landscapes, committed to continuous learning, architectural thinking, and operational excellence.
+      Senior Platform Engineer blending 5 years of full-stack software development with 3 years of SRE expertise, currently serving as an internal AI Activator at IAG. Proven track record of delivering end-to-end solutions by architecting automation frameworks and AI agents across local, cloud, and on-premises environments to eliminate business operational toil. Partner with cross-functional stakeholders to translate complex corporate workflows into self-service applications and resilient platform architectures.
 
 education:
     title: Education & Certificates
