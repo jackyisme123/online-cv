@@ -91,7 +91,7 @@ experiences:
     info:
       - role: Platform Engineer & SRE
         time: Aug 2023 - Present
-        company: IAG, Christchurch, New Zealand (Hybrid)
+        company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
         details: |
           - Ops-to-SRE Organizational Transformation: Led a 6-month initiative transitioning legacy operations to an SRE model through gap/risk assessments and clear DevOps vs. SRE boundaries, building a software-focused SRE team that eliminated over 1,000 hours of operational toil per year.
           - Agentic AI Incident Triage (GCP, in rollout): Architected and locally validated an autonomous AI Agent using RAG and loop engineering, delivering ~30x faster incident triage to resolution; passed enterprise architecture review for production rollout on GCP (Gemini, Cloud Run, Vertex AI, Google ADK). Integrated RAG search across Guidewire API, Datadog, Bitbucket, ServiceNow, Salesforce, and Atlassian MCP for enriched analysis, high-accuracy RCAs, customer workarounds, and automated Jira tickets with draft code fixes within strict AI safety boundaries.
@@ -101,7 +101,7 @@ experiences:
           - Platform Reliability, Security & Cost: Secured 160+ production services with full-stack telemetry (New Relic, Datadog) and RBAC migrations, while cutting licensing fees via Jenkins pipelines for Akamai usage and Netskope network-layer IP whitelisting for compliant S3 transfers.
       - role: Full Stack Software Engineer
         time: 2018 - 2023
-        company: FIS, Christchurch, New Zealand (Hybrid)
+        company: FIS (Fortune 500 Financial Technology Leader), Christchurch, New Zealand (Hybrid)
         details: |
           - Full Stack Software Engineer on an enterprise finance and accounting platform, delivered to international banks and financial service providers. Designed and built RESTful APIs and modern front-end interfaces (Knockout.js/TypeScript, .NET/C#, SQL, Oracle) across the full lifecycle, from requirements and architecture through to production support.
           - Led technical analysis, estimation, and delivery of complex client and regulatory requirements, translating business and compliance needs into robust, scalable software while ensuring strict financial data accuracy and audit-readiness.
