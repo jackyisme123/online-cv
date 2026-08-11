@@ -103,27 +103,33 @@ experiences:
         time: 2018 - 2023
         company: FIS (Fortune 500 Financial Technology Leader), Christchurch, New Zealand (Hybrid)
         details: |
-          - Full Stack Software Engineer on an enterprise finance and accounting platform, delivered to international banks and financial service providers. Designed and built RESTful APIs and modern front-end interfaces (Knockout.js/TypeScript, .NET/C#, SQL, Oracle) across the full lifecycle, from requirements and architecture through to production support.
-          - Led technical analysis, estimation, and delivery of complex client and regulatory requirements, translating business and compliance needs into robust, scalable software while ensuring strict financial data accuracy and audit-readiness.
-          - Architectured performance and scalability improvements and integrated third-party SaaS APIs and backend CI/CD pipelines, improving application response times, maintainability, and deployment speed across global deployments.
-          - Built and maintained comprehensive unit, integration, UI, and performance test suites across development, test, and UAT environments, applying analytical, critical thinking to quality engineering and release readiness.
-          - Developed internal plugins, tools, and developer productivity automations shared via internal wikis and video documentation; mentored junior engineers and graduates and raised capability across the wider team.
+          - Enterprise Financial Platform Development: Engineered end-to-end RESTful, GraphQL, and SOAP APIs and modern web applications (TypeScript, Knockout.js, .NET/C#, SQL, Oracle) for mission-critical banking and accounting systems deployed to Tier 1 global financial institutions.
+          - Regulatory Compliance & Architecture Translation: Led technical analysis, estimation, and implementation of complex international financial regulations and client requirements, translating business logic into audit-ready, high-accuracy software architectures.
+          - System Performance & Global Scale Optimization: Boosted application response times and deployment velocity across global deployments by refactoring legacy database workflows, integrating third-party SaaS APIs, and automating CI/CD pipelines.
+          - Quality Engineering & Release Readiness: Built comprehensive unit, integration, UI, and performance test automation suites across Dev, Test, and UAT environments, ensuring rigorous platform stability prior to production releases.
+          - Developer Productivity & Engineering Mentorship: Created internal tools, custom plugins, and developer automation shared via internal documentation and video guides; mentored junior engineers and graduates to raise overall team delivery capabilities.
+      - role: Software Engineering Intern
+        time: 2017 - 2018 (3 months)
+        company: Weta Workshop (Academy Award-Winning Creative Studio), Wellington, New Zealand
+        details: |
+          - Custom Plugin & Platform Extension: Solved creative asset pipeline limitations by developing custom Confluence add-ons (Vue.js, Node.js) to render and display native 3D model file formats directly within enterprise wiki documentation.
+          - Asset Pipeline Automation: Built Docker-based plugins and Python scripts to integrate production tools with internal asset management APIs (Ftrack), streamlining asset tracking for creative teams.
 projects:
     title: Projects
     intro: >
     assignments:
-      - title: Agentic Incident Triage (Architecture & MVP)
+      - title: Agentic Incident Triage (Architecture & Local MVP)
         link: "#"
-        tagline: "Designed an automated triage system using agentic workflows to parse incident webhooks, execute automated root-cause analysis (RCA), and generate draft remediation PRs. Built and validated a local MVP with GitHub Copilot; architecture review passed and production implementation with Gemini and Cloud Run is underway."
+        tagline: "Agentic Incident Triage Engine: Designed an automated triage system using agentic workflows to parse incident webhooks, execute automated root-cause analysis (RCA), and generate draft remediation PRs. Built and validated a local MVP using RAG and loop engineering; passed enterprise architecture review for GCP production rollout (Gemini, Cloud Run, Vertex AI, Google ADK)."
       - title: Release Whisperer AI Agent
         link: "#"
-        tagline: "Architected and deployed a specialized GenAI agent on an internal enterprise platform (Geni) that cross-checks release documentation, implementation plans, deployment notes, ServiceNow change tickets, and Test Evidence Summary Reports (TESR). Flags document issues before release, such as incorrect go-live times, wrong build numbers, outstanding tests, and missing management approvals, reducing mistakes during release and auditing."
+        tagline: "Release Whisperer AI Agent: Architected and deployed a GenAI agent on an internal enterprise AI platform that cross-references release documentation, implementation plans, deployment notes, ServiceNow change tickets, and Test Evidence Summary Reports (TESR). Automatically flags pre-deployment discrepancies, such as incorrect go-live windows, wrong build numbers, outstanding tests, and missing management approvals, significantly reducing release risk and audit overhead."
       - title: Incident Classification MLOps Pipeline (Side Project)
         link: "#"
-        tagline: "Built an end-to-end MLOps pipeline to evaluate ticket classification approaches. Benchmarked traditional supervised ML models against local LLM prompts (Ollama / early LLaMA 3), finding classic ML superior for structured routing latency. Implemented model tracking (MLflow), containerized API serving (Docker/Flask), CI/CD pipelines (GitHub Actions), and drift monitoring (Evidently, Grafana, Datadog)."
-      - title: Enterprise Self-Service Portal
+        tagline: "Incident Classification MLOps Pipeline (Side Project): Built an end-to-end MLOps pipeline to benchmark ticket classification approaches, demonstrating that classic supervised ML outperformed local LLMs (Ollama / LLaMA 3) for low-latency routing. Implemented experiment tracking (MLflow), containerized API serving (Docker/Flask), CI/CD pipelines (GitHub Actions), and drift monitoring (Evidently, Grafana, Datadog)."
+      - title: Enterprise Self-Service Portal & AI Data Query Engine
         link: "#"
-        tagline: "Engineered a self-service application enabling business users to fulfill requests independently, such as user creation, deactivation, and modification, and data extracts. Integrated with ServiceNow APIs and enterprise IAM (myAccess) to enforce automated identity, entitlement, and RBAC security checks before execution. For data extracts, incorporated an AI agent integrated with Google Data Platform to convert natural language requests into BigQuery."
+        tagline: "Enterprise Self-Service Portal & AI Data Query Engine: Engineered a self-service application enabling business users to execute IAM/RBAC account lifecycle changes and complex data extracts independently. Integrated ServiceNow APIs with enterprise identity systems (myAccess) for automated entitlement checks, and embedded an AI agent backed by Google Data Platform to convert natural language queries directly into BigQuery SQL."
 skills:
     title: Core Competencies & Tech Stack
     toolset:
