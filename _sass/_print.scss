@@ -29,8 +29,8 @@
     }
 
     .wrapper {
-        display: block !important;
-        position: relative !important;
+        display: grid !important;
+        grid-template-columns: minmax(0, 68fr) minmax(0, 32fr) !important;
         max-width: none !important;
         margin: 0 !important;
         box-shadow: none !important;
@@ -47,8 +47,8 @@
 
     /* Ensure contact container and sidebar elements display properly */
     .sidebar-wrapper {
-        position: relative !important;
-        width: 32% !important;
+        grid-column: 2 !important;
+        grid-row: 1 / span 2 !important;
         background: #ffffff !important;
         color: #222222 !important;
         border-left: 1pt solid #b8b2a4;
@@ -142,7 +142,8 @@
 
     /* ---------- Main column ---------- */
     .main-wrapper {
-        width: 68% !important;
+        grid-column: 1 !important;
+        grid-row: 1 !important;
         background: #ffffff !important;
         padding: 12pt 14pt 10pt 14pt;
         .section {
