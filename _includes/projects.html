@@ -10,7 +10,8 @@
     {{ projects.title }}
   </h2>
 
-  {% if projects.intro %}
+  {% assign intro_stripped = projects.intro | strip %}
+  {% if intro_stripped != "" and intro_stripped != nil %}
   <div class="intro">
       <p>{{ projects.intro }}</p>
   </div><!--//intro-->
