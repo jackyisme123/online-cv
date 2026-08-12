@@ -138,7 +138,7 @@ skills:
         text: AWS, GCP, Kubernetes, Docker, GitHub Actions, Jenkins, Terraform
       - name: AI & Automation
         level: 92
-        text: LLM Applications, GenAI Agents, Agentic Workflows, Prompt & Loop Engineering, GitHub Copilot SDK, Google Data Platform SDK
+        text: LLM Applications, GenAI Agents, Agentic Workflows, Prompt & Loop Engineering
       - name: Languages & Software Engineering
         level: 90
         text: Python, Java, Gosu, C# / .NET, TypeScript, SQL, PowerShell, Selenium
@@ -147,4 +147,4 @@ skills:
         text: Enterprise IAM, HashiCorp Vault, OAuth 2.0 / SSO, Least-Privilege RBAC, PII Data Masking
       - name: API & Integration Engineering
         level: 88
-        text: REST, GraphQL & SOAP APIs, API Gateways (MuleSoft), Multi-System Integrations (ServiceNow, Salesforce, Guidewire, Datadog, GitHub & Atlassian MCP Servers)
+        text: REST, GraphQL & SOAP APIs, API Gateways (MuleSoft), Multi-System Integrations (ServiceNow, Salesforce, Guidewire, Datadog, GitHub & Atlassian MCP Servers, GitHub Copilot SDK, Google Data Platform SDK)
