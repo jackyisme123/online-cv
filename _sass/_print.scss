@@ -10,8 +10,8 @@
         padding: 0 !important;
         background: #ffffff !important;
         color: #1a1a1a !important;
-        font-size: 8pt;
-        line-height: 1.25;
+        font-size: 8.5pt;
+        line-height: 1.35;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
@@ -148,13 +148,13 @@
         background: #ffffff !important;
         padding: 12pt 14pt 10pt 14pt;
         .section {
-            margin-bottom: 8pt;
+            margin-bottom: 14pt;
         }
         .section-title {
-            font-size: 9pt;
+            font-size: 9.5pt;
             text-transform: uppercase;
             letter-spacing: 0.05em;
-            margin-bottom: 4pt;
+            margin-bottom: 8pt;
             color: #000000 !important;
             font-weight: 700 !important;
             page-break-after: avoid;
@@ -168,16 +168,8 @@
         .upper-row {
             margin-bottom: 1pt;
         }
-        .job-title,
-        .degree,
-        .project-title,
-        .publication-title {
-            font-size: 9.5pt !important;
-            color: #151515 !important;
-            margin-top: 0;
-            margin-bottom: 0;
-            page-break-after: avoid;
-            break-after: avoid;
+        .project-title {
+            color: #757575 !important;
         }
         .time {
             font-size: 8pt !important;
@@ -191,13 +183,13 @@
             margin-bottom: 2pt;
         }
         .details {
-            font-size: 8pt;
+            font-size: 8.5pt;
             ul {
                 margin: 0;
                 padding-left: 10pt;
             }
             li {
-                margin-bottom: 1.5pt;
+                margin-bottom: 2pt;
                 page-break-inside: avoid;
                 break-inside: avoid;
             }
