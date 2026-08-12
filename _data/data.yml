@@ -58,7 +58,7 @@ referee:
 career-profile:
     title: Career Profile
     summary: |
-      Senior Platform Engineer with 8 years of combined software engineering and SRE experience. Currently leading team AI enablement as an internal AI Activator at IAG. I deliver end-to-end solutions by architecting automation frameworks and AI agents across cloud, on-prem and local environments, eliminating operational toils and increasing engineering time. I partner with technical and non-technical stakeholders to translate complex corporate workflows into self-service applications and resilient platform architectures.
+      Senior Platform Engineer with 8 years of combined software engineering and SRE experience. Currently leading AI enablement as an internal AI Activator at IAG, partnering directly with Underwriting, Support, and Operations teams to eliminate operational toil through rapid MVP prototyping and agentic AI automation. I architect end-to-end solutions across cloud, on-prem, and local environments, translating complex business workflows into scalable self-service applications and resilient platform architectures.
 
 education:
     title: Education & Certificates
@@ -120,7 +120,7 @@ projects:
         tagline: "Release Whisperer AI Agent: Architected and deployed a GenAI agent on an internal enterprise platform (GenAI, Service Now API, Atlassian MCP server). Cross-references release documentation, change tickets, and test evidence. Automatically flags pre-deployment discrepancies like wrong build numbers and missing approvals, significantly reducing release risk and audit overhead."
       - title: Agentic Incident Triage Engine
         link: "#"
-        tagline: "Agentic Incident Triage Engine: Designed an automated triage and data enrichment system using agentic workflows (Gemini, Cloud Run, Vertex AI, vector database). Integrates multi-system APIs (ServiceNow, Datadog, Salesforce, Guidewire Cloud, AWS S3, Google Data Platform) to fetch logs and context, executing automated root-cause analysis and generating draft remediation PRs within strict AI safety boundaries."
+        tagline: "Agentic Incident Triage Engine: Designed an automated triage and data enrichment system using agentic workflows (Gemini, Cloud Run, Vertex AI, vector database). Partnered directly with underwriting, support, and operations teams to rapidly build and demo functional MVPs fortnightly. Integrates multi-system APIs (ServiceNow, Datadog, Salesforce, Guidewire Cloud, AWS S3, Google Data Platform) to fetch logs and context, executing automated root-cause analysis and generating draft remediation PRs within strict AI safety boundaries."
       - title: Enterprise Self-Service Portal & AI Data Query Engine
         link: "#"
         tagline: "Enterprise Self-Service Portal & AI Data Query Engine: Engineered an extensible self-service framework enabling authorized business users to independently execute user account changes, producer code updates, and Guidewire PolicyCenter configuration updates. Continuously expanded to handle new business workflows, integrated with enterprise identity systems and ServiceNow APIs for automated entitlement checks, with future plans to introduce AI capabilities for handling complex business data extract requests."
