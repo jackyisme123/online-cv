@@ -168,6 +168,17 @@
         .upper-row {
             margin-bottom: 1pt;
         }
+        .job-title,
+        .degree,
+        .project-title,
+        .publication-title {
+            font-size: 8.5pt !important;
+            color: #151515 !important;
+            margin-top: 0;
+            margin-bottom: 0;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
         .project-title {
             color: #757575 !important;
             font-weight: normal !important;
