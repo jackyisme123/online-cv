@@ -47,9 +47,7 @@
 
     /* Ensure contact container and sidebar elements display properly */
     .sidebar-wrapper {
-        position: absolute !important;
-        top: 0 !important;
-        right: 0 !important;
+        position: relative !important;
         width: 32% !important;
         background: #ffffff !important;
         color: #222222 !important;
