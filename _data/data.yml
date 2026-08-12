@@ -147,4 +147,4 @@ skills:
         text: Enterprise IAM, HashiCorp Vault, OAuth 2.0 / SSO, Least-Privilege RBAC, PII Data Masking
       - name: API & Integration Engineering
         level: 88
-        text: REST APIs, Custom Webhooks, MuleSoft, MCP Servers, ServiceNow/Jira/Confluence Integrations
+        text: REST, GraphQL & SOAP APIs, API Gateways (MuleSoft), Multi-System Integrations (ServiceNow, Salesforce, Guidewire, Datadog, Atlassian MCP Servers)
