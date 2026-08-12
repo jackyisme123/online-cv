@@ -135,7 +135,7 @@ skills:
         text: Datadog, Splunk, New Relic, Automated Alerting & Log Analytics, Self-Service Runbooks, Automated RCA & Postmortems, On-Call & Incident Response, Service-Level Recovery, ITIL
       - name: Cloud, CI/CD & Platform Engineering
         level: 95
-        text: AWS, GCP, Kubernetes, Docker, GitHub Actions, Jenkins, Terraform, GitOps
+        text: AWS, GCP, Kubernetes, Docker, GitHub Actions, Jenkins, Terraform, CI/CD Workflows
       - name: AI & Automation
         level: 92
         text: LLM-powered applications, AI coding assistants (GitHub Copilot), GenAI agents (Geni), Agentic Workflows, Prompt & Harness & Loop Engineering
