@@ -37,6 +37,15 @@
         background: #ffffff !important;
     }
 
+    /* Hide section title icons / fa-stack to prevent black spots */
+    .section-title .fa-stack,
+    .section-title i,
+    .container-block-title .fa-stack,
+    .container-block-title i {
+        display: none !important;
+    }
+
+    /* Ensure contact container and sidebar elements display properly */
     .sidebar-wrapper {
         position: absolute !important;
         top: 0 !important;
@@ -57,21 +66,54 @@
             page-break-inside: avoid;
             break-inside: avoid;
         }
+        .print-sidebar-header {
+            display: block !important;
+            padding: 8pt 10pt 4pt 10pt;
+            border-bottom: 1pt solid #b8b2a4;
+            margin-bottom: 4pt;
+            .name {
+                font-size: 14pt;
+                color: #000000 !important;
+                margin: 0 0 2pt 0;
+                font-weight: 800;
+            }
+            .tagline {
+                font-size: 7.5pt;
+                line-height: 1.25;
+                color: #444444 !important;
+                margin: 0 0 4pt 0;
+            }
+            .print-contact-list {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                font-size: 7pt;
+                line-height: 1.4;
+                color: #222222 !important;
+                li {
+                    margin-bottom: 2pt;
+                }
+                a {
+                    text-decoration: none !important;
+                    color: #222222 !important;
+                }
+            }
+        }
         .profile-container,
         .contact-container {
             display: none !important;
         }
         .profile-container {
-            padding: 9pt 10pt 6pt 10pt;
-        }
-        .name {
-            font-size: 14pt;
-            margin-bottom: 2pt;
-        }
-        .tagline {
-            font-size: 7.5pt;
-            line-height: 1.25;
-            color: #444444 !important;
+            .name {
+                font-size: 14pt;
+                color: #000000 !important;
+                margin-bottom: 2pt;
+            }
+            .tagline {
+                font-size: 7.5pt;
+                line-height: 1.25;
+                color: #444444 !important;
+            }
         }
         .container-block {
             padding: 6pt 10pt;
