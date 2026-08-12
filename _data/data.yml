@@ -132,7 +132,7 @@ skills:
     toolset:
       - name: Observability, Reliability & Incident Management
         level: 95
-        text: Datadog, Splunk, New Relic, Automated Alerting & Log Analytics, Self-Service Runbooks, Automated RCA & Postmortems, On-Call & Incident Response, Service-Level Recovery, ITIL
+        text: Datadog, New Relic, Automated Alerting & Log Analytics, Self-Service Runbooks, Root-Cause Analysis (RCA) & Postmortems, On-Call & Incident Response, Service-Level Recovery
       - name: Cloud, CI/CD & Platform Engineering
         level: 95
         text: AWS, GCP, Kubernetes, Docker, GitHub Actions, Jenkins, Terraform, CI/CD Workflows
