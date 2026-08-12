@@ -153,11 +153,13 @@
             font-size: 9.5pt;
             text-transform: uppercase;
             letter-spacing: 0.05em;
-            margin-bottom: 6pt;
+            margin-bottom: 4pt;
             color: #000000 !important;
             font-weight: 700 !important;
             page-break-after: avoid;
             break-after: avoid;
+            page-break-inside: avoid;
+            break-inside: avoid;
         }
         .print-experiences-title {
             display: block !important;
