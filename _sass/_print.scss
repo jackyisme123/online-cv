@@ -202,26 +202,17 @@
                 break-inside: avoid;
             }
         }
-        .experiences-section .item,
-        .educations-section .item {
-            margin-bottom: 6pt;
+        /* Ensure section titles stay with their content and don't orphan */
+        .section {
             page-break-inside: auto;
             break-inside: auto;
         }
-        /* Remove forced page break before 2nd experience item so it flows naturally across 2 pages */
-        .experiences-section .item:nth-of-type(2) {
-            page-break-before: auto;
-            break-before: auto;
-        }
-        .projects-section {
-            .item {
-                margin: 0 0 5pt 0;
-                page-break-inside: avoid;
-                break-inside: avoid;
-            }
-            .intro {
-                margin-bottom: 5pt;
-            }
+        .experiences-section .item,
+        .educations-section .item,
+        .projects-section .item {
+            margin-bottom: 5pt;
+            page-break-inside: avoid;
+            break-inside: avoid;
         }
         .skillset .level-title {
             font-size: 8pt !important;
