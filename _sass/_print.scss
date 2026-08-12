@@ -10,8 +10,8 @@
         padding: 0 !important;
         background: #ffffff !important;
         color: #1a1a1a !important;
-        font-size: 8.5pt;
-        line-height: 1.35;
+        font-size: 8pt;
+        line-height: 1.25;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
@@ -148,13 +148,13 @@
         background: #ffffff !important;
         padding: 12pt 14pt 10pt 14pt;
         .section {
-            margin-bottom: 12pt;
+            margin-bottom: 8pt;
         }
         .section-title {
-            font-size: 9.5pt;
+            font-size: 9pt;
             text-transform: uppercase;
             letter-spacing: 0.05em;
-            margin-bottom: 6pt;
+            margin-bottom: 4pt;
             color: #000000 !important;
             font-weight: 700 !important;
             page-break-after: avoid;
@@ -191,13 +191,13 @@
             margin-bottom: 2pt;
         }
         .details {
-            font-size: 8.5pt;
+            font-size: 8pt;
             ul {
                 margin: 0;
                 padding-left: 10pt;
             }
             li {
-                margin-bottom: 2pt;
+                margin-bottom: 1.5pt;
                 page-break-inside: avoid;
                 break-inside: avoid;
             }
@@ -210,7 +210,7 @@
         .experiences-section .item,
         .educations-section .item,
         .projects-section .item {
-            margin-bottom: 5pt;
+            margin-bottom: 4pt;
             page-break-inside: avoid;
             break-inside: avoid;
         }
