@@ -17,9 +17,9 @@
         print-color-adjust: exact;
     }
 
-    a {
-        color: #222222 !important;
-        text-decoration: none !important;
+    /* Hide printed URL destination brackets in links */
+    a::after {
+        content: none !important;
     }
 
     p {
