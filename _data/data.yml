@@ -132,19 +132,19 @@ skills:
     toolset:
       - name: Observability, Reliability & Incident Management
         level: 95
-        text: Datadog, New Relic, Automated Alerting & Log Analytics, Self-Service Runbooks, Root-Cause Analysis (RCA) & Postmortems, On-Call & Incident Response, Service-Level Recovery
+        text: Datadog, New Relic, Automated Alerting, Root-Cause Analysis (RCA) & Postmortems, On-Call & Incident Response, Service-Level Recovery
       - name: Cloud, CI/CD & Platform Engineering
         level: 95
-        text: AWS, GCP, Kubernetes, Docker, GitHub Actions, Jenkins, Terraform, CI/CD Workflows
+        text: AWS, GCP, Kubernetes, Docker, GitHub Actions, Jenkins, Terraform
       - name: AI & Automation
         level: 92
-        text: LLM-powered applications, AI coding assistants (GitHub Copilot), GenAI agents (Geni), Agentic Workflows, Prompt & Harness & Loop Engineering
+        text: LLM Applications, GenAI Agents, Agentic Workflows, Prompt & Loop Engineering, GitHub Copilot
       - name: Languages & Software Engineering
         level: 90
         text: Python, Java, Gosu, C# / .NET, TypeScript, SQL, PowerShell, Selenium
       - name: Security & Compliance
         level: 88
-        text: Enterprise IAM (myAccess), HashiCorp Vault, OAuth 2.0 / SSO, Least-Privilege RBAC, PII Data Masking, Privacy Act 2020 (NZ) compliant data handling
+        text: Enterprise IAM, HashiCorp Vault, OAuth 2.0 / SSO, Least-Privilege RBAC, PII Data Masking
       - name: API & Integration Engineering
         level: 88
-        text: REST APIs, Custom Webhooks, JSON Data Pipelines, MuleSoft, MCP servers, ServiceNow/Jira/Confluence/GitHub integrations
+        text: REST APIs, Custom Webhooks, MuleSoft, MCP Servers, ServiceNow/Jira/Confluence Integrations
