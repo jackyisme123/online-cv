@@ -221,10 +221,10 @@
             page-break-inside: auto;
             break-inside: auto;
         }
-        /* Keep the second role (Full Stack Software Engineer) at the top of page 2. */
+        /* Remove forced page break before 2nd experience item so it flows naturally across 2 pages */
         .experiences-section .item:nth-of-type(2) {
-            page-break-before: always;
-            break-before: page;
+            page-break-before: auto;
+            break-before: auto;
         }
         .projects-section {
             .item {
