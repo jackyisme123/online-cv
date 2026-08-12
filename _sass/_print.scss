@@ -35,6 +35,7 @@
         margin: 0 !important;
         box-shadow: none !important;
         background: #ffffff !important;
+        border-right: 1pt solid #b8b2a4; /* Left border of grid column 2 works as divider line */
     }
 
     /* Hide section title icons / fa-stack to prevent black spots */
@@ -48,10 +49,10 @@
     /* Ensure contact container and sidebar elements display properly */
     .sidebar-wrapper {
         grid-column: 2 !important;
-        grid-row: 1 / span 2 !important;
         background: #ffffff !important;
         color: #222222 !important;
         border-left: 1pt solid #b8b2a4;
+        margin-left: -1pt; /* overlap lines to prevent double borders */
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
         a {
@@ -147,19 +148,17 @@
         background: #ffffff !important;
         padding: 12pt 14pt 10pt 14pt;
         .section {
-            margin-bottom: 30pt;
+            margin-bottom: 12pt;
         }
         .section-title {
             font-size: 9.5pt;
             text-transform: uppercase;
             letter-spacing: 0.05em;
-            margin-bottom: 4pt;
+            margin-bottom: 6pt;
             color: #000000 !important;
             font-weight: 700 !important;
             page-break-after: avoid;
             break-after: avoid;
-            page-break-inside: avoid;
-            break-inside: avoid;
         }
         .print-experiences-title {
             display: block !important;
