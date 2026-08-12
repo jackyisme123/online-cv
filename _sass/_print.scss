@@ -29,73 +29,19 @@
     }
 
     .wrapper {
-        display: grid !important;
-        grid-template-columns: minmax(0, 66fr) minmax(0, 34fr) !important;
+        display: block !important;
+        position: relative !important;
         max-width: none !important;
         margin: 0 !important;
         box-shadow: none !important;
         background: #ffffff !important;
     }
 
-    /* No filled icon circles in print (they render as black spots). */
-    .fa-stack,
-    .fa-circle,
-    .section-title .fas,
-    .container-block-title .fas {
-        display: none !important;
-    }
-
-    .section-title,
-    .container-block-title {
-        border-bottom: 1pt solid #b8b2a4;
-        padding-bottom: 2pt;
-    }
-
-    /* ======= Right sidebar (white, dark text — no background graphics needed) ======= */
-    .print-sidebar-header {
-        display: block !important;
-        padding: 12pt 10pt 6pt 10pt;
-        border-bottom: 1pt solid #b8b2a4;
-        .name {
-            font-size: 14pt;
-            margin: 0 0 2pt 0;
-            color: #000000 !important;
-            font-weight: 800;
-            letter-spacing: -0.01em;
-        }
-        .tagline {
-            font-size: 7.5pt;
-            line-height: 1.25;
-            color: #444444 !important;
-            margin: 0 0 4pt 0;
-        }
-        .print-contact-list {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            font-size: 7pt;
-            line-height: 1.4;
-            color: #222222 !important;
-            a::after {
-                content: none !important;
-            }
-            a {
-                text-decoration: none !important;
-            }
-        }
-    }
-
-    .print-sidebar-page2 {
-        page-break-before: always;
-        break-before: page;
-    }
-
     .sidebar-wrapper {
-        grid-column: 2 !important;
-        grid-row: 1 !important;
-        order: 0 !important;
-        float: none !important;
-        width: auto !important;
+        position: absolute !important;
+        top: 0 !important;
+        right: 0 !important;
+        width: 32% !important;
         background: #ffffff !important;
         color: #222222 !important;
         border-left: 1pt solid #b8b2a4;
@@ -156,8 +102,7 @@
 
     /* ---------- Main column ---------- */
     .main-wrapper {
-        grid-column: 1;
-        grid-row: 1;
+        width: 68% !important;
         background: #ffffff !important;
         padding: 12pt 14pt 10pt 14pt;
         .section {
