@@ -44,15 +44,10 @@ sidebar:
         - item: AI & Innovation
         - item: NBA
         - item: Hiking & Travel
-    volunteer:
-      title: Volunteer
+    referee:
+      title: Referee
       info:
-        - item: Chch City Council (weeding and tree planting)
-
-referee:
-  title: Referee
-  info:
-    - name: Available on request
+        - item: Available on request
 
 
 career-profile:

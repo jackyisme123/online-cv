@@ -1,4 +1,4 @@
-{% assign referee = site.data.data.referee %}
+{% assign referee = site.data.data.sidebar.referee %}
 {% if referee %}
   <div class="referee-container container-block">
 
@@ -6,11 +6,11 @@
       {{ referee.title }}
     </h2>
 
-    {% for r in referee.info %}
-    <div class="item">
-      <span class="referee-text" style="font-size: 7pt !important; font-weight: normal !important; color: #222222 !important;">{{ r.name }}</span>
-      <h5 class="jobtitle">{{ r.jobtitle }}</h5>
-    </div><!--//item-->
-    {% endfor %}
+    <ul class="list-unstyled interests-list">
+      {% for r in referee.info %}
+      <li>{{ r.item }}</li>
+      {% endfor %}
+    </ul>
+
   </div><!--//referee-container-->
 {% endif %}
