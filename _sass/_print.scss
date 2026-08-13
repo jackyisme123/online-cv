@@ -150,6 +150,9 @@
         .section {
             margin-bottom: 14pt;
         }
+        .section:not(:first-of-type) {
+            padding-top: 14pt;
+        }
         .section-title {
             font-size: 9.5pt;
             text-transform: uppercase;
