@@ -20,9 +20,9 @@
   {% for project in projects.assignments %}
     <div class="item">
 
-      <span class="project-title">
+      <span class="project-title" style="color: #666666; font-weight: bold;">
         {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        <a href="{{ project.link }}" target="_blank" style="color: #666666;">{{ project.title }}</a>
         {% else %}
         {{ project.title }}
         {% endif %}
