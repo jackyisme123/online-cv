@@ -111,16 +111,16 @@ projects:
     assignments:
       - title: Release Whisperer AI Agent
         link: "#"
-        tagline: "<strong style="color: #666666;">Architected and deployed a GenAI agent on an internal enterprise platform</strong> (GenAI, Service Now API, Atlassian MCP server). Cross-references release documentation, change tickets, and test evidence. Automatically flags pre-deployment discrepancies like wrong build numbers and missing approvals, significantly reducing release risk and audit overhead."
+        tagline: '&lt;strong style="color: #666666;"&gt;Architected and deployed a GenAI agent on an internal enterprise platform&lt;/strong&gt; (GenAI, Service Now API, Atlassian MCP server). Cross-references release documentation, change tickets, and test evidence. Automatically flags pre-deployment discrepancies like wrong build numbers and missing approvals, significantly reducing release risk and audit overhead.'
       - title: Agentic Incident Triage Engine
         link: "#"
-        tagline: "<strong style="color: #666666;">Designed an automated triage and data enrichment system</strong> using agentic workflows (Gemini, Cloud Run, Vertex AI, vector database). Integrates multi-system APIs (ServiceNow, Datadog, Salesforce, Guidewire Cloud, AWS S3, Google Data Platform) to fetch logs and context, executing automated root-cause analysis and generating draft remediation PRs within strict AI safety boundaries."
+        tagline: '&lt;strong style="color: #666666;"&gt;Designed an automated triage and data enrichment system&lt;/strong&gt; using agentic workflows (Gemini, Cloud Run, Vertex AI, vector database). Integrates multi-system APIs (ServiceNow, Datadog, Salesforce, Guidewire Cloud, AWS S3, Google Data Platform) to fetch logs and context, executing automated root-cause analysis and generating draft remediation PRs within strict AI safety boundaries.'
       - title: Enterprise Self-Service Portal & AI Data Query Engine
         link: "#"
-        tagline: "<strong style="color: #666666;">Engineered an extensible self-service framework</strong> enabling authorized business users to independently execute user account changes, commission updates, and Guidewire PolicyCenter configuration updates. Continuously expanded to handle new business workflows, integrated with enterprise identity systems and ServiceNow APIs for automated entitlement checks, with future plans to introduce AI capabilities for handling complex business data extract requests."
+        tagline: '&lt;strong style="color: #666666;"&gt;Engineered an extensible self-service framework&lt;/strong&gt; enabling authorized business users to independently execute user account changes, commission updates, and Guidewire PolicyCenter configuration updates. Continuously expanded to handle new business workflows, integrated with enterprise identity systems and ServiceNow APIs for automated entitlement checks, with future plans to introduce AI capabilities for handling complex business data extract requests.'
       - title: Incident Classification MLOps Pipeline (side project)
         link: "#"
-        tagline: "<strong style="color: #666666;">Built an end-to-end MLOps pipeline</strong> (MLflow, Docker, Flask, GitHub Actions, Evidently, Grafana) to benchmark and route support tickets instantly. Proved that classical supervised machine learning achieved superior inference speed and accuracy compared to local open-source LLM models. Implemented automated experiment tracking, containerized API serving, CI/CD deployment, and real-time drift monitoring for continuous model reliability."
+        tagline: '&lt;strong style="color: #666666;"&gt;Built an end-to-end MLOps pipeline&lt;/strong&gt; (MLflow, Docker, Flask, GitHub Actions, Evidently, Grafana) to benchmark and route support tickets instantly. Proved that classical supervised machine learning achieved superior inference speed and accuracy compared to local open-source LLM models. Implemented automated experiment tracking, containerized API serving, CI/CD deployment, and real-time drift monitoring for continuous model reliability.'
 skills:
     title: Core Competencies & Tech Stack
     toolset:
