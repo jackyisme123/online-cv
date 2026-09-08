@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Yuan Cui
-    tagline: Site Reliability & Software Engineer
+    tagline: Senior Site Reliability & Software Engineer
     location: Christchurch, New Zealand (Open to Relocation)
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -53,7 +53,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Site Reliability & Software Engineer with 8 years of experience building software, running cloud operations, and keeping production systems rock-solid. Currently driving AI projects, agentic workflows, and LLMOps solutions as an AI Activator. Comfortable diving deep into code and data to debug complex production outages, unblock customers fast, and manage on-call operations across on-prem and cloud. Passionate about sharpening system observability through clean, structured logging and dashboards that actually point to the problem. Focuses on bridging Dev and Ops by writing code that cuts out repetitive toil, from building internal automation tools and CI/CD release gates to setting up AI incident triage pipelines that speed up root-cause analysis and bring down MTTR.
+      Site Reliability & Software Engineer with 8 years of experience building software, running cloud operations, and keeping production systems stable. Currently driving AI projects, agentic workflows, and LLMOps solutions as an AI Activator. Comfortable diving deep into code and data to debug complex production outages, unblock customers fast, and manage on-call operations across on-prem and cloud. Passionate about sharpening system observability through clean, structured logging and dashboards that actually point to the problem. Focuses on bridging Dev and Ops by writing code that cuts out repetitive toil, from building internal automation tools and CI/CD release gates to setting up AI incident triage pipelines that speed up root-cause analysis and bring down MTTR.
 
 education:
     title: Education & Certificates
@@ -84,7 +84,7 @@ education:
 experiences:
     title: Working Experiences
     info:
-      - role: Site Reliability Engineer
+      - role: Senior Site Reliability Engineer
         time: Aug 2023 - Present
         company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
         details: |
