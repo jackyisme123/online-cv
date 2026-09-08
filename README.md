@@ -135,7 +135,7 @@ Requires Docker only. Ruby is not needed on your machine.
 ### Run the dev server (live reload)
 
 ```sh
-docker compose run --rm --service-ports -d jekyll jekyll serve --force_polling
+docker compose run --build --rm --service-ports jekyll jekyll serve --force_polling --baseurl /online-cv
 ```
 
 - `-d` runs it in the background.
@@ -144,16 +144,6 @@ docker compose run --rm --service-ports -d jekyll jekyll serve --force_polling
 - Print/PDF view: **http://localhost:4000/online-cv/print**
 
 Stop it with `docker stop <container-name>` (find it via `docker ps`).
-
-### Build only (no server)
-
-```sh
-docker compose run --rm jekyll jekyll build
-# outputs the static site to ./_site and validates data.yml / SCSS
-```
-
-Tip: the first start installs the bundled gems and can take a minute. Wait for
-`Server running… press j to stop.` in the container logs before opening the browser.
 
 ### Without Docker (local Ruby)
 
