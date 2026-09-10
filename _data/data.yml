@@ -134,7 +134,7 @@ skills:
     toolset:
       - name: Cloud, Infrastructure & Containers
         level: 95
-        text: AWS (Lambda, RDS, S3, IAM, CloudWatch), GCP (Cloud Run, Vertex AI), Kubernetes, Docker, Terraform, HashiCorp Vault, Linux Systems
+        text: AWS, GCP, Kubernetes, Docker, Terraform, HashiCorp Vault, Windows Systems
       - name: Observability, SRE & Incident Management
         level: 95
         text: Datadog, OpenTelemetry, Prometheus, Grafana, New Relic, Splunk, SLOs/SLIs, Error Budgets, Incident Response & On-Call, Root Cause Analysis, Postmortems, MTTR Reduction, Structlog
