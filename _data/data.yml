@@ -114,15 +114,15 @@ projects:
       - title: Ops-to-SRE Cultural & Platform Transformation
         link: "#"
         tagline: 'Transformed team culture from reactive ticket firefighting to proactive reliability engineering. Established runbook-as-code practices, CI/CD operational standards, and observability guardrails, eliminating over 1,000 hours of manual operational toil per year.'
-      - title: "Release Whisperer: Documentation Quality Gating Agent"
-        link: "#"
-        tagline: 'Architected an automated release verification agent integrated with ServiceNow APIs and Atlassian MCP Server. Cross-references release artifacts, change records, and test evidence against live systems. Flags discrepancies and enforces production guardrails to eliminate audit risks.'
       - title: Agentic Incident Triage Engine
         link: "#"
         tagline: 'Designed a serverless AIOps incident triage pipeline prototyped with Chroma vector DB and scaled in production using GCP Cloud Run, Vertex AI Search, ADK, and Gemini. Integrates telemetry across Datadog, AWS S3, ServiceNow, and Google Data Platform. Automatically ingests distributed logs, performs semantic retrieval and real-time root-cause analysis (RCA), and drafts remediation PRs to compress MTTR from hours to minutes.'
       - title: Customer Self-Service Portal & Text-to-SQL Automation
         link: "#"
         tagline: 'Built an automated self-service portal in ServiceNow integrated with Guidewire PolicyCenter APIs and BigQuery via secure webhook pipelines. Developed an automated Text-to-SQL AI skill translating natural language business inquiries into BigQuery SQL for instant data extraction, slashing request fulfillment time from days to under 1 minute.'
+      - title: "Release Whisperer: Documentation Quality Gating Agent"
+        link: "#"
+        tagline: 'Architected an automated release verification agent integrated with ServiceNow APIs and Atlassian MCP Server. Cross-references release artifacts, change records, and test evidence against live systems. Flags discrepancies and enforces production guardrails to eliminate audit risks.'
       - title: GitHub Migration
         link: "#"
         tagline: 'Led the migration from legacy Bitbucket and Jenkins to GitHub Enterprise. Successfully migrated code repositories, converted Jenkins CI/CD pipelines to reusable GitHub Actions workflows, and structured team hierarchies with least-privilege access to safely decommission legacy infrastructure.'
