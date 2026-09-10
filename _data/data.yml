@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Yuan Cui
     tagline: Senior Site Reliability & Software Engineer
-    location: Christchurch, New Zealand (Open to Relocation to Berlin, Germany)
+    location: Christchurch, New Zealand (Open to Relocation to Munich, Germany)
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -89,8 +89,8 @@ experiences:
         company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
         details: |
           - <strong style="color: #666666;">Ops-to-SRE Cultural & Platform Transformation:</strong> Led a strategic initiative transitioning legacy operations from reactive ticket firefighting into a proactive, software-driven SRE model. Coached team members through PR reviews, CI/CD automation, and runbook-as-code practices, establishing clear operational standards on reliability engineering and observability. This eliminated over 1,000 hours of operational toil per year across the engineering domain.
-          - <strong style="color: #666666;">AIOps Incident Triage Engine:</strong>  Addressed slow business-as-usual (BAU) issue resolution caused by fragmented telemetry and isolated systems. Designed and deployed an agentic triage system that pulls context across external data sources, runs iterative analysis loops to pinpoint root causes, and drafts safe remediation PRs, which taking average triage time down from hours to just minutes.
-          - <strong style="color: #666666;">Customer Self-Service Portal:</strong>  Transformed unstructured business requests (like data extracts, user access, and config updates) into an automated self-service portal. Built an event-driven webhook pipeline that checks permissions and connects directly with Guidewire PolicyCenter APIs, automatically updating ServiceNow tickets upon completion. Cut request fulfillment time from several business days to under a minute while eliminating manual overhead.
+          - <strong style="color: #666666;">AIOps Incident Triage Engine:</strong>  Addressed slow business-as-usual (BAU) issue resolution caused by fragmented telemetry and isolated systems. Designed and deployed an agentic triage system leveraging GCP Cloud Run, Vertex AI Search, and Chroma vector database that pulls context across external telemetry and documentation sources, runs iterative analysis loops to pinpoint root causes, and drafts safe remediation PRs, taking average triage time down from hours to just minutes.
+          - <strong style="color: #666666;">Customer Self-Service Portal & Text-to-SQL Automation:</strong> Transformed unstructured business requests (like data extracts, user access, and config updates) into an automated self-service portal. Engineered an AI skill to automatically convert natural language business requests into validated SQL for querying BigQuery data warehouses, while connecting directly with Guidewire PolicyCenter APIs and automatically updating ServiceNow tickets upon completion. Cut request fulfillment time from several business days to under a minute while eliminating manual overhead.
           - <strong style="color: #666666;">Production Oncall Response & Blameless Postmortems:</strong> Maintained 24/7 Tier-1 and 2 on-call coverage and collaborated on Tier-3 incident bridge calls to expedite troubleshooting and resolution for core services. Facilitated blameless postmortems to uncover root causes, establishing action items and partnering with engineering teams to roll out permanent architectural fixes.
           - <strong style="color: #666666;">Production Observability & Telemetry Governance:</strong> Contributed on the enterprise OpenTelemetry implementation across production services to establish unified distributed tracing and metrics. Standardized structured application logging using Structlog to enhance observability and query efficiency in Datadog. Engineered automated redaction filters to intercept and sanitize sensitive PII/PCI data before ingestion, ensuring full regulatory compliance and elevating signal-to-noise ratio during incident triage.
           - <strong style="color: #666666;">Architectural & System Design Collaboration:</strong> Partnered closely with Enterprise Architects, Tech Leads, and product teams on functional and non-functional requirements design reviews, applying Well-Architected Framework pillars to embed reliability, operational excellence, security, and observability into core solution architectures.
@@ -119,10 +119,10 @@ projects:
         tagline: 'Architected an automated release verification agent integrated with ServiceNow APIs and Atlassian MCP Server. Cross-references release artifacts, change records, and test evidence against live systems. Flags discrepancies and enforces production guardrails to eliminate audit risks.'
       - title: Agentic Incident Triage Engine
         link: "#"
-        tagline: 'Designed a serverless AIOps observability pipeline on GCP Cloud Run and Vertex AI. Integrates telemetry across Datadog, AWS S3, ServiceNow, and Google Data Platform. Automatically ingests distributed logs, performs real-time root-cause analysis (RCA), and drafts remediation PRs to compress MTTR from hours to minutes.'
-      - title: Customer Self-Service Portal & API Automation
+        tagline: 'Designed a serverless AIOps observability pipeline on GCP Cloud Run, Vertex AI Search, and Chroma vector DB. Integrates telemetry across Datadog, AWS S3, ServiceNow, and Google Data Platform. Automatically ingests distributed logs, performs semantic retrieval and real-time root-cause analysis (RCA), and drafts remediation PRs to compress MTTR from hours to minutes.'
+      - title: Customer Self-Service Portal & Text-to-SQL Automation
         link: "#"
-        tagline: 'Built an automated self-service portal in ServiceNow integrated with Guidewire PolicyCenter APIs via secure webhook pipelines. Automates business requests (user provisioning, data extracts, configuration updates) with end-to-end authentication and ticket status callbacks, slashing processing time from days to under 1 minute.'
+        tagline: 'Built an automated self-service portal in ServiceNow integrated with Guidewire PolicyCenter APIs and BigQuery via secure webhook pipelines. Developed an automated Text-to-SQL AI skill translating natural language business inquiries into BigQuery SQL for instant data extraction, slashing request fulfillment time from days to under 1 minute.'
       - title: GitHub Migration
         link: "#"
         tagline: 'Led the migration from legacy Bitbucket and Jenkins to GitHub Enterprise. Successfully migrated code repositories, converted Jenkins CI/CD pipelines to reusable GitHub Actions workflows, and structured team hierarchies with least-privilege access to safely decommission legacy infrastructure.'
@@ -143,7 +143,7 @@ skills:
         text: Python, Java, C#, Powershell, SQL, Gosu, REST & GraphQL APIs, GitHub Actions, Jenkins
       - name: Data Storage, Performance & Reliability
         level: 90
-        text: PostgreSQL, BigQuery, S3, GCS, Concurrency & Deadlock Mitigation, Index Optimization, High Availability Clustering, Query Profiling, Kafka
+        text: PostgreSQL, Azure Cosmos DB, BigQuery, Chroma, S3, GCS, Concurrency & Deadlock Mitigation, Index Optimization, Multi-AZ High Availability, Query Profiling, Kafka
       - name: AIOps & Platform Engineering
         level: 90
-        text: Internal Developer Platforms (IDP), Agentic Workflows, Release Gating Agents, MLOps (MLflow, Evidently), Drift Monitoring, Self-Service Automation
+        text: Internal Developer Platforms (IDP), Agentic Workflows, Vertex AI Search, Text-to-SQL Automation, Release Gating Agents, MLOps (MLflow, Evidently), Drift Monitoring, Self-Service Automation
