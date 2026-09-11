@@ -109,7 +109,7 @@ experiences:
           - <strong style="color: #666666;">Internal Tooling & 3D Visualization:</strong> Artists and engineers could not natively preview 3D model files within enterprise documentation. Designed and deployed custom confluence addons that rendered 3D graphic formats directly inside internal docs, bridging communication gaps and simplifying asset reviews across teams.
 projects:
     title: Projects
-    intro: >
+    intro: ""
     assignments:
       - title: Ops-to-SRE Cultural & Platform Transformation
         link: "#"
