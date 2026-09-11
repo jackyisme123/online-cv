@@ -130,11 +130,11 @@ jobs:
               <h1>Select CV Profile</h1>
               <p class="sub">Please choose a resume version to view:</p>
               <div class="card-list">
-                <a class="cv-card" href="./sre/">
+                <a class="cv-card" href="./sre/index.html">
                   <div class="cv-title">⚙️ Senior Site Reliability & Software Engineer</div>
                   <div class="cv-desc">Focused on Cloud Infrastructure, SRE transformation, Observability, and AIOps.</div>
                 </a>
-                <a class="cv-card" href="./fde/">
+                <a class="cv-card" href="./fde/index.html">
                   <div class="cv-title">🚀 Forward Deployed Engineer & Platform</div>
                   <div class="cv-desc">Focused on AI Enablement, Rapid MVP Prototyping, and Business Systems Architecture.</div>
                 </a>
