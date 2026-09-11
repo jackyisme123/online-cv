@@ -43,19 +43,17 @@ jobs:
 
           mkdir -p ./_site
 
+          # Extract worktrees for each branch
+          git worktree add /tmp/sre-site origin/SRE-CV
+          git worktree add /tmp/fde-site origin/FDE-CV
+
           # 1. Build SRE site
           echo "Building SRE-CV..."
-          git checkout SRE-CV
-          bundle exec jekyll build --baseurl "${BASE_PREFIX}/sre" --destination "./_site/sre"
-          git reset --hard
-          git clean -fd
+          bundle exec jekyll build --source /tmp/sre-site --destination ./_site/sre --baseurl "${BASE_PREFIX}/sre"
 
           # 2. Build FDE site
           echo "Building FDE-CV..."
-          git checkout FDE-CV
-          bundle exec jekyll build --baseurl "${BASE_PREFIX}/fde" --destination "./_site/fde"
-          git reset --hard
-          git clean -fd
+          bundle exec jekyll build --source /tmp/fde-site --destination ./_site/fde --baseurl "${BASE_PREFIX}/fde"
 
           # 3. Create Root Landing page
           cat << 'EOF' > ./_site/index.html
