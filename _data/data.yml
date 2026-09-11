@@ -107,7 +107,7 @@ experiences:
           - <strong style="color: #666666;">Asset Pipeline Automation:</strong> Production tools lacked seamless integration with internal asset tracking systems, causing manual overhead for creative teams. I built container-based plugins and automation scripts to integrate production workflows directly with internal asset management APIs, streamlining asset tracking across projects.
 projects:
     title: Projects
-    intro: >
+    intro: ""
     assignments:
       - title: Release Whisperer AI Agent
         link: "#"
