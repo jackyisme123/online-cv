@@ -41,29 +41,19 @@ jobs:
           set -e
           BASE_PATH="${{ steps.pages.outputs.base_path }}"
           BASE_PREFIX="${BASE_PATH%/}"
-          DEST_DIR="${GITHUB_WORKSPACE}/_site"
 
-          mkdir -p "${DEST_DIR}"
+          # 1. Build SRE site directly from SRE-CV branch (exact working method)
+          echo "Building SRE-CV..."
+          git checkout SRE-CV
+          bundle exec jekyll build --baseurl "${BASE_PREFIX}/sre" --destination "./_site/sre" --trace
 
-          # Ensure all remote branch refs are present
-          git fetch origin +refs/heads/*:refs/remotes/origin/*
-
-          # Extract clean branch archives
-          rm -rf /tmp/sre-site /tmp/fde-site
-          mkdir -p /tmp/sre-site /tmp/fde-site
-          git archive origin/SRE-CV | tar -x -C /tmp/sre-site
-          git archive origin/FDE-CV | tar -x -C /tmp/fde-site
-
-          # 1. Build SRE site
-          echo "Building SRE-CV into ${DEST_DIR}/sre..."
-          bundle exec jekyll build --source /tmp/sre-site --destination "${DEST_DIR}/sre" --baseurl "${BASE_PREFIX}/sre"
-
-          # 2. Build FDE site
-          echo "Building FDE-CV into ${DEST_DIR}/fde..."
-          bundle exec jekyll build --source /tmp/fde-site --destination "${DEST_DIR}/fde" --baseurl "${BASE_PREFIX}/fde"
+          # 2. Build FDE site directly from FDE-CV branch
+          echo "Building FDE-CV..."
+          git checkout FDE-CV
+          bundle exec jekyll build --baseurl "${BASE_PREFIX}/fde" --destination "./_site/fde" --trace
 
           # 3. Create Root Landing page
-          cat << 'EOF' > "${DEST_DIR}/index.html"
+          cat << 'EOF' > ./_site/index.html
           <!DOCTYPE html>
           <html lang="en">
           <head>
