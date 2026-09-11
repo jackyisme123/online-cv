@@ -46,6 +46,9 @@ jobs:
 
           mkdir -p "${DEST_DIR}"
 
+          # Fetch all remote branches explicitly
+          git fetch origin +refs/heads/*:refs/remotes/origin/*
+
           # Extract clean branch archives to avoid worktree or branch locking conflicts
           rm -rf /tmp/sre-site /tmp/fde-site
           mkdir -p /tmp/sre-site /tmp/fde-site
