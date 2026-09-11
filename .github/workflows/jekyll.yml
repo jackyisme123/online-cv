@@ -36,27 +36,30 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build SRE and FDE Jekyll sites
+        env:
+          JEKYLL_ENV: production
         run: |
           set -e
           BASE_PATH="${{ steps.pages.outputs.base_path }}"
           BASE_PREFIX="${BASE_PATH%/}"
+          DEST_DIR="$(pwd)/_site"
 
-          mkdir -p ./_site
+          mkdir -p "${DEST_DIR}"
 
           # Extract worktrees for each branch
           git worktree add /tmp/sre-site origin/SRE-CV
           git worktree add /tmp/fde-site origin/FDE-CV
 
           # 1. Build SRE site
-          echo "Building SRE-CV..."
-          bundle exec jekyll build --source /tmp/sre-site --destination ./_site/sre --baseurl "${BASE_PREFIX}/sre"
+          echo "Building SRE-CV into ${DEST_DIR}/sre..."
+          bundle exec jekyll build --source /tmp/sre-site --destination "${DEST_DIR}/sre" --baseurl "${BASE_PREFIX}/sre"
 
           # 2. Build FDE site
-          echo "Building FDE-CV..."
-          bundle exec jekyll build --source /tmp/fde-site --destination ./_site/fde --baseurl "${BASE_PREFIX}/fde"
+          echo "Building FDE-CV into ${DEST_DIR}/fde..."
+          bundle exec jekyll build --source /tmp/fde-site --destination "${DEST_DIR}/fde" --baseurl "${BASE_PREFIX}/fde"
 
           # 3. Create Root Landing page
-          cat << 'EOF' > ./_site/index.html
+          cat << 'EOF' > "${DEST_DIR}/index.html"
           <!DOCTYPE html>
           <html lang="en">
           <head>
@@ -124,7 +127,7 @@ jobs:
               .cv-desc {
                 font-size: 13px;
                 color: #586069;
-                line-height: 1.4;
+                line-line: 1.4;
               }
             </style>
           </head>
@@ -146,6 +149,11 @@ jobs:
           </body>
           </html>
           EOF
+
+          echo "Build complete. Artifacts:"
+          ls -la "${DEST_DIR}"
+          ls -la "${DEST_DIR}/sre"
+          ls -la "${DEST_DIR}/fde"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
