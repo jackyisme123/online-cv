@@ -2,7 +2,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: ["SRE-CV"]
+    branches: ["master", "FDE-CV", "SRE-CV"]
   workflow_dispatch:
 
 permissions:
@@ -18,8 +18,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -32,10 +34,125 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --trace
+      - name: Build SRE and FDE Jekyll sites
         env:
           JEKYLL_ENV: production
+        run: |
+          set -e
+          BASE_PATH="${{ steps.pages.outputs.base_path }}"
+          BASE_PREFIX="${BASE_PATH%/}"
+          DEST_DIR="${GITHUB_WORKSPACE}/_site"
+
+          mkdir -p "${DEST_DIR}"
+
+          # Ensure all remote branch refs are present
+          git fetch origin +refs/heads/*:refs/remotes/origin/*
+
+          # Extract clean branch archives
+          rm -rf /tmp/sre-site /tmp/fde-site
+          mkdir -p /tmp/sre-site /tmp/fde-site
+          git archive origin/SRE-CV | tar -x -C /tmp/sre-site
+          git archive origin/FDE-CV | tar -x -C /tmp/fde-site
+
+          # 1. Build SRE site
+          echo "Building SRE-CV into ${DEST_DIR}/sre..."
+          bundle exec jekyll build --source /tmp/sre-site --destination "${DEST_DIR}/sre" --baseurl "${BASE_PREFIX}/sre"
+
+          # 2. Build FDE site
+          echo "Building FDE-CV into ${DEST_DIR}/fde..."
+          bundle exec jekyll build --source /tmp/fde-site --destination "${DEST_DIR}/fde" --baseurl "${BASE_PREFIX}/fde"
+
+          # 3. Create Root Landing page
+          cat << 'EOF' > "${DEST_DIR}/index.html"
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Yuan Cui - Online CV</title>
+            <style>
+              body {
+                margin: 0;
+                padding: 0;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                background: #f4f6f9;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                color: #24292e;
+              }
+              .container {
+                background: #ffffff;
+                padding: 40px 32px;
+                border-radius: 12px;
+                box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+                max-width: 500px;
+                width: 90%;
+                text-align: center;
+              }
+              h1 {
+                margin: 0 0 8px 0;
+                font-size: 26px;
+                color: #1a1f2c;
+              }
+              p.sub {
+                margin: 0 0 28px 0;
+                color: #586069;
+                font-size: 15px;
+              }
+              .card-list {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+              }
+              .cv-card {
+                display: block;
+                text-decoration: none;
+                padding: 18px 20px;
+                border-radius: 8px;
+                border: 1px solid #e1e4e8;
+                background: #fdfdfd;
+                transition: all 0.2s ease;
+                text-align: left;
+              }
+              .cv-card:hover {
+                border-color: #0366d6;
+                background: #f0f6fc;
+                transform: translateY(-2px);
+                box-shadow: 0 4px 12px rgba(3,102,214,0.12);
+              }
+              .cv-title {
+                font-size: 16px;
+                font-weight: 600;
+                color: #0366d6;
+                margin-bottom: 4px;
+              }
+              .cv-desc {
+                font-size: 13px;
+                color: #586069;
+                line-height: 1.4;
+              }
+            </style>
+          </head>
+          <body>
+            <div class="container">
+              <h1>Select CV Profile</h1>
+              <p class="sub">Please choose a resume version to view:</p>
+              <div class="card-list">
+                <a class="cv-card" href="./sre/">
+                  <div class="cv-title">⚙️ Senior Site Reliability & Software Engineer</div>
+                  <div class="cv-desc">Focused on Cloud Infrastructure, SRE transformation, Observability, and AIOps.</div>
+                </a>
+                <a class="cv-card" href="./fde/">
+                  <div class="cv-title">🚀 Forward Deployed Engineer & Platform</div>
+                  <div class="cv-desc">Focused on AI Enablement, Rapid MVP Prototyping, and Business Systems Architecture.</div>
+                </a>
+              </div>
+            </div>
+          </body>
+          </html>
+          EOF
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
