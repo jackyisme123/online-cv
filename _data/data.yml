@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Yuan Cui
     tagline: Senior Site Reliability & Software Engineer
-    location: Christchurch, New Zealand (Open to Relocation to Munich, Germany)
+    location: Christchurch, New Zealand
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -53,7 +53,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Site Reliability & Software Engineer with 8 years of experience building software, running cloud operations, and keeping production systems stable. Currently driving AI projects, agentic workflows, and LLMOps solutions as an AI Activator. Comfortable diving deep into code and data to debug complex production outages, unblock customers fast, and manage on-call operations across on-prem and cloud. Passionate about sharpening system observability through clean, structured logging and dashboards that actually point to the problem. Focuses on bridging Dev and Ops by writing code that cuts out repetitive toil, from building internal automation tools and CI/CD release gates to setting up AI incident triage pipelines that speed up root-cause analysis and bring down MTTR.
+      Site Reliability & Software Engineer with 8 years of experience across financial services and enterprise insurance, specializing in developer platforms, CI/CD automation, and production reliability. Proven track record executing GitHub migrations, building and maintaining team-level GitHub repositories and Actions workflows, and delivering self-service platform automation (including MCP servers and automated release gates). Deep background in SRE practices, cloud infrastructure (AWS/GCP, Terraform), and end-to-end observability (OpenTelemetry, Datadog, Splunk) to reduce developer friction and ensure resilience and stability in highly regulated environments.
 
 education:
     title: Education & Certificates
@@ -88,7 +88,7 @@ experiences:
         time: Aug 2023 - Present
         company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">Ops-to-SRE Cultural & Platform Transformation:</strong> Led a strategic initiative transitioning legacy operations from reactive ticket firefighting into a proactive, software-driven SRE model. Coached team members through PR reviews, CI/CD automation, and runbook-as-code practices, establishing clear operational standards on reliability engineering and observability. This eliminated over 1,000 hours of operational toil per year across the engineering domain.
+          - <strong style="color: #666666;">Ops-to-SRE Cultural & Platform Transformation:</strong> Led a strategic initiative transitioning legacy operations from reactive ticket firefighting into a proactive, software-driven SRE model. Coached team members through PR reviews, team GitHub Actions CI/CD automation, branching standards, and runbook-as-code practices, establishing clear operational guardrails on reliability and observability. This eliminated over 1,000 hours of operational toil per year across the engineering domain.
           - <strong style="color: #666666;">AIOps Incident Triage Engine:</strong>  Addressed slow business-as-usual (BAU) issue resolution caused by fragmented telemetry and isolated systems. Designed and deployed an agentic triage system that pulls context across external telemetry and documentation sources, runs iterative analysis loops to pinpoint root causes, and drafts safe remediation PRs, taking average triage time down from hours to just minutes.
           - <strong style="color: #666666;">Customer Self-Service Portal & Text-to-SQL Automation:</strong> Transformed unstructured business requests (like data extracts, user access, and config updates) into an automated self-service portal. Engineered an AI skill to automatically convert natural language business requests into validated SQL for querying BigQuery data warehouses, while connecting directly with Guidewire PolicyCenter APIs and automatically updating ServiceNow tickets upon completion. Cut request fulfillment time from several business days to under a minute while eliminating manual overhead.
           - <strong style="color: #666666;">Production Oncall Response & Blameless Postmortems:</strong> Maintained 24/7 Tier-1 and 2 on-call coverage and collaborated on Tier-3 incident bridge calls to expedite troubleshooting and resolution for core services. Facilitated blameless postmortems to uncover root causes, establishing action items and partnering with engineering teams to roll out permanent architectural fixes.
@@ -98,9 +98,9 @@ experiences:
         time: 2018 - 2023
         company: FIS (Fortune 500 Financial Technology Leader), Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">Asset Finance Monolith & Customization:</strong> Joined through the graduate rotation program, working across support, delivery, release management, and DevOps before stepping into full-stack development. Built and maintained features for our core asset finance platform handling rating and billing for global clients like HSBC, BMW, and Toyota, delivering tailored client customizations through reusable plugins.
-          - <strong style="color: #666666;">Algorithm & Database Performance Optimization:</strong> Tackled key performance bottlenecks in a high-volume financial environment. Optimized heavy rating calculations by introducing a lightweight pre-calculation method, cutting execution time from 1 minute down to 20 seconds. Resolved database indexing and concurrency issues to keep transaction processing fast and reliable under load.
-          - <strong style="color: #666666;">Quality Engineering & Developer Enablement:</strong> Maintained platform stability across Dev, Test, and UAT environments using automated test suites. Built internal tools, automation plugins, and practical documentation to streamline team delivery and onboarding, while mentoring junior engineers and new graduates.
+          - <strong style="color: #666666;">Asset Finance & Banking Platform Engineering:</strong> Joined through the graduate rotation program, working across support, delivery, release management, and DevOps before stepping into full-stack C#/.NET development. Built and maintained features for our core asset finance and banking platform handling rating and billing for global tier-1 financial clients like HSBC, BMW, and Toyota, delivering tailored client customizations and enterprise packaging (MSBuild, NuGet).
+          - <strong style="color: #666666;">Algorithm & Database Performance Optimization:</strong> Tackled key performance bottlenecks in a high-volume financial transaction environment. Optimized heavy rating calculations by introducing a lightweight pre-calculation method, cutting execution time from 1 minute down to 20 seconds. Resolved database indexing and concurrency issues to keep transaction processing fast and reliable under load.
+          - <strong style="color: #666666;">Quality Engineering, CI/CD & Developer Enablement:</strong> Maintained platform stability across Dev, Test, and UAT environments using automated test suites and CI/CD pipelines. Built internal tools, automation plugins, and practical documentation to streamline team delivery and onboarding, while mentoring junior engineers and new graduates.
       - role: Software Engineering Intern
         time: 2017 - 2018 (3 months)
         company: Weta Workshop (Academy Award-Winning Studio), Wellington, New Zealand
@@ -125,25 +125,25 @@ projects:
         tagline: 'Architected an automated release verification agent integrated with ServiceNow APIs and Atlassian MCP Server. Cross-references release artifacts, change records, and test evidence against live systems. Flags discrepancies and enforces production guardrails to eliminate audit risks.'
       - title: GitHub Migration
         link: "#"
-        tagline: 'Led the migration from legacy Bitbucket and Jenkins to GitHub Enterprise. Successfully migrated code repositories, converted Jenkins CI/CD pipelines to reusable GitHub Actions workflows, and structured team hierarchies with least-privilege access to safely decommission legacy infrastructure.'
+        tagline: 'Led the team migration from legacy Bitbucket and Jenkins to GitHub Enterprise. Successfully migrated code repositories, converted Jenkins CI/CD pipelines to GitHub Actions workflows, established branching strategies, and configured repository access controls to safely decommission legacy infrastructure.'
       - title: Incident Classification MLOps Pipeline (Side Project)
         link: "#"
         tagline: 'Built an end-to-end MLOps pipeline (MLflow, Docker, GitHub Actions, Evidently, Grafana) to compare classical machine learning against local LLMs (Ollama / Llama) for support ticket classification. Evaluated latency and accuracy trade-offs while implementing automated experiment tracking, containerized inference, and real-time data drift monitoring.'
 skills:
     title: Core Competencies & Tech Stack
     toolset:
-      - name: Cloud, Infrastructure & Containers
+      - name: Developer Platforms & CI/CD
         level: 95
-        text: AWS, GCP, Kubernetes, Docker, Terraform, Windows Server
-      - name: Observability, SRE & Incident Management
+        text: GitHub Enterprise, GitHub Actions, Azure DevOps, Jenkins, Branching Strategies, Release Management, MSBuild, NuGet, Containerized Builds
+      - name: Platform Engineering & Enablement
         level: 95
-        text: Datadog, OpenTelemetry, Prometheus, Grafana, New Relic, Splunk, SLOs/SLIs, Error Budgets, Incident Response & On-Call, Root Cause Analysis, Postmortems, MTTR Reduction, Structlog
-      - name: Software Engineering & CI/CD
+        text: Internal Developer Platforms (IDP), MCP Servers, Self-Service Automation, Terraform (IaC), Docker, Kubernetes, ServiceNow APIs, Platform Governance
+      - name: Observability, SRE & Incident Response
+        level: 95
+        text: Datadog, OpenTelemetry, Splunk, Prometheus, Grafana, SLOs/SLIs, Error Budgets, Incident Response & On-Call, Root Cause Analysis, Blameless Postmortems, MTTR Reduction, Structlog
+      - name: Cloud, Data & Infrastructure
+        level: 90
+        text: AWS, GCP, PostgreSQL, Azure Cosmos DB, BigQuery, Chroma, S3, GCS, Concurrency & Deadlock Mitigation, Index Optimization, Multi-AZ High Availability, Kafka
+      - name: Programming & Integration
         level: 92
-        text: Python, Java, C#, Powershell, SQL, Gosu, REST & GraphQL APIs, GitHub Actions, Jenkins
-      - name: Data Storage, Performance & Reliability
-        level: 90
-        text: PostgreSQL, Azure Cosmos DB, BigQuery, Chroma, S3, GCS, Concurrency & Deadlock Mitigation, Index Optimization, Multi-AZ High Availability, Query Profiling, Kafka
-      - name: AIOps & Platform Engineering
-        level: 90
-        text: Internal Developer Platforms (IDP), Agentic Workflows, Gemini, ADK, Vertex AI Search, Text-to-SQL Automation, Release Gating Agents, MLOps (MLflow, Evidently), Drift Monitoring, Self-Service Automation
+        text: Python, C#, .NET, Java, PowerShell, Bash, SQL, Gosu, REST & GraphQL APIs
