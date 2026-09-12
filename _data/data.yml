@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Yuan Cui
     tagline: Platform Engineer & SRE
-    location: Christchurch, New Zealand (Open to Relocation to Amsterdam, Netherlands)
+    location: Christchurch, New Zealand (Open to Relocation to Munich, Germany)
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -34,7 +34,7 @@ sidebar:
       title: Languages
       info:
         - idiom: English
-          level: Professional
+          level: Fluent
 
         - idiom: Mandarin
           level: Native
@@ -60,7 +60,7 @@ education:
     info:
       - degree: Graduate Diploma with Distinction in Computer Science
         university: University of Canterbury (New Zealand)
-        time: 2017 - 2019
+        time: 2017 - 2018
 
       - degree: MBA
         university: Tianjin University (China)
@@ -89,8 +89,8 @@ experiences:
         company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
         details: |
           - <strong style="color: #666666;">Ops-to-SRE Team Transformation:</strong> Led a 6-month initiative transitioning legacy operations to an SRE model. Researched industry latest trends and peer practices, and partnered with the enterprise architect and career development manager to define the new team's roles and responsibilities. Aligned key stakeholders weekly on clear boundaries between Dev and SRE teams, and presented the roadmap to senior management via slide decks and live demos. Built a software-focused SRE team, coached members through their first merged PR, and published runbooks on SRE principles and AI best practices. The team eliminated over 1,000 hours of operational toil per year.
-          - <strong style="color: #666666;">Agentic AI Incident Triage (MVP / Architecture Initiative):</strong> Slow incident investigation was costing everyone. Ops teams lost hours gathering data from multiple systems before producing accurate RCAs. Dev teams reworked code due to incomplete or delayed handoffs. To address this, I architected and built a functional local MVP for an Agentic Incident Triage Engine using agentic workflows (Gemini, Cloud Run, Vertex AI, vector database). Designed multi-system API integrations (ServiceNow, Datadog, Salesforce, Guidewire Cloud, AWS S3, Google Data Platform) to fetch logs and context, executing automated root-cause analysis and generating draft remediation PRs within strict AI safety boundaries. The local MVP has been adopted and used widely across our operations team to streamline investigations, while full enterprise production rollout remains in progress due to existing tool harness constraints and security boundaries. The initiative successfully proved that multi-system log enrichment accelerates incident triage from hours down to minutes, laying the architectural blueprint for future team AI tooling.
-          - <strong style="color: #666666;">Business Workflow Data Automation:</strong> Brokers needed codes to access our system. The previous process required ops to interpret business requests and manually upload spreadsheets into the system to generate the required codes.. Same ID can be used in separate spreadsheets that updated by both Dev and Ops teams, so mistakes were easy to make and hard to spot. Limited logging meant investigating an issue required manual database queries. Slow processing meant brokers might leave for faster competitors. I automated the end-to-end workflow. A Python engine translates business request to Gosu script automatically. Ops approves it before it runs. The approach uses a built-in function that safely increments the public ID. Comprehensive logging at script runtime surfaces any data issues immediately, so manual database digging is no longer needed. Processing time dropped from hours or days to under 10 minutes per request.
+          - <strong style="color: #666666;">Agentic AI Incident Triage (MVP / Architecture Initiative):</strong> Slow incident investigation was costing everyone. Ops teams lost hours gathering data from multiple systems before producing accurate RCAs. Dev teams reworked code due to incomplete or delayed handoffs. To address this, I architected and built a functional local MVP for an Agentic Incident Triage Engine using agentic workflows (Gemini, Cloud Run, Vertex AI, vector database). Designed multi-system API integrations (ServiceNow, Datadog, Salesforce, Guidewire Cloud, AWS S3, BigQuery) to fetch logs and context, executing automated root-cause analysis and generating draft remediation PRs within strict AI safety boundaries. The local MVP has been adopted and used widely across our operations team to streamline investigations, while full enterprise production rollout remains in progress due to existing tool harness constraints and security boundaries. The initiative successfully proved that multi-system log enrichment accelerates incident triage from hours down to minutes, laying the architectural blueprint for future team AI tooling.
+          - <strong style="color: #666666;">Business Workflow Data Automation:</strong> Brokers needed codes to access our system. The previous process required ops to interpret business requests and manually upload spreadsheets into the system to generate the required codes. Same ID can be used in separate spreadsheets that updated by both Dev and Ops teams, so mistakes were easy to make and hard to spot. Limited logging meant investigating an issue required manual database queries. Slow processing meant brokers might leave for faster competitors. I automated the end-to-end workflow. A Python engine translates business request to Gosu script automatically. Ops approves it before it runs. The approach uses a built-in function that safely increments the public ID. Comprehensive logging at script runtime surfaces any data issues immediately, so manual database digging is no longer needed. Processing time dropped from hours or days to under 10 minutes per request.
           - <strong style="color: #666666;">AI Governance & Pre-Release Quality:</strong> Every release required reviewing four related documents, covering both technical details and paperwork. Ops checked service versions, test results, management sign-offs, configuration items, release timing, and stakeholder contacts. Release managers reviewed the same material with their own focus on release notes and test results. Platform managers could not sign off until every other team had already signed theirs. A big risk was raised by an external audit. A release had been signed off while a test document remained unsigned. I built an AI agent that automatically reviews and cross-validates release documents against our data systems. It finds issues early and generates an HTML report flagging each item with a confidence level, keeping a human in the loop. When confidence is low, a second agent challenges the outcome. Ops review time dropped from 30 minutes to 5, and releases now match auditing regulation standards.
       - role: Full Stack Software Engineer
         time: 2018 - 2023
@@ -114,7 +114,7 @@ projects:
         tagline: 'Architected and deployed a GenAI agent on an internal enterprise platform (GenAI, Service Now API, Atlassian MCP server). Cross-references release documentation, change tickets, and test evidence. Automatically flags pre-deployment discrepancies like wrong build numbers and missing approvals, significantly reducing release risk and audit overhead.'
       - title: Agentic Incident Triage Engine
         link: "#"
-        tagline: 'Designed an automated triage and data enrichment system using agentic workflows (Gemini, Cloud Run, Vertex AI, vector database). Integrates multi-system APIs (ServiceNow, Datadog, Salesforce, Guidewire Cloud, AWS S3, Google Data Platform) to fetch logs and context, executing automated root-cause analysis and generating draft remediation PRs within strict AI safety boundaries.'
+        tagline: 'Designed an automated triage and data enrichment system using agentic workflows (Gemini, Cloud Run, Vertex AI, vector database). Integrates multi-system APIs (ServiceNow, Datadog, Salesforce, Guidewire Cloud, AWS S3, Big Query) to fetch logs and context, executing automated root-cause analysis and generating draft remediation PRs within strict AI safety boundaries.'
       - title: Enterprise Self-Service Portal & AI Data Query Engine
         link: "#"
         tagline: 'Engineered an extensible self-service framework enabling authorized business users to independently execute user account changes, commission updates, and Guidewire PolicyCenter configuration updates. Continuously expanded to handle new business workflows, integrated with enterprise identity systems and ServiceNow APIs for automated entitlement checks, with future plans to introduce AI capabilities for handling complex business data extract requests.'
@@ -141,4 +141,4 @@ skills:
         text: Enterprise IAM, HashiCorp Vault, OAuth 2.0 / SSO, Least-Privilege RBAC, PII Data Masking
       - name: API & Integration Engineering
         level: 88
-        text: REST, GraphQL & SOAP APIs, API Gateways (MuleSoft), Multi-System Integrations (ServiceNow, Salesforce, Guidewire, Datadog, GitHub & Atlassian MCP Servers, GitHub Copilot SDK, Google Data Platform SDK)
+        text: REST, GraphQL & SOAP APIs, API Gateways (MuleSoft), Multi-System Integrations (ServiceNow, Salesforce, Guidewire, Datadog, GitHub & Atlassian MCP Servers, GitHub Copilot SDK, AWS & GCP CLI)
