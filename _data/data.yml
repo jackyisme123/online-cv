@@ -138,7 +138,7 @@ skills:
         text: REST, GraphQL & SOAP APIs, API Gateways (MuleSoft), Multi-System Integrations (Guidewire Cloud, ServiceNow, Salesforce, Datadog, GitHub & Atlassian MCP Servers, GitHub Copilot SDK)
       - name: Observability, Reliability & Incident Management
         level: 92
-        text: Datadog, New Relic, Automated Alerting, Root-Cause Analysis (RCA) & Postmortems, On-Call & Incident Response, Service-Level Recovery
+        text: Datadog, New Relic, Grafana, Alerting and Auto Ticketing, Root-Cause Analysis & Postmortems, On-Call & Incident Response, Service-Level Recovery
       - name: Security & Compliance
         level: 88
         text: Enterprise IAM, HashiCorp Vault, OAuth 2.0 / SSO, Least-Privilege RBAC, PII Data Masking
