@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Yuan Cui
-    tagline: Platform Engineer & SRE
+    tagline: Site Reliability Engineer & AI Solutions
     location: Christchurch, New Zealand (Open to Relocation to Munich, Germany)
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -53,7 +53,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Senior Platform Engineer with 8 years of combined software engineering and SRE experience. Currently leading AI enablement as an internal AI Activator at IAG, partnering directly with Underwriting, Support, and Operations teams to eliminate operational toil through rapid MVP prototyping and agentic AI automation. I architect end-to-end solutions across cloud, on-prem, and local environments, translating complex business workflows into extendable, self-service and resilient applications, supported by robust platform architectures.
+      Senior Engineer with 8 years of software and site reliability engineering experience across Insurance and FinTech. Operating in a forward-deployed capacity as an internal AI & Automation Activator at IAG, partnering directly with Underwriting, Customer Support, and Operations teams to translate business pain points into rapid AI prototypes, deterministic automations, and reusable platform components.
 
 education:
     title: Education & Certificates
@@ -84,7 +84,7 @@ education:
 experiences:
     title: Working Experiences
     info:
-      - role: Platform Engineer & SRE
+      - role: Operations & SRE (Internal AI Activator)
         time: Aug 2023 - Present
         company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
         details: |
@@ -124,21 +124,21 @@ projects:
 skills:
     title: Core Competencies & Tech Stack
     toolset:
-      - name: Observability, Reliability & Incident Management
+      - name: AI & Intelligent Automation
         level: 95
-        text: Datadog, New Relic, Automated Alerting, Root-Cause Analysis (RCA) & Postmortems, On-Call & Incident Response, Service-Level Recovery
+        text: LLM Applications, GenAI Agents, Agentic Workflows, Prompt & Harness & Loop Engineering, Vector Databases
+      - name: Languages & Software Engineering
+        level: 92
+        text: Python, Java, Gosu, C# / .NET, TypeScript, SQL, PowerShell, Selenium
       - name: Cloud, CI/CD & Platform Engineering
         level: 95
         text: AWS, GCP, Kubernetes, Docker, GitHub Actions, Jenkins, Terraform
-      - name: AI & Automation
-        level: 92
-        text: LLM Applications, GenAI Agents, Agentic Workflows, Prompt & Harness & Loop Engineering
-      - name: Languages & Software Engineering
+      - name: API & Enterprise Integration
         level: 90
-        text: Python, Java, Gosu, C# / .NET, TypeScript, SQL, PowerShell, Selenium
+        text: REST, GraphQL & SOAP APIs, API Gateways (MuleSoft), Multi-System Integrations (Guidewire Cloud, ServiceNow, Salesforce, Datadog, GitHub & Atlassian MCP Servers, GitHub Copilot SDK)
+      - name: Observability, Reliability & Incident Management
+        level: 92
+        text: Datadog, New Relic, Automated Alerting, Root-Cause Analysis (RCA) & Postmortems, On-Call & Incident Response, Service-Level Recovery
       - name: Security & Compliance
         level: 88
         text: Enterprise IAM, HashiCorp Vault, OAuth 2.0 / SSO, Least-Privilege RBAC, PII Data Masking
-      - name: API & Integration Engineering
-        level: 88
-        text: REST, GraphQL & SOAP APIs, API Gateways (MuleSoft), Multi-System Integrations (ServiceNow, Salesforce, Guidewire, Datadog, GitHub & Atlassian MCP Servers, GitHub Copilot SDK, AWS & GCP CLI)
