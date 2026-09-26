@@ -21,7 +21,7 @@ A4-optimized print/PDF view.
 - **CI/CD deployment** — a GitHub Actions workflow builds and deploys the site to GitHub Pages on every push.
 - **Theme skins** — choose between 6 colour schemes (blue, turquoise, green, berry, orange, ceramic) in `_config.yml`.
 - **Local preview via Docker** — one command spins up a live-reload server.
-- **Dark, cross-platform installs** — requires only Docker (and optional Ruby for local hosting).
+- **Simple, cross-platform setup** — requires only Docker (and optional Ruby for local hosting).
 
 ---
 
@@ -195,8 +195,8 @@ Status badge: add a badge pointing to your Actions tab if you want one.
 |---|---|
 | Site doesn't change after editing `data.yml` | commit → the workflow triggers automatically; or run the build locally to confirm YAML is valid |
 | Layout breaks | check indentation in `data.yml` (YAML is strict; two-space indent for nesting) |
-| PDF shows the sidebar empty / wrong order | in printing, enable **Background graphics** (browser default turns off background colours) |
-| Local assets missing | make sure you already open `http://localhost:4000/online-cv/` (base url path) not the root |
+| PDF shows the sidebar empty / wrong order | when printing, enable **Background graphics** (browser default turns off background colours) |
+| Local assets missing | make sure you open `http://localhost:4000/online-cv/` (base URL path), not the root |
 | Gems fail to build | `bundle install` again with a Ruby 3.x (as used by the workflow) |
 
 ## Credits
