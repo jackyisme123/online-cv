@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Yuan Cui
     tagline: Platform Engineer & AI Solutions
-    location: Christchurch, New Zealand (Open to Relocation to Darmstadt, Germany)
+    location: Christchurch, New Zealand (Open to Relocation to Amsterdam, Netherlands)
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -96,7 +96,7 @@ experiences:
         time: 2018 - 2023
         company: FIS (Fortune 500 Financial Technology Leader), Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">Asset Finance Monolith & Customization:</strong> Joined through a graduate rotation program, spending time across customer support, delivery, release management, and DevOps teams before focusing on full-stack feature development. Worked on a massive asset finance monolith handling rating and billing for Tier 1 global clients such as HSBC, BMW, and Toyota. Built custom plugins following established patterns to safely deliver diverse client customizations.
+          - <strong style="color: #666666;">Asset Finance Monolith & Customization:</strong> Joined through a graduate rotation program, gaining end-to-end exposure across customer support, delivery, release management, and DevOps teams before focusing on full-stack feature development. Co-developed a low-code rule and workflow module for a massive asset finance platform handling rating and billing for Tier 1 global clients (e.g., HSBC, BMW, Toyota), empowering non-technical business analysts and clients to safely configure custom financial workflows and business rules with minimal code changes.
           - <strong style="color: #666666;">Algorithm & Database Performance Optimization:</strong> Resolved critical performance bottlenecks in a high-volume financial environment. Optimized heavy rating calculations by introducing a lightweight pre-calculation method, slashing execution time from 1 minute to 20 seconds. Addressed complex concurrency and database indexing issues to ensure reliable, high-speed transaction processing.
           - <strong style="color: #666666;">Quality Engineering & Engineering Enablement:</strong> Maintained rigorous platform stability across Dev, Test, and UAT environments using comprehensive test automation suites. Elevated team delivery and onboarding efficiency by creating internal tools, custom automation plugins, and documentation guides, while mentoring junior engineers and graduates.
       - role: Software Engineering Intern
@@ -126,7 +126,7 @@ skills:
     toolset:
       - name: AI & Intelligent Automation
         level: 95
-        text: LLM Applications, GenAI Agents, Agentic Workflows, Prompt, Harness & Loop Engineering, Vector Databases
+        text: LLM Applications, GenAI Agents, Agentic Workflows, Prompt, Harness & Loop Engineering, Vector Databases, Power Automate
       - name: Languages & Software Engineering
         level: 92
         text: Python, Java, Gosu, C# / .NET, TypeScript, SQL, PowerShell, Selenium
