@@ -41,8 +41,8 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: AI & Innovation
-        - item: NBA
+        - item: Continuous Learning & Tech
+        - item: NBA & Basketball
         - item: Hiking & Travel
     referee:
       title: References
@@ -70,9 +70,9 @@ education:
         university: Tianjin University of Technology
         time: 2004 - 2008
 
-      - degree: AWS Certified Solutions Architect – Associate
-        university: Amazon
-        time: 2023 - 2026
+      - degree: Guidewire Certified Ace – PolicyCenter Configuration
+        university: Guidewire
+        time: 2026 - 9999
 
       - degree: AWS Certified AI Practitioner
         university: Amazon
@@ -82,9 +82,9 @@ education:
         university: GitHub
         time: 2025 - 9999
 
-      - degree: Guidewire Certified Ace – PolicyCenter Configuration
-        university: Guidewire
-        time: 2026 - 9999
+      - degree: AWS Certified Solutions Architect – Associate
+        university: Amazon
+        time: 2023 - 2026
 experiences:
     title: Work Experience
     info:
@@ -110,6 +110,11 @@ experiences:
         details: |
           - <strong style="color: #666666;">Custom Plugin & Platform Extension:</strong> Creative asset pipeline limitations made it difficult to view 3D model files directly within enterprise documentation. To solve this, I developed custom wiki add-ons that rendered and displayed native 3D model formats directly within internal documentation pages.
           - <strong style="color: #666666;">Asset Pipeline Automation:</strong> Production tools lacked seamless integration with internal asset tracking systems, causing manual overhead for creative teams. I built container-based plugins and automation scripts to integrate production workflows directly with internal asset management APIs, streamlining asset tracking across projects.
+      - role: Working Holiday & International Transition
+        time: 2015 - 2016
+        company: New Zealand
+        details: |
+          - <strong style="color: #666666;">International Transition & Language Immersion:</strong> Relocated to New Zealand on a Working Holiday visa, developing professional English fluency and cross-cultural adaptability while preparing for academic transition into Computer Science.
       - role: Chemical Engineer (Part Leader)
         time: 2008 - 2014
         company: LG Chem (Global Fortune 500 Chemical & Materials Manufacturer), Tianjin, China
@@ -127,11 +132,11 @@ projects:
         tagline: 'Architected and deployed a GenAI agent on an internal enterprise platform (GenAI, ServiceNow API, Atlassian MCP server) to cross-reference release documentation, change tickets, and test evidence. Automatically flags pre-deployment discrepancies such as incorrect build numbers and missing approvals, significantly reducing release risk and audit overhead.'
       - title: Agentic Incident Triage Engine
         link: "#"
-        tagline: 'Designed an automated triage and data enrichment system using agentic workflows (Gemini, Cloud Run, Vertex AI, vector databases). Integrates multi-system APIs (ServiceNow, Datadog, Salesforce, Guidewire Cloud, AWS S3, BigQuery) to fetch logs and context, executing automated root-cause analysis and generating draft remediation PRs within strict AI safety boundaries.'
+        tagline: 'Designed an automated triage and operational enrichment system using agentic workflows (Gemini, Cloud Run, Vertex AI, vector databases). Engineered an internal FastMCP server integrated with developer tooling to fetch and update live ServiceNow incident records, while orchestrating multi-system APIs (Datadog, Salesforce, Guidewire Cloud, AWS S3, BigQuery) to accelerate root-cause analysis within strict AI safety boundaries.'
       - title: Enterprise Self-Service Portal & AI Data Query Engine
         link: "#"
         tagline: 'Engineered an extensible self-service framework enabling authorized business users to independently execute user account changes, commission updates, and Guidewire PolicyCenter configuration updates. Integrated with enterprise identity systems and ServiceNow APIs for automated entitlement checks. Built an MCP server to convert natural language queries into BigQuery SQL for complex business data extraction requests, with continuous iterations underway as part of future roadmap plans.'
-      - title: Incident Classification MLOps Pipeline (side project)
+      - title: Incident Classification & MLOps Drift Monitoring Pipeline
         link: "#"
         tagline: 'Built an end-to-end MLOps pipeline (MLflow, Docker, Flask, GitHub Actions, Evidently, Grafana) to benchmark and route support tickets instantly. Proved that classical supervised machine learning achieved superior inference speed and accuracy compared to local open-source LLMs. Implemented automated experiment tracking, containerized API serving, CI/CD deployment, and real-time drift monitoring for continuous model reliability.'
 skills:
@@ -139,13 +144,13 @@ skills:
     toolset:
       - name: AI & Intelligent Automation
         level: 95
-        text: LLM Applications, GenAI Agents, Agentic Workflows, FastMCP / MCP Tooling, RAG & LLM Wiki Architectures, Vector Databases, Power Automate
+        text: LLM Applications, GenAI Agents, Agentic Workflows, FastMCP / MCP Tooling, RAG & LLM Wiki Architectures, AI-Assisted Engineering (Claude 3.5 Sonnet, GitHub Copilot), Vector Databases, Power Automate
       - name: Languages & Software Engineering
         level: 92
         text: Python, Java, Gosu, C# / .NET, TypeScript, SQL, PowerShell, Selenium
       - name: Cloud, CI/CD & Platform Engineering
         level: 95
-        text: AWS, GCP, Kubernetes, Docker, GitHub Actions, Jenkins, Terraform
+        text: AWS, GCP, Azure, Kubernetes, Docker, GitHub Actions, Jenkins, Terraform
       - name: API & Enterprise Integration
         level: 90
         text: REST, GraphQL & SOAP APIs, API Gateways (MuleSoft), Multi-System Integrations (Guidewire Cloud, ServiceNow, Salesforce, Datadog, GitHub & Atlassian MCP Servers, GitHub Copilot SDK)
