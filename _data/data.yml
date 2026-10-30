@@ -92,9 +92,9 @@ experiences:
         time: Aug 2023 - Present
         company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">Incident Triage & Production Support:</strong> Lead end-to-end incident investigation and application support across enterprise core systems (Guidewire Cloud). Rapidly triage issues, applying direct code/data remediation for policy domain faults or coordinating precise handoffs to specialized billing, pricing, and document teams to minimize downtime.
+          - <strong style="color: #666666;">Incident Triage & Production Support:</strong> Lead end-to-end incident investigation and application support across enterprise core systems (Guidewire Cloud). Rapidly triage issues, applying direct code/data remediation for policy domain faults or coordinating precise handoffs to specialized billing, pricing, under writing and document teams to prevent SLA breaches and protect MTTR.
           - <strong style="color: #666666;">AI & Automation Solutions:</strong> Act as an internal automation activator, turning manual business requests and operational bottlenecks into software solutions—ranging from deterministic data-processing engines to production-tested GenAI agents (FastMCP, RAG & LLM Wiki architectures) for incident triage and release compliance.
-          - <strong style="color: #666666;">Enterprise Observability & Alerting:</strong> Build and maintain full-stack observability dashboards (Datadog, Grafana) and synthetic monitors; define proactive SLO/SLA alerting to detect upstream service anomalies before they impact customers.
+          - <strong style="color: #666666;">Enterprise Observability & Alerting:</strong> Build and maintain full-stack observability dashboards (Datadog) and synthetic monitors; define proactive SLO/SLA alerting to detect upstream service anomalies before they impact customers.
           - <strong style="color: #666666;">Release Governance & On-Call Operations:</strong> Manage scheduled production deployments, participate in primary 24/7 on-call rotations, and enforce automated pre-release checks to ensure zero-defect deployments under strict regulatory compliance.
           - <strong style="color: #666666;">Ops-to-SRE Cultural Transition:</strong> Spearheaded a team initiative transitioning legacy operations into an engineering-led SRE model; established clear team boundaries, runbooks, and code review practices, eliminating over 1,000 hours of manual toil per year.
       - role: Full Stack Software Engineer
@@ -157,6 +157,3 @@ skills:
       - name: Observability, Reliability & Incident Management
         level: 92
         text: Datadog, New Relic, Grafana, Alerting and Auto Ticketing, Root-Cause Analysis & Postmortems, On-Call & Incident Response, Service-Level Recovery
-      - name: Security & Compliance
-        level: 88
-        text: Enterprise IAM, HashiCorp Vault, OAuth 2.0 / SSO, Least-Privilege RBAC, PII Data Masking
