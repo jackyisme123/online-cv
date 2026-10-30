@@ -165,8 +165,13 @@
         }
         .print-experiences-title {
             display: block !important;
-            margin-top: 0;
-            margin-bottom: 6pt;
+            page-break-before: always !important;
+            break-before: page !important;
+            margin-top: 15pt !important;
+            padding-top: 8pt !important;
+            margin-bottom: 8pt !important;
+            page-break-after: avoid !important;
+            break-after: avoid !important;
         }
         .upper-row {
             margin-bottom: 1pt;

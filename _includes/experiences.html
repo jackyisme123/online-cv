@@ -10,17 +10,17 @@
   </h2>
 
   {% for experience in experiences.info %}
-  <div class="item">
+  {% if forloop.index == 4 or experience.page_break %}
+  <h2 class="section-title print-experiences-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ experiences.title }}
+  </h2>
+  {% endif %}
 
-    {% if forloop.index >= 99 %}
-    <h2 class="section-title print-experiences-title">
-      <span class="fa-stack fa-xs">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-      </span>
-      {{ experiences.title }}
-    </h2>
-    {% endif %}
+  <div class="item">
 
     <div class="meta">
 
