@@ -9,8 +9,8 @@ sidebar:
 
     # Profile information
     name: Yuan Cui
-    tagline: Platform Engineer & AI Solutions
-    location: Christchurch, New Zealand (Open to Relocation to Alkmaar, Netherlands)
+    tagline: Platform Engineer & AI Solutions | Enterprise Automation & Agentic Systems
+    location: Christchurch, New Zealand (Open to Relocation to Hamburg, Germany)
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -53,7 +53,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Senior Engineer with 8 years of software and platform reliability engineering experience across Insurance and FinTech. Operating in a forward-deployed capacity as an internal AI & Automation Activator at IAG, partnering directly with Underwriting, Customer Support, and Operations teams to translate business pain points into rapid AI prototypes, deterministic automations, and reusable platform components.
+      Senior Platform & AI Solutions Engineer with 14+ years of cross-disciplinary experience across enterprise software, platform reliability, and industrial engineering. Operating as an internal AI & Automation Activator at IAG, partnering directly with business leaders to build production AI agents, structured RAG / LLM Wiki knowledge systems, and FastMCP tool integrations to eliminate operational toil and accelerate decision-making.
 
 education:
     title: Education & Certificates
@@ -63,8 +63,12 @@ education:
         time: 2017 - 2018
 
       - degree: MBA
-        university: Tianjin University (China)
+        university: Tianjin University
         time: 2012 - 2014
+
+      - degree: Bachelor of Engineering in Chemical Engineering
+        university: Tianjin University of Technology
+        time: 2004 - 2008
 
       - degree: AWS Certified Solutions Architect – Associate
         university: Amazon
@@ -88,10 +92,11 @@ experiences:
         time: Aug 2023 - Present
         company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">Agentic AI Incident Triage:</strong> Slow incident investigations created major operational bottlenecks. Ops teams spent hours gathering data across multiple systems before producing accurate RCAs, while Dev teams faced rework due to incomplete handoffs. To address this, I architected and built a functional MVP for an Agentic Incident Triage Engine using agentic workflows (Gemini, Cloud Run, Vertex AI, vector databases). I designed multi-system API integrations (ServiceNow, Datadog, Salesforce, Guidewire Cloud, AWS S3, BigQuery) to fetch logs and context, automating root-cause analysis and generating draft remediation PRs within strict AI safety boundaries. Widely adopted across our operations team to streamline investigations, the MVP demonstrated that multi-system log enrichment accelerates incident triage from hours to minutes, establishing the architectural blueprint for enterprise AI tooling.
-          - <strong style="color: #666666;">AI Governance & Pre-Release Quality:</strong> Every release required reviewing four related compliance documents covering technical configurations and governance sign-offs across Ops, Release, and Platform management. Following an external audit that flagged critical compliance risks from unsigned test documentation, I built an AI agent that automatically reviews and cross-validates release documents against enterprise data systems. It detects discrepancies early and generates an HTML report flagging each item with a confidence score while keeping a human in the loop; when confidence is low, a second agent challenges the outcome. Ops review time dropped from 30 minutes to 5 minutes, ensuring consistent compliance with audit and regulatory standards.
-          - <strong style="color: #666666;">Business Workflow Data Automation:</strong> Brokers require authorization codes to access core systems, but the legacy workflow required Ops to manually interpret business requests and upload spreadsheets. The same ID could appear across separate spreadsheets updated by both Dev and Ops teams, making errors frequent and difficult to detect without tedious manual database queries. I automated the end-to-end workflow by building a Python engine that translates business requests into Gosu scripts for Ops verification and execution. The solution leverages built-in functions to safely increment public IDs and incorporates comprehensive runtime logging, eliminating manual database queries and reducing processing time from days to under 10 minutes per request.
-          - <strong style="color: #666666;">Ops-to-SRE Team Transformation:</strong> Led a 6-month initiative transitioning legacy operations to an SRE model. Researched the latest industry trends and peer practices, partnering with the enterprise architect and career development manager to define the new team's roles and responsibilities. Aligned key stakeholders weekly on clear boundaries between Dev and SRE teams, and presented the roadmap to senior management via executive presentations and live demos. Built a software-focused SRE team, coached members through their first merged pull requests, and published runbooks on SRE principles and AI best practices, eliminating over 1,000 hours of operational toil per year.
+          - <strong style="color: #666666;">Incident Triage & Production Support:</strong> Lead end-to-end incident investigation and application support across enterprise core systems (Guidewire Cloud). Rapidly triage issues, applying direct code/data remediation for policy domain faults or coordinating precise handoffs to specialized billing, pricing, and document teams to minimize downtime.
+          - <strong style="color: #666666;">AI & Automation Solutions:</strong> Act as an internal automation activator, turning manual business requests and operational bottlenecks into software solutions—ranging from deterministic data-processing engines to production-tested GenAI agents (FastMCP, RAG & LLM Wiki architectures) for incident triage and release compliance.
+          - <strong style="color: #666666;">Enterprise Observability & Alerting:</strong> Build and maintain full-stack observability dashboards (Datadog, Grafana) and synthetic monitors; define proactive SLO/SLA alerting to detect upstream service anomalies before they impact customers.
+          - <strong style="color: #666666;">Release Governance & On-Call Operations:</strong> Manage scheduled production deployments, participate in primary 24/7 on-call rotations, and enforce automated pre-release checks to ensure zero-defect deployments under strict regulatory compliance.
+          - <strong style="color: #666666;">Ops-to-SRE Cultural Transition:</strong> Spearheaded a team initiative transitioning legacy operations into an engineering-led SRE model; established clear team boundaries, runbooks, and code review practices, eliminating over 1,000 hours of manual toil per year.
       - role: Full Stack Software Engineer
         time: 2018 - 2023
         company: FIS (Fortune 500 Financial Technology Leader), Christchurch, New Zealand (Hybrid)
@@ -105,6 +110,14 @@ experiences:
         details: |
           - <strong style="color: #666666;">Custom Plugin & Platform Extension:</strong> Creative asset pipeline limitations made it difficult to view 3D model files directly within enterprise documentation. To solve this, I developed custom wiki add-ons that rendered and displayed native 3D model formats directly within internal documentation pages.
           - <strong style="color: #666666;">Asset Pipeline Automation:</strong> Production tools lacked seamless integration with internal asset tracking systems, causing manual overhead for creative teams. I built container-based plugins and automation scripts to integrate production workflows directly with internal asset management APIs, streamlining asset tracking across projects.
+      - role: Chemical Engineer (Part Leader)
+        time: 2008 - 2014
+        company: LG Chem (Global Fortune 500 Chemical & Materials Manufacturer), Tianjin, China
+        details: |
+          - <strong style="color: #666666;">Process Innovation & Energy Efficiency:</strong> Spearheaded engineering initiatives focused on emissions reduction and thermal/power energy optimization across manufacturing lines, cutting utility overhead and minimizing environmental impact.
+          - <strong style="color: #666666;">Six Sigma Quality Engineering:</strong> Applied Six Sigma methodologies, root-cause analyses, and statistical process control (SPC) to eliminate batch defects, enhance production yields, and enforce strict quality assurance protocols.
+          - <strong style="color: #666666;">Plant Turnaround & Maintenance Leadership:</strong> Orchestrated end-to-end planning and execution for major annual plant turnarounds, leading cross-functional engineering teams during 15–20 day full facility shutdowns for comprehensive equipment overhauls, pipeline cleaning, and preventive inspections with zero safety incidents.
+          - <strong style="color: #666666;">Cost Center & Financial Optimization:</strong> Partnered directly with the finance department to model operational cost centers, track raw material consumption against production quotas, and identify high-impact cost-saving opportunities across manufacturing operations.
 projects:
     title: Projects
     intro: ""
@@ -126,7 +139,7 @@ skills:
     toolset:
       - name: AI & Intelligent Automation
         level: 95
-        text: LLM Applications, GenAI Agents, Agentic Workflows, Prompt, Harness & Loop Engineering, Vector Databases, Power Automate
+        text: LLM Applications, GenAI Agents, Agentic Workflows, FastMCP / MCP Tooling, RAG & LLM Wiki Architectures, Vector Databases, Power Automate
       - name: Languages & Software Engineering
         level: 92
         text: Python, Java, Gosu, C# / .NET, TypeScript, SQL, PowerShell, Selenium
