@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Yuan Cui
     tagline: GenAI Ops & Platform Reliability Engineer
-    location: Christchurch, New Zealand (Open to Relocation to Belgium / Netherlands / EU)
+    location: Christchurch, New Zealand (Open to Relocation to Amsterdam, Netherlands)
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -53,7 +53,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Platform Reliability & Operations Engineer with extensive experience supporting enterprise cloud platforms, SaaS systems, and shared GenAI solutions. Combines direct user support and clear technical communication with deep investigation across Kubernetes workloads, APIs, authentication, and distributed microservices. Proven track record managing operational queues, troubleshooting incidents using end-to-end observability (Datadog, OpenTelemetry, logs, metrics, traces), and reproducing bugs with actionable evidence for core engineering teams. Experienced building production AI agents (FastMCP, RAG, Vertex AI) and authoring Python/Bash automations to eliminate recurring support toil and drive GenAI platform adoption.
+      Platform Reliability & Operations Engineer with extensive experience supporting enterprise cloud platforms, SaaS systems, and shared GenAI solutions. Combines direct user support and clear technical communication with deep investigation across cloud & VM infrastructure, APIs, authentication, and distributed microservices. Proven track record managing operational queues, troubleshooting incidents using full-stack observability (Datadog, NewRelic, Splunk, Grafana, OpenTelemetry), reproducing bugs with actionable evidence, and delivering production bug fixes. Experienced building production AI agents (FastMCP, RAG, Vertex AI) and authoring Python/PowerShell automations to eliminate recurring support toil and drive GenAI platform adoption.
 
 education:
     title: Education & Certificates
@@ -92,16 +92,16 @@ experiences:
         time: Aug 2023 - Present
         company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">GenAI Platform Support & L2/L3 Incident Triage:</strong> Serve as the primary technical point of contact for internal platform services and GenAI tooling. Manage support queues, prioritize requests by user impact and urgency, and investigate complex incidents across Kubernetes pods, deployments, and cloud microservices. Analyze logs, metrics, traces, API payloads, and authentication flows to distinguish between user configuration issues, operational degradation, and product bugs.
-          - <strong style="color: #666666;">Observability, Alerting & Engineering Escalation:</strong> Build and maintain full-stack Datadog observability dashboards, synthetic monitors, and proactive SLO/SLA alerts. Correlate distributed traces and structured application logs to diagnose transient errors; isolate root causes and provide engineering teams with reproduction steps, telemetry logs, and clear evidence for rapid bug remediation.
+          - <strong style="color: #666666;">GenAI Platform Support & L2/L3 Incident Triage:</strong> Serve as the primary technical point of contact for internal platform services and GenAI tooling. Manage support queues, prioritize requests by user impact and urgency, and investigate complex incidents across cloud & VM infrastructure, backend APIs, and microservices (with routine Kubernetes pod/log triage). Analyze logs, metrics, traces, API payloads, and authentication flows to distinguish between user configuration issues, operational degradation, and product bugs.
+          - <strong style="color: #666666;">Observability, Alerting & Bug Fixing:</strong> Build and maintain full-stack observability dashboards (Datadog, NewRelic, Splunk, Grafana) and proactive SLO/SLA alerts. Correlate distributed traces (OpenTelemetry) and structured logs to diagnose transient errors; isolate root causes, reproduce bugs with actionable evidence, and deliver direct code/configuration bug fixes or coordinate targeted escalations to core engineering teams.
           - <strong style="color: #666666;">AIOps Agentic Triage & Support Automation:</strong> Engineered production GenAI triage agents (Gemini, GCP Cloud Run, Vertex AI) and internal FastMCP servers that automatically ingest Datadog telemetry, cloud logs, and ServiceNow records. Generate automated diagnostic context and draft remediation pull requests, reducing mean time to triage (MTTR) from hours to minutes.
-          - <strong style="color: #666666;">User Enablement, Feedback Loops & Toil Reduction:</strong> Partner closely with business users and product teams to translate repetitive support inquiries into automated self-service capabilities (including a Text-to-SQL data retrieval engine). Document troubleshooting runbooks and author Python/Bash automation scripts, eliminating over 1,000 hours of manual operational toil per year.
+          - <strong style="color: #666666;">User Enablement, Feedback Loops & Toil Reduction:</strong> Partner closely with business users and product teams to translate repetitive support inquiries into automated self-service capabilities (including a Text-to-SQL data retrieval engine). Document troubleshooting runbooks and author Python/PowerShell automation scripts, eliminating over 1,000 hours of manual operational toil per year.
           - <strong style="color: #666666;">Production Operations & Incident Management:</strong> Participate in 24/7 on-call rotations, coordinate high-priority incident bridge communications, and conduct blameless postmortems with cross-functional stakeholders to implement preventive safeguards and protect platform reliability.
       - role: Full Stack Software Engineer (SaaS Platform Delivery & Support)
         time: 2018 - 2023
         company: FIS (Fortune 500 Financial Technology Leader), Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">SaaS Platform Support & Defect Resolution:</strong> Gained end-to-end operational exposure across customer support, delivery, release management, and DevOps rotations before transitioning to core platform engineering. Directly handled client-escalated technical issues for Tier-1 global financial clients (HSBC, BMW, Toyota), independently debugging complex application logs, database states, and web API integrations.
+          - <strong style="color: #666666;">SaaS Platform Support & Bug Resolution:</strong> Gained end-to-end operational exposure across customer support, delivery, release management, and DevOps rotations before transitioning to core platform engineering. Directly handled client-escalated technical issues for Tier-1 global financial clients (HSBC, BMW, Toyota), independently reproducing bugs with actionable evidence, debugging complex application logs, VM/database states, and web API integrations, and delivering production bug fixes.
           - <strong style="color: #666666;">Low-Code Workflow Engine & Self-Service Configuration:</strong> Co-developed an extensible business rules and workflow engine for the core asset finance platform, enabling non-technical analysts and client operations teams to configure custom business logic and workflows without code deployments, drastically lowering support ticket volume.
           - <strong style="color: #666666;">Performance Optimization & Database Troubleshooting:</strong> Diagnosed and resolved critical concurrency bottlenecks, database deadlocks, and slow query executions in high-throughput environments. Re-architected computationally heavy rating calculations with pre-calculation caching, slashing execution time from 60 seconds to 20 seconds.
           - <strong style="color: #666666;">Operational Tooling & Knowledge Enablement:</strong> Built automated diagnostic scripts, internal test utilities, and structured troubleshooting documentation to streamline client onboarding, environment provisioning, and junior engineer mentoring.
@@ -109,7 +109,7 @@ experiences:
         time: 2017 - 2018 (3 months)
         company: Weta Workshop (Academy Award-Winning Creative Studio), Wellington, New Zealand
         details: |
-          - <strong style="color: #666666;">Asset Pipeline Automation:</strong> Built containerized plugins and Python/Bash automation scripts to connect internal production creative tools directly with asset tracking APIs, eliminating manual asset entry and repetitive operational overhead.
+          - <strong style="color: #666666;">Asset Pipeline Automation:</strong> Built containerized plugins and Python/PowerShell automation scripts to connect internal production creative tools directly with asset tracking APIs, eliminating manual asset entry and repetitive operational overhead.
           - <strong style="color: #666666;">Internal Tooling & Platform Extensions:</strong> Developed custom Confluence wiki extensions that natively rendered 3D model formats within internal documentation pages, bridging cross-functional communication between creative artists and technical engineers.
       - role: Working Holiday & International Transition
         time: 2015 - 2016
@@ -145,15 +145,15 @@ skills:
       - name: GenAI & Intelligent Automation
         level: 95
         text: LLM Applications, GenAI Platform Operations, Agentic Workflows, FastMCP / MCP Tooling, RAG & LLM Wiki Architectures, AI Safety & Guardrails, AI-Assisted Engineering (Claude 3.5 Sonnet, GitHub Copilot), Vector Databases
-      - name: Platform Operations, Cloud & Kubernetes
+      - name: Platform Operations, Cloud & VM Infrastructure
         level: 95
-        text: Kubernetes (Pods, Deployments, Events, Logs), Docker, AWS, GCP, Azure, Linux / Bash, Terraform, GitHub Actions, CI/CD Pipelines
+        text: Cloud & Virtual Machine (VM) Infrastructure, AWS, GCP, Azure, Linux, Docker, Basic Kubernetes Triage (Pods, Events, Logs), Terraform, GitHub Actions, CI/CD Pipelines
       - name: Observability & Incident Management
         level: 92
-        text: Datadog, OpenTelemetry, Splunk, Grafana, Log / Metric / Trace Analysis, Synthetic Monitors & Alerts, SLOs/SLIs, Root-Cause Analysis (RCA), L2/L3 Troubleshooting, On-Call & Incident Response
+        text: Datadog, NewRelic, Splunk, Grafana, OpenTelemetry, Log / Metric / Trace Analysis, Synthetic Monitors & Alerts, SLOs/SLIs, Root-Cause Analysis (RCA), L2/L3 Troubleshooting, On-Call & Incident Response
       - name: API, Web & Enterprise Integration
         level: 90
         text: REST, GraphQL & SOAP APIs, Webhook Pipelines, API Gateways (MuleSoft), Authentication (OAuth, IAM), Multi-System Integrations (Guidewire Cloud, ServiceNow, Salesforce, GitHub & Atlassian MCP Servers)
       - name: Languages & Scripting
         level: 92
-        text: Python, Bash, SQL, C# / .NET, Java, PowerShell, TypeScript, Gosu
+        text: Python, PowerShell, Bash, SQL, C# / .NET, Java, TypeScript, Gosu
