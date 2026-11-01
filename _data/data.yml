@@ -9,8 +9,8 @@ sidebar:
 
     # Profile information
     name: Yuan Cui
-    tagline: Senior Site Reliability & Software Engineer
-    location: Christchurch, New Zealand
+    tagline: GenAI Ops & Platform Reliability Engineer
+    location: Christchurch, New Zealand (Open to Relocation to Belgium / Netherlands / EU)
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -34,26 +34,26 @@ sidebar:
       title: Languages
       info:
         - idiom: English
-          level: Professional
+          level: Fluent
 
         - idiom: Mandarin
           level: Native
     interests:
       title: Interests
       info:
-        - item: AI & Innovation
-        - item: NBA
+        - item: Continuous Learning & Tech
+        - item: NBA & Basketball
         - item: Hiking & Travel
     referee:
-      title: Referee
+      title: References
       info:
-        - item: Available on request
+        - item: Available upon request
 
 
 career-profile:
     title: Career Profile
     summary: |
-      Site Reliability & Software Engineer with 8 years of experience across financial services and enterprise insurance, specializing in developer platforms, CI/CD automation, and production reliability. Proven track record executing GitHub migrations, building and maintaining team-level GitHub repositories and Actions workflows, and delivering self-service platform automation (including MCP servers and automated release gates). Deep background in SRE practices, cloud infrastructure (AWS/GCP, Terraform), and end-to-end observability (OpenTelemetry, Datadog, Splunk) to reduce developer friction and ensure resilience and stability in highly regulated environments.
+      Platform Reliability & Operations Engineer with extensive experience supporting enterprise cloud platforms, SaaS systems, and shared GenAI solutions. Combines direct user support and clear technical communication with deep investigation across Kubernetes workloads, APIs, authentication, and distributed microservices. Proven track record managing operational queues, troubleshooting incidents using end-to-end observability (Datadog, OpenTelemetry, logs, metrics, traces), and reproducing bugs with actionable evidence for core engineering teams. Experienced building production AI agents (FastMCP, RAG, Vertex AI) and authoring Python/Bash automations to eliminate recurring support toil and drive GenAI platform adoption.
 
 education:
     title: Education & Certificates
@@ -63,16 +63,20 @@ education:
         time: 2017 - 2018
 
       - degree: MBA
-        university: Tianjin University (China)
+        university: Tianjin University
         time: 2012 - 2014
 
-      - degree: AWS Certified Solutions Architect – Associate
-        university: Amazon
-        time: 2023 - 2026
+      - degree: Bachelor of Engineering in Chemical Engineering
+        university: Tianjin University of Technology
+        time: 2004 - 2008
 
       - degree: AWS Certified AI Practitioner
         university: Amazon
         time: 2025 - 2028
+
+      - degree: AWS Certified Solutions Architect – Associate
+        university: Amazon
+        time: 2023 - 2026
 
       - degree: GitHub Actions
         university: GitHub
@@ -82,68 +86,74 @@ education:
         university: Guidewire
         time: 2026 - 9999
 experiences:
-    title: Working Experiences
+    title: Work Experience
     info:
-      - role: Senior Site Reliability Engineer
+      - role: Platform Reliability Engineer (GenAI & Automation Activator)
         time: Aug 2023 - Present
         company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">Ops-to-SRE Cultural & Platform Transformation:</strong> Led a strategic initiative transitioning legacy operations from reactive ticket firefighting into a proactive, software-driven SRE model. Coached team members through PR reviews, team GitHub Actions CI/CD automation, branching standards, and runbook-as-code practices, establishing clear operational guardrails on reliability and observability. This eliminated over 1,000 hours of operational toil per year across the engineering domain.
-          - <strong style="color: #666666;">AIOps Incident Triage Engine:</strong>  Addressed slow business-as-usual (BAU) issue resolution caused by fragmented telemetry and isolated systems. Designed and deployed an agentic triage system that pulls context across external telemetry and documentation sources, runs iterative analysis loops to pinpoint root causes, and drafts safe remediation PRs, taking average triage time down from hours to just minutes.
-          - <strong style="color: #666666;">Customer Self-Service Portal & Text-to-SQL Automation:</strong> Transformed unstructured business requests (like data extracts, user access, and config updates) into an automated self-service portal. Engineered an AI skill to automatically convert natural language business requests into validated SQL for querying BigQuery data warehouses, while connecting directly with Guidewire PolicyCenter APIs and automatically updating ServiceNow tickets upon completion. Cut request fulfillment time from several business days to under a minute while eliminating manual overhead.
-          - <strong style="color: #666666;">Production Oncall Response & Blameless Postmortems:</strong> Maintained 24/7 Tier-1 and 2 on-call coverage and collaborated on Tier-3 incident bridge calls to expedite troubleshooting and resolution for core services. Facilitated blameless postmortems to uncover root causes, establishing action items and partnering with engineering teams to roll out permanent architectural fixes.
-          - <strong style="color: #666666;">Production Observability & Telemetry Governance:</strong> Contributed on the enterprise OpenTelemetry implementation across production services to establish unified distributed tracing and metrics. Standardized structured application logging using Structlog to enhance observability and query efficiency in Datadog. Engineered automated redaction filters to intercept and sanitize sensitive PII/PCI data before ingestion, ensuring full regulatory compliance and elevating signal-to-noise ratio during incident triage.
-          - <strong style="color: #666666;">Architectural & System Design Collaboration:</strong> Partnered closely with Enterprise Architects, Tech Leads, and product teams on functional and non-functional requirements design reviews, applying Well-Architected Framework pillars to embed reliability, operational excellence, security, and observability into core solution architectures.
-      - role: Full Stack Software Engineer
+          - <strong style="color: #666666;">GenAI Platform Support & L2/L3 Incident Triage:</strong> Serve as the primary technical point of contact for internal platform services and GenAI tooling. Manage support queues, prioritize requests by user impact and urgency, and investigate complex incidents across Kubernetes pods, deployments, and cloud microservices. Analyze logs, metrics, traces, API payloads, and authentication flows to distinguish between user configuration issues, operational degradation, and product bugs.
+          - <strong style="color: #666666;">Observability, Alerting & Engineering Escalation:</strong> Build and maintain full-stack Datadog observability dashboards, synthetic monitors, and proactive SLO/SLA alerts. Correlate distributed traces and structured application logs to diagnose transient errors; isolate root causes and provide engineering teams with reproduction steps, telemetry logs, and clear evidence for rapid bug remediation.
+          - <strong style="color: #666666;">AIOps Agentic Triage & Support Automation:</strong> Engineered production GenAI triage agents (Gemini, GCP Cloud Run, Vertex AI) and internal FastMCP servers that automatically ingest Datadog telemetry, cloud logs, and ServiceNow records. Generate automated diagnostic context and draft remediation pull requests, reducing mean time to triage (MTTR) from hours to minutes.
+          - <strong style="color: #666666;">User Enablement, Feedback Loops & Toil Reduction:</strong> Partner closely with business users and product teams to translate repetitive support inquiries into automated self-service capabilities (including a Text-to-SQL data retrieval engine). Document troubleshooting runbooks and author Python/Bash automation scripts, eliminating over 1,000 hours of manual operational toil per year.
+          - <strong style="color: #666666;">Production Operations & Incident Management:</strong> Participate in 24/7 on-call rotations, coordinate high-priority incident bridge communications, and conduct blameless postmortems with cross-functional stakeholders to implement preventive safeguards and protect platform reliability.
+      - role: Full Stack Software Engineer (SaaS Platform Delivery & Support)
         time: 2018 - 2023
         company: FIS (Fortune 500 Financial Technology Leader), Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">Asset Finance & Banking Platform Engineering:</strong> Joined through the graduate rotation program, working across support, delivery, release management, and DevOps before stepping into full-stack C#/.NET development. Built and maintained features for our core asset finance and banking platform handling rating and billing for global tier-1 financial clients like HSBC, BMW, and Toyota, delivering tailored client customizations and enterprise packaging (MSBuild, NuGet).
-          - <strong style="color: #666666;">Algorithm & Database Performance Optimization:</strong> Tackled key performance bottlenecks in a high-volume financial transaction environment. Optimized heavy rating calculations by introducing a lightweight pre-calculation method, cutting execution time from 1 minute down to 20 seconds. Resolved database indexing and concurrency issues to keep transaction processing fast and reliable under load.
-          - <strong style="color: #666666;">Quality Engineering, CI/CD & Developer Enablement:</strong> Maintained platform stability across Dev, Test, and UAT environments using automated test suites and CI/CD pipelines. Built internal tools, automation plugins, and practical documentation to streamline team delivery and onboarding, while mentoring junior engineers and new graduates.
+          - <strong style="color: #666666;">SaaS Platform Support & Defect Resolution:</strong> Gained end-to-end operational exposure across customer support, delivery, release management, and DevOps rotations before transitioning to core platform engineering. Directly handled client-escalated technical issues for Tier-1 global financial clients (HSBC, BMW, Toyota), independently debugging complex application logs, database states, and web API integrations.
+          - <strong style="color: #666666;">Low-Code Workflow Engine & Self-Service Configuration:</strong> Co-developed an extensible business rules and workflow engine for the core asset finance platform, enabling non-technical analysts and client operations teams to configure custom business logic and workflows without code deployments, drastically lowering support ticket volume.
+          - <strong style="color: #666666;">Performance Optimization & Database Troubleshooting:</strong> Diagnosed and resolved critical concurrency bottlenecks, database deadlocks, and slow query executions in high-throughput environments. Re-architected computationally heavy rating calculations with pre-calculation caching, slashing execution time from 60 seconds to 20 seconds.
+          - <strong style="color: #666666;">Operational Tooling & Knowledge Enablement:</strong> Built automated diagnostic scripts, internal test utilities, and structured troubleshooting documentation to streamline client onboarding, environment provisioning, and junior engineer mentoring.
       - role: Software Engineering Intern
         time: 2017 - 2018 (3 months)
-        company: Weta Workshop (Academy Award-Winning Studio), Wellington, New Zealand
+        company: Weta Workshop (Academy Award-Winning Creative Studio), Wellington, New Zealand
         details: |
-          - <strong style="color: #666666;">Asset Pipeline Automation:</strong> Creative workflows lacked direct integration with internal asset tracking systems, creating repetitive manual updates for production teams. Developed containerized plugins and Python/Bash automation scripts to connect production tools directly with asset management APIs, eliminating manual tracking and speeding up asset delivery.
-          - <strong style="color: #666666;">Internal Tooling & 3D Visualization:</strong> Artists and engineers could not natively preview 3D model files within enterprise documentation. Designed and deployed custom confluence addons that rendered 3D graphic formats directly inside internal docs, bridging communication gaps and simplifying asset reviews across teams.
+          - <strong style="color: #666666;">Asset Pipeline Automation:</strong> Built containerized plugins and Python/Bash automation scripts to connect internal production creative tools directly with asset tracking APIs, eliminating manual asset entry and repetitive operational overhead.
+          - <strong style="color: #666666;">Internal Tooling & Platform Extensions:</strong> Developed custom Confluence wiki extensions that natively rendered 3D model formats within internal documentation pages, bridging cross-functional communication between creative artists and technical engineers.
+      - role: Working Holiday & International Transition
+        time: 2015 - 2016
+        company: New Zealand
+        details: |
+          - <strong style="color: #666666;">International Transition & Language Immersion:</strong> Relocated to New Zealand on a Working Holiday visa, developing professional English fluency and cross-cultural adaptability while preparing for academic transition into Computer Science.
+      - role: Chemical Engineer (Continuous Improvement & Process Operations)
+        time: 2008 - 2014
+        company: LG Chem (Global Fortune 500 Chemical & Materials Manufacturer), Tianjin, China
+        details: |
+          - <strong style="color: #666666;">Root-Cause Analysis & Quality Engineering:</strong> Applied Six Sigma methodologies, statistical process control (SPC), and rigorous root-cause investigation to eliminate batch defects, enhance operational yields, and enforce quality standards.
+          - <strong style="color: #666666;">Plant Turnaround & Operational Leadership:</strong> Orchestrated annual plant turnarounds, directing cross-functional engineering and maintenance teams during 15–20 day full facility shutdowns for comprehensive preventative inspections and equipment overhauls with zero safety incidents.
+          - <strong style="color: #666666;">Process Innovation & Energy Efficiency:</strong> Spearheaded engineering initiatives on thermal and power energy optimization across manufacturing lines, cutting utility overhead and minimizing environmental impact.
 projects:
     title: Projects
     intro: ""
     assignments:
-      - title: Ops-to-SRE Cultural & Platform Transformation
-        link: "#"
-        tagline: 'Transformed team culture from reactive ticket firefighting to proactive reliability engineering. Established runbook-as-code practices, CI/CD operational standards, and observability guardrails, eliminating over 1,000 hours of manual operational toil per year.'
       - title: Agentic Incident Triage Engine
         link: "#"
-        tagline: 'Designed a serverless AIOps incident triage pipeline prototyped with Chroma vector DB and scaled in production using GCP Cloud Run, Vertex AI Search, ADK, and Gemini. Integrates telemetry across Datadog, AWS S3, ServiceNow, and Google Data Platform. Automatically ingests distributed logs, performs semantic retrieval and real-time root-cause analysis (RCA), and drafts remediation PRs to compress MTTR from hours to minutes.'
-      - title: Customer Self-Service Portal & Text-to-SQL Automation
+        tagline: 'Designed an automated triage and operational enrichment system using agentic workflows (Gemini, Cloud Run, Vertex AI, vector databases). Engineered an internal FastMCP server integrated with developer tooling to fetch and update live ServiceNow incident records, while orchestrating multi-system APIs (Datadog, Salesforce, Guidewire Cloud, AWS S3, BigQuery) to accelerate root-cause analysis within strict AI safety boundaries.'
+      - title: Release Whisperer AI Agent
         link: "#"
-        tagline: 'Built an automated self-service portal in ServiceNow integrated with Guidewire PolicyCenter APIs and BigQuery via secure webhook pipelines. Developed an automated Text-to-SQL AI skill translating natural language business inquiries into BigQuery SQL for instant data extraction, slashing request fulfillment time from days to under 1 minute.'
-      - title: "Release Whisperer: Documentation Quality Gating Agent"
+        tagline: 'Architected and deployed a GenAI agent on an internal enterprise platform (GenAI, ServiceNow API, Atlassian MCP server) to cross-reference release documentation, change tickets, and test evidence. Automatically flags pre-deployment discrepancies such as incorrect build numbers and missing approvals, significantly reducing release risk and audit overhead.'
+      - title: Enterprise Self-Service Portal & AI Data Query Engine
         link: "#"
-        tagline: 'Architected an automated release verification agent integrated with ServiceNow APIs and Atlassian MCP Server. Cross-references release artifacts, change records, and test evidence against live systems. Flags discrepancies and enforces production guardrails to eliminate audit risks.'
-      - title: GitHub Migration
+        tagline: 'Engineered an extensible self-service framework enabling authorized business users to independently execute user account changes, commission updates, and Guidewire PolicyCenter configuration updates. Integrated with enterprise identity systems and ServiceNow APIs for automated entitlement checks. Built an MCP server to convert natural language queries into BigQuery SQL for complex business data extraction requests.'
+      - title: Incident Classification & MLOps Drift Monitoring Pipeline
         link: "#"
-        tagline: 'Led the team migration from legacy Bitbucket and Jenkins to GitHub Enterprise. Successfully migrated code repositories, converted Jenkins CI/CD pipelines to GitHub Actions workflows, established branching strategies, and configured repository access controls to safely decommission legacy infrastructure.'
-      - title: Incident Classification MLOps Pipeline (Side Project)
-        link: "#"
-        tagline: 'Built an end-to-end MLOps pipeline (MLflow, Docker, GitHub Actions, Evidently, Grafana) to compare classical machine learning against local LLMs (Ollama / Llama) for support ticket classification. Evaluated latency and accuracy trade-offs while implementing automated experiment tracking, containerized inference, and real-time data drift monitoring.'
+        tagline: 'Built an end-to-end MLOps pipeline (MLflow, Docker, Flask, GitHub Actions, Evidently, Grafana) to benchmark and route support tickets instantly. Proved that classical supervised machine learning achieved superior inference speed and accuracy compared to local open-source LLMs. Implemented automated experiment tracking, containerized API serving, CI/CD deployment, and real-time drift monitoring for continuous model reliability.'
 skills:
     title: Core Competencies & Tech Stack
     toolset:
-      - name: Developer Platforms & CI/CD
+      - name: GenAI & Intelligent Automation
         level: 95
-        text: GitHub Enterprise, GitHub Actions, Azure DevOps, Jenkins, Branching Strategies, Release Management, MSBuild, NuGet, Containerized Builds
-      - name: Platform Engineering & Enablement
+        text: LLM Applications, GenAI Platform Operations, Agentic Workflows, FastMCP / MCP Tooling, RAG & LLM Wiki Architectures, AI Safety & Guardrails, AI-Assisted Engineering (Claude 3.5 Sonnet, GitHub Copilot), Vector Databases
+      - name: Platform Operations, Cloud & Kubernetes
         level: 95
-        text: Internal Developer Platforms (IDP), MCP Servers, Self-Service Automation, Terraform (IaC), Docker, Kubernetes, ServiceNow APIs, Platform Governance
-      - name: Observability, SRE & Incident Response
-        level: 95
-        text: Datadog, OpenTelemetry, Splunk, Prometheus, Grafana, SLOs/SLIs, Error Budgets, Incident Response & On-Call, Root Cause Analysis, Blameless Postmortems, MTTR Reduction, Structlog
-      - name: Cloud, Data & Infrastructure
-        level: 90
-        text: AWS, GCP, PostgreSQL, Azure Cosmos DB, BigQuery, Chroma, S3, GCS, Concurrency & Deadlock Mitigation, Index Optimization, Multi-AZ High Availability, Kafka
-      - name: Programming & Integration
+        text: Kubernetes (Pods, Deployments, Events, Logs), Docker, AWS, GCP, Azure, Linux / Bash, Terraform, GitHub Actions, CI/CD Pipelines
+      - name: Observability & Incident Management
         level: 92
-        text: Python, C#, .NET, Java, PowerShell, Bash, SQL, Gosu, REST & GraphQL APIs
+        text: Datadog, OpenTelemetry, Splunk, Grafana, Log / Metric / Trace Analysis, Synthetic Monitors & Alerts, SLOs/SLIs, Root-Cause Analysis (RCA), L2/L3 Troubleshooting, On-Call & Incident Response
+      - name: API, Web & Enterprise Integration
+        level: 90
+        text: REST, GraphQL & SOAP APIs, Webhook Pipelines, API Gateways (MuleSoft), Authentication (OAuth, IAM), Multi-System Integrations (Guidewire Cloud, ServiceNow, Salesforce, GitHub & Atlassian MCP Servers)
+      - name: Languages & Scripting
+        level: 92
+        text: Python, Bash, SQL, C# / .NET, Java, PowerShell, TypeScript, Gosu
