@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Yuan Cui
-    tagline: Platform Engineer & AI Solutions
+    tagline: Software Engineer | AI & Platform Solutions
     location: Christchurch, New Zealand (Open to Relocation to Amsterdam, Netherlands)
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -144,10 +144,10 @@ skills:
     toolset:
       - name: AI & Intelligent Automation
         level: 95
-        text: LLM Applications, GenAI Agents, Agentic Workflows, FastMCP / MCP Tooling, RAG & LLM Wiki Architectures, AI-Assisted Engineering (Claude 3.5 Sonnet, GitHub Copilot), Vector Databases, Power Automate
+        text: LLM Applications, GenAI Agents, Agentic Workflows, Prompt Engineering, FastMCP / MCP Tooling, RAG & LLM Wiki Architectures, Embeddings & Vector Search, AI-Assisted Engineering (Claude 3.5 Sonnet, GitHub Copilot), Power Automate
       - name: Languages & Software Engineering
         level: 92
-        text: Python (FastAPI, FastMCP), Java, Gosu, C# / .NET, TypeScript, SQL, PowerShell, Selenium
+        text: Python (FastAPI, Pydantic, FastMCP), Java, Gosu, C# / .NET, TypeScript, SQL, PowerShell, Selenium
       - name: Cloud, CI/CD & Platform Engineering
         level: 95
         text: AWS, GCP, Azure, Kubernetes, Docker, GitHub Actions, Jenkins, Terraform
