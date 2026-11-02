@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Yuan Cui
     tagline: Platform Engineer & AI Solutions
-    location: Christchurch, New Zealand (Open to Relocation to Hamburg, Germany)
+    location: Christchurch, New Zealand (Open to Relocation to Amsterdam, Netherlands)
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -138,7 +138,7 @@ projects:
         tagline: 'Engineered an extensible self-service framework enabling authorized business users to independently execute user account changes, commission updates, and Guidewire PolicyCenter configuration updates. Integrated with enterprise identity systems and ServiceNow APIs for automated entitlement checks. Built an MCP server to convert natural language queries into BigQuery SQL for complex business data extraction requests, with continuous iterations underway as part of future roadmap plans.'
       - title: Incident Classification & MLOps Drift Monitoring Pipeline
         link: "#"
-        tagline: 'Built an end-to-end MLOps pipeline (MLflow, Docker, Flask, GitHub Actions, Evidently, Grafana) to benchmark and route support tickets instantly. Proved that classical supervised machine learning achieved superior inference speed and accuracy compared to local open-source LLMs. Implemented automated experiment tracking, containerized API serving, CI/CD deployment, and real-time drift monitoring for continuous model reliability.'
+        tagline: 'Built an end-to-end MLOps pipeline (MLflow, Docker, FastAPI, GitHub Actions, Evidently, Grafana) to benchmark and route support tickets instantly. Proved that classical supervised machine learning achieved superior inference speed and accuracy compared to local open-source LLMs. Implemented automated experiment tracking, containerized API serving, CI/CD deployment, and real-time drift monitoring for continuous model reliability.'
 skills:
     title: Core Competencies & Tech Stack
     toolset:
@@ -147,7 +147,7 @@ skills:
         text: LLM Applications, GenAI Agents, Agentic Workflows, FastMCP / MCP Tooling, RAG & LLM Wiki Architectures, AI-Assisted Engineering (Claude 3.5 Sonnet, GitHub Copilot), Vector Databases, Power Automate
       - name: Languages & Software Engineering
         level: 92
-        text: Python, Java, Gosu, C# / .NET, TypeScript, SQL, PowerShell, Selenium
+        text: Python (FastAPI, FastMCP), Java, Gosu, C# / .NET, TypeScript, SQL, PowerShell, Selenium
       - name: Cloud, CI/CD & Platform Engineering
         level: 95
         text: AWS, GCP, Azure, Kubernetes, Docker, GitHub Actions, Jenkins, Terraform
