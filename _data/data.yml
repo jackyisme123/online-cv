@@ -9,8 +9,8 @@ sidebar:
 
     # Profile information
     name: Yuan Cui
-    tagline: Backend & Platform Reliability Engineer
-    location: Christchurch, New Zealand (Open to relocation to Utrecht, the Netherlands)
+    tagline: Senior Platform & Research Systems Engineer | Cloud, Data & AI
+    location: Christchurch, New Zealand (Open to relocation to Utrecht / Wageningen, the Netherlands)
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -53,7 +53,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Senior Backend & Platform Reliability Engineer with 8+ years of experience architecting high-throughput financial platforms and production GenAI solutions. Combining deep expertise in core banking and asset finance backends (supporting Tier-1 global institutions including HSBC, BMW, and Toyota) with enterprise platform reliability (Guidewire PolicyCenter). Proven track record of developing resilient backend services (Python, Java, C#/.NET), integrating AI agents with enterprise APIs, and designing observable architectures for unpredictable production workloads. Adept at bridging complex distributed systems with trustworthy, explainable AI capabilities.
+      Senior Platform & Systems Engineer with a multidisciplinary engineering foundation (B.Eng in Chemical Engineering + GDip with Distinction in Computer Science) and 8+ years of software and platform engineering experience. Proven track record of designing resilient backend services (Python, Java, C#/.NET), containerized cloud infrastructure (Kubernetes, AWS, GCP), and automated data/AI platforms. Experienced in partnering directly with domain specialists and operational teams to translate complex technical and data requirements into secure, maintainable self-service solutions. Combines deep analytical problem-solving with hands-on systems reliability, data pipelines (Kafka, BigQuery), and explainable AI enablement.
 
 education:
     title: Education & Certificates
@@ -88,14 +88,14 @@ education:
 experiences:
     title: Work Experience
     info:
-      - role: Platform Reliability Engineer (Guidewire PolicyCenter & GenAI Systems)
+      - role: Platform Reliability & Systems Engineer (Guidewire PolicyCenter & GenAI Systems)
         time: Aug 2023 - Present
         company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
         details: |
           - <strong style="color: #666666;">Guidewire PolicyCenter Support, RCA & Bug Fixing:</strong> Support core Guidewire PolicyCenter, an enterprise backend platform built on Java and Gosu. Perform deep root-cause analysis (RCA) on production incidents, reproduce edge-case defects, and deliver Java/Gosu bug fixes and incremental feature enhancements. Investigate backend logs, database queries, and API integrations to resolve complex policy lifecycle and transaction errors.
-          - <strong style="color: #666666;">Reliability & Observability for Variable Workloads:</strong> Strengthen backend reliability and visibility across unpredictable enterprise workloads by configuring full-stack observability (Datadog, New Relic, Splunk, Grafana) and OpenTelemetry distributed tracing. Analyze API payloads, microservice latencies, and Kubernetes pod metrics to establish proactive SLO alerts and safeguard system uptime.
-          - <strong style="color: #666666;">AI Activator & Team Enablement:</strong> Serve as an AI Activator bridging enterprise AI strategy with practical squad adoption. Build reusable AI skills, standardized integration patterns, and developer tooling while mentoring team members to adopt GenAI safely and efficiently. Champion engineering best practices to accelerate internal AI initiatives, including the production Agentic Incident Triage Engine and Release Whisperer.
-          - <strong style="color: #666666;">Self-Service Tooling, Explainability & Toil Reduction:</strong> Partner closely with business users and technical teams to translate repetitive operational inquiries into automated, explainable self-service workflows (including a Text-to-SQL data retrieval engine). Author Python/PowerShell automation scripts and troubleshooting runbooks, eliminating over 1,000 hours of manual operational toil annually.
+          - <strong style="color: #666666;">Reliability, Observability & Data Pipelines:</strong> Strengthen backend reliability and visibility across unpredictable enterprise workloads by configuring full-stack observability (Datadog, New Relic, Splunk, Grafana) and OpenTelemetry distributed tracing. Monitor and troubleshoot distributed microservices, Kubernetes pod metrics, and data pipeline health across Apache Kafka event streams and BigQuery data stores.
+          - <strong style="color: #666666;">AI Activator & Stakeholder Enablement:</strong> Serve as an internal AI Activator bridging enterprise technical strategy with practical squad adoption. Consult directly with cross-functional and operational stakeholders to translate evolving requirements into reusable AI tools, standardized integration patterns, and developer automation. Champion engineering best practices across internal AI initiatives, including the production Agentic Incident Triage Engine and Release Whisperer.
+          - <strong style="color: #666666;">Self-Service Tooling, Explainability & Toil Reduction:</strong> Partner closely with business users and technical teams to translate repetitive operational inquiries into automated, explainable self-service workflows (including an agentic Text-to-SQL data retrieval engine on BigQuery). Author Python/PowerShell automation scripts and troubleshooting runbooks, eliminating over 1,000 hours of manual operational toil annually.
       - role: Full Stack Software Engineer (Core Asset Finance Backend)
         time: 2018 - 2023
         company: FIS (Fortune 500 Financial Technology Leader), Christchurch, New Zealand (Hybrid)
@@ -119,7 +119,8 @@ experiences:
         time: 2008 - 2014
         company: LG Chem (Global Fortune 500 Chemical & Materials Manufacturer), Tianjin, China
         details: |
-          - <strong style="color: #666666;">Root-Cause Analysis & Quality Engineering:</strong> Applied Six Sigma methodologies, statistical process control (SPC), and rigorous root-cause investigation to eliminate batch defects, enhance operational yields, and enforce quality standards.
+          - <strong style="color: #666666;">Data Acquisition & Reaction Optimization:</strong> Extracted, analyzed, and correlated operational telemetry from Honeywell PLCs alongside chemical laboratory test results to calculate optimal temperature, pressure, and catalyst parameters for reaction lines, directly improving production yields and chemical consistency.
+          - <strong style="color: #666666;">Root-Cause Analysis & Quality Engineering:</strong> Applied Six Sigma methodologies, statistical process control (SPC), and rigorous root-cause investigation across laboratory and manufacturing data to eliminate batch defects and enforce quality standards.
           - <strong style="color: #666666;">Plant Turnaround & Operational Leadership:</strong> Orchestrated annual plant turnarounds, directing cross-functional engineering and maintenance teams during 15- to 20-day full-facility shutdowns for comprehensive preventive inspections and equipment overhauls with zero safety incidents.
           - <strong style="color: #666666;">Process Innovation & Energy Efficiency:</strong> Spearheaded engineering initiatives on thermal and electrical energy optimization across manufacturing lines, cutting utility overhead and minimizing environmental impact.
 projects:
@@ -137,19 +138,19 @@ projects:
         tagline: 'Engineered an extensible self-service framework enabling authorized business users to independently execute account updates and Guidewire PolicyCenter configuration changes. Integrated enterprise identity systems and ServiceNow APIs for automated entitlement verification. Developed an MCP server translating natural language queries into validated BigQuery SQL to provide audited, self-service data retrieval for operational teams.'
       - title: Incident Classification & MLOps Drift Monitoring Pipeline
         link: "#"
-        tagline: 'Built an end-to-end MLOps pipeline (MLflow, Docker, Flask, GitHub Actions, Evidently, Grafana) to benchmark and route support tickets instantly. Demonstrated that classical supervised machine learning achieved superior inference speed and accuracy compared to local open-source LLMs. Implemented automated experiment tracking, containerized API serving, CI/CD deployment, and real-time drift monitoring for continuous model reliability.'
+        tagline: 'Built an end-to-end MLOps and data processing pipeline (Python, NumPy, Pandas, Jupyter, MLflow, Docker, Flask, GitHub Actions, Evidently, Grafana) to benchmark and route support tickets instantly. Demonstrated that classical supervised machine learning achieved superior inference speed and accuracy compared to local open-source LLMs. Implemented automated experiment tracking, containerized API serving, CI/CD deployment, and real-time drift monitoring for continuous model reliability.'
 skills:
     title: Core Competencies & Tech Stack
     toolset:
-      - name: Conversational AI & Agent Architectures
-        level: 95
-        text: Tool Invocation & Function Calling (MCP / FastMCP), Context Propagation & Conversation State Management, RAG Architectures, AI Safety, Guardrails & Explainability, Gemini / Vertex AI, Vector Databases
-      - name: Backend & Distributed Systems
+      - name: Cloud Infrastructure, Kubernetes & Systems
         level: 94
-        text: Python (FastAPI, Flask), Java, C# / .NET, Gosu, REST APIs, Microservices, Event-Driven Concepts, Redis, SQL & BigQuery, Core Banking & Financial Systems
+        text: Kubernetes (Pods, Services, Metrics, Logs), Docker, Clustered Server Environments & Horizontal Scaling, AWS, GCP Cloud Run, Azure (App Insights, Cosmos DB), Linux, GitHub Actions, CI/CD Automation, Terraform, PowerShell & Bash
+      - name: Software Engineering & Data Pipelines
+        level: 94
+        text: Python (FastAPI, Flask), Java, C# / .NET, Gosu, REST APIs, Microservices, Apache Kafka (troubleshooting & pipeline consumption), SQL & BigQuery, Redis, Event-Driven Architectures, Core Banking & Financial Platforms
+      - name: Applied AI, Scientific Data & MLOps
+        level: 93
+        text: Tool Invocation & Function Calling (MCP / FastMCP), NumPy, Pandas, Jupyter Notebooks, MLOps (MLflow, Evidently), Context Propagation & State Management, RAG Architectures, AI Safety & Explainability, Gemini / Vertex AI, Vector Databases
       - name: Observability & Platform Reliability
         level: 92
         text: Datadog, OpenTelemetry, Grafana, Splunk, New Relic, Distributed Tracing, Log / Metric Analysis, Synthetic Monitors & SLOs/SLIs, Root-Cause Analysis (RCA), Incident Response & Blameless Postmortems
-      - name: Cloud Infrastructure & DevOps
-        level: 90
-        text: AWS, GCP Cloud Run, Azure, Docker, Linux, Kubernetes (Pods, Events, Logs), GitHub Actions, CI/CD Automation, Terraform, PowerShell & Bash

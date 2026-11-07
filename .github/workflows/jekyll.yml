@@ -2,7 +2,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: ["master", "FDE-CV", "SRE-CV"]
+    branches: ["master", "FDE-CV", "SRE-CV", "RE-CV"]
   workflow_dispatch:
 
 permissions:
@@ -37,7 +37,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build SRE and FDE Jekyll sites
+      - name: Build SRE, FDE and RE Jekyll sites
         env:
           JEKYLL_ENV: production
         run: |
@@ -55,7 +55,12 @@ jobs:
           git checkout FDE-CV
           bundle exec jekyll build --baseurl "${BASE_PREFIX}/fde" --destination "./_site/fde" --trace
 
-          # 3. Create Root Landing page
+          # 3. Build RE site directly from RE-CV branch
+          echo "Building RE-CV..."
+          git checkout RE-CV
+          bundle exec jekyll build --baseurl "${BASE_PREFIX}/re" --destination "./_site/re" --trace
+
+          # 4. Create Root Landing page
           cat << 'EOF' > ./_site/index.html
           <!DOCTYPE html>
           <html lang="en">
@@ -133,6 +138,10 @@ jobs:
               <h1>Select CV Profile</h1>
               <p class="sub">Please choose a resume version to view:</p>
               <div class="card-list">
+                <a class="cv-card" href="./re/index.html">
+                  <div class="cv-title">🔬 Senior Research Engineer (Systems & Platforms)</div>
+                  <div class="cv-desc">Focused on Cloud Platforms, Kubernetes, Data Pipelines, and Scientific IT Systems.</div>
+                </a>
                 <a class="cv-card" href="./sre/index.html">
                   <div class="cv-title">⚙️ Senior Site Reliability & Software Engineer</div>
                   <div class="cv-desc">Focused on Cloud Infrastructure, SRE transformation, Observability, and AIOps.</div>
