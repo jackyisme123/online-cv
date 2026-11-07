@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Yuan Cui
-    tagline: Senior Platform & Research Systems Engineer | Cloud, Data & AI
+    tagline: Senior Platform Reliability & Software Engineer | Cloud, Scientific Data Platforms & AI
     location: Christchurch, New Zealand (Open to relocation to Utrecht / Wageningen, the Netherlands)
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -53,7 +53,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Senior Platform & Systems Engineer with a multidisciplinary engineering foundation (B.Eng in Chemical Engineering + GDip with Distinction in Computer Science) and 8+ years of software and platform engineering experience. Proven track record of designing resilient backend services (Python, Java, C#/.NET), containerized cloud infrastructure (Kubernetes, AWS, GCP), and automated data/AI platforms. Experienced in partnering directly with domain specialists and operational teams to translate complex technical and data requirements into secure, maintainable self-service solutions. Combines deep analytical problem-solving with hands-on systems reliability, data pipelines (Kafka, BigQuery), and explainable AI enablement.
+      Senior Platform Reliability & Software Engineer with a multidisciplinary engineering foundation (B.Eng in Chemical Engineering + GDip with Distinction in Computer Science) and 8+ years of software, platform, and data systems engineering experience. Proven track record of architecting resilient backend services (Python, Java, C#/.NET), containerized cloud environments (Kubernetes, AWS, GCP), and automated scientific data/AI platforms. Experienced in partnering directly with domain researchers, engineers, and operational stakeholders to translate complex requirements into secure, maintainable self-service solutions. Combines deep analytical problem-solving with hands-on systems reliability, distributed data streams (Kafka, BigQuery), computational performance optimization, and explainable AI enablement.
 
 education:
     title: Education & Certificates
@@ -88,41 +88,41 @@ education:
 experiences:
     title: Work Experience
     info:
-      - role: Platform Reliability & Systems Engineer (Guidewire PolicyCenter & GenAI Systems)
+      - role: Senior Platform Reliability & Software Engineer
         time: Aug 2023 - Present
         company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">Guidewire PolicyCenter Support, RCA & Bug Fixing:</strong> Support core Guidewire PolicyCenter, an enterprise backend platform built on Java and Gosu. Perform deep root-cause analysis (RCA) on production incidents, reproduce edge-case defects, and deliver Java/Gosu bug fixes and incremental feature enhancements. Investigate backend logs, database queries, and API integrations to resolve complex policy lifecycle and transaction errors.
-          - <strong style="color: #666666;">Reliability, Observability & Data Pipelines:</strong> Strengthen backend reliability and visibility across unpredictable enterprise workloads by configuring full-stack observability (Datadog, New Relic, Splunk, Grafana) and OpenTelemetry distributed tracing. Monitor and troubleshoot distributed microservices, Kubernetes pod metrics, and data pipeline health across Apache Kafka event streams and BigQuery data stores.
-          - <strong style="color: #666666;">AI Activator & Stakeholder Enablement:</strong> Serve as an internal AI Activator bridging enterprise technical strategy with practical squad adoption. Consult directly with cross-functional and operational stakeholders to translate evolving requirements into reusable AI tools, standardized integration patterns, and developer automation. Champion engineering best practices across internal AI initiatives, including the production Agentic Incident Triage Engine and Release Whisperer.
-          - <strong style="color: #666666;">Self-Service Tooling, Explainability & Toil Reduction:</strong> Partner closely with business users and technical teams to translate repetitive operational inquiries into automated, explainable self-service workflows (including an agentic Text-to-SQL data retrieval engine on BigQuery). Author Python/PowerShell automation scripts and troubleshooting runbooks, eliminating over 1,000 hours of manual operational toil annually.
-      - role: Full Stack Software Engineer (Core Asset Finance Backend)
+          - <strong style="color: #666666;">Distributed Java Platform Engineering, RCA & Bug Fixing:</strong> Support core enterprise backend platform (Java/Gosu). Perform deep root-cause analysis (RCA) on production incidents, reproduce edge-case defects, and deliver Java backend fixes and architectural enhancements. Investigate backend logs, database queries, and API integrations to resolve complex data lifecycle and distributed transaction errors.
+          - <strong style="color: #666666;">Reliability, Observability & Data Pipelines:</strong> Strengthen backend reliability and visibility across unpredictable enterprise workloads by configuring full-stack observability (Datadog, OpenTelemetry, Grafana, Splunk, New Relic) and distributed tracing. Monitor and troubleshoot distributed microservices, Kubernetes pod metrics and lifecycle, and data pipeline health across Apache Kafka event streams and BigQuery data stores.
+          - <strong style="color: #666666;">AI Activator & Technical Sparring Partner:</strong> Serve as an internal AI Activator and technical sparring partner bridging enterprise technical strategy with practical squad adoption. Consult directly with cross-functional and domain stakeholders to translate evolving, ambiguous requirements into reusable AI tools, standardized integration patterns, and developer automation. Champion engineering best practices across internal AI initiatives, including the production Agentic Incident Triage Engine and Release Whisperer.
+          - <strong style="color: #666666;">Self-Service Tooling, Explainability & Toil Reduction:</strong> Partner closely with domain users and technical teams to translate repetitive operational and data inquiries into automated, explainable self-service workflows (including an agentic Text-to-SQL data retrieval engine on BigQuery). Author Python/PowerShell automation scripts and troubleshooting runbooks, eliminating over 1,000 hours of manual operational toil annually.
+      - role: Full Stack Software Engineer (Core Computational & Transactional Backend)
         time: 2018 - 2023
         company: FIS (Fortune 500 Financial Technology Leader), Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">Core Banking & Asset Finance Backend Engineering:</strong> Worked across Delivery and Customer Services engineering teams on a mission-critical backend financial platform (C#/.NET). Engineered core banking and asset finance modules, business logic, and client customizations for Tier-1 global financial institutions (HSBC, BMW Financial Services, Toyota Finance), ensuring strict transactional consistency and regulatory compliance.
-          - <strong style="color: #666666;">Complex Troubleshooting, RCA & Production Bug Fixes:</strong> Served as an escalation point for mission-critical client incidents and edge cases. Investigated complex system failures across distributed transaction flows, reproduced bugs in isolated environments, and implemented robust C# code fixes and production patches.
-          - <strong style="color: #666666;">Performance Optimization & Database Concurrency:</strong> Diagnosed and resolved severe concurrency bottlenecks, database deadlocks, and slow query executions in high-throughput transactional environments. Re-architected computationally heavy rating calculations with pre-calculation caching, reducing latency from 60 seconds to 20 seconds.
-          - <strong style="color: #666666;">Low-Code Workflow Engine & Knowledge Enablement:</strong> Co-developed an extensible business rules and workflow engine within the core platform, allowing client operations teams to configure custom business logic without code deployments, significantly reducing support ticket volumes.
+          - <strong style="color: #666666;">Core Platform & Distributed Systems Engineering:</strong> Engineered mission-critical backend modules and business logic (C#/.NET) for Tier-1 global institutions (HSBC, BMW Financial Services, Toyota Finance), ensuring strict transactional consistency, high availability, and regulatory compliance.
+          - <strong style="color: #666666;">Complex Troubleshooting, RCA & Production Patches:</strong> Served as an escalation point for mission-critical client incidents and edge cases. Investigated complex system failures across distributed transaction flows, reproduced multi-threaded bugs in isolated environments, and implemented robust C# code fixes and production patches.
+          - <strong style="color: #666666;">Performance Optimization & Computational Latency:</strong> Diagnosed and resolved severe concurrency bottlenecks, database deadlocks, and slow query executions in high-throughput transactional environments. Re-architected computationally heavy rating calculations with pre-calculation caching and query optimization, reducing latency from 60 seconds to 20 seconds.
+          - <strong style="color: #666666;">Extensible Workflow Engine & Domain Enablement:</strong> Co-developed an extensible business rules and workflow engine within the core platform, allowing domain operations teams to configure custom business logic without code deployments, significantly reducing support ticket volumes.
       - role: Software Engineering Intern
         time: 2017 - 2018 (3 months)
         company: Weta Workshop (Academy Award-Winning Creative Studio), Wellington, New Zealand
         details: |
           - <strong style="color: #666666;">Asset Pipeline Automation:</strong> Built containerized plugins and Python/PowerShell automation scripts to connect internal production creative tools directly with asset tracking APIs, eliminating manual asset entry and repetitive operational overhead.
-          - <strong style="color: #666666;">Internal Tooling & Platform Extensions:</strong> Developed custom Confluence wiki extensions that natively rendered 3D model formats within internal documentation pages, bridging the gap between creative artists and technical engineers.
+          - <strong style="color: #666666;">Internal Tooling & Specialized Data Extensions:</strong> Developed custom Confluence wiki extensions that natively rendered 3D model formats within internal documentation pages, bridging the gap between specialized domain specialists and technical systems.
       - role: Working Holiday & International Transition
         time: 2015 - 2016
         company: New Zealand
         details: |
           - <strong style="color: #666666;">International Transition & Language Immersion:</strong> Relocated to New Zealand on a Working Holiday visa, developing professional English fluency and cross-cultural adaptability while preparing for an academic transition into Computer Science.
-      - role: Chemical Engineer (Continuous Improvement & Process Operations)
+      - role: Chemical Engineer (Process Telemetry, Data Acquisition & Quality Engineering)
         time: 2008 - 2014
         company: LG Chem (Global Fortune 500 Chemical & Materials Manufacturer), Tianjin, China
         details: |
-          - <strong style="color: #666666;">Data Acquisition & Reaction Optimization:</strong> Extracted, analyzed, and correlated operational telemetry from Honeywell PLCs alongside chemical laboratory test results to calculate optimal temperature, pressure, and catalyst parameters for reaction lines, directly improving production yields and chemical consistency.
-          - <strong style="color: #666666;">Root-Cause Analysis & Quality Engineering:</strong> Applied Six Sigma methodologies, statistical process control (SPC), and rigorous root-cause investigation across laboratory and manufacturing data to eliminate batch defects and enforce quality standards.
-          - <strong style="color: #666666;">Plant Turnaround & Operational Leadership:</strong> Orchestrated annual plant turnarounds, directing cross-functional engineering and maintenance teams during 15- to 20-day full-facility shutdowns for comprehensive preventive inspections and equipment overhauls with zero safety incidents.
-          - <strong style="color: #666666;">Process Innovation & Energy Efficiency:</strong> Spearheaded engineering initiatives on thermal and electrical energy optimization across manufacturing lines, cutting utility overhead and minimizing environmental impact.
+          - <strong style="color: #666666;">Sensor Telemetry & Reaction Optimization:</strong> Extracted, analyzed, and correlated operational telemetry from Honeywell PLCs, industrial sensors, and chemical laboratory assay data to model and calculate optimal temperature, pressure, and catalyst parameters, directly improving production yields and chemical consistency.
+          - <strong style="color: #666666;">Statistical Quality Control & Root-Cause Analysis:</strong> Applied Six Sigma methodologies, statistical process control (SPC), and rigorous root-cause investigation across laboratory and manufacturing datasets to eliminate batch defects and enforce quality standards.
+          - <strong style="color: #666666;">Plant Turnaround & Operational Engineering:</strong> Directed cross-functional engineering and maintenance teams during 15- to 20-day full-facility shutdowns for comprehensive preventive inspections and equipment overhauls with zero safety incidents.
+          - <strong style="color: #666666;">Process Innovation & Resource Efficiency:</strong> Spearheaded engineering initiatives on thermal and electrical energy optimization across manufacturing lines, cutting utility overhead and minimizing environmental impact.
 projects:
     title: Projects
     intro: ""
@@ -144,13 +144,13 @@ skills:
     toolset:
       - name: Cloud Infrastructure, Kubernetes & Systems
         level: 94
-        text: Kubernetes (Pods, Services, Metrics, Logs), Docker, Clustered Server Environments & Horizontal Scaling, AWS, GCP Cloud Run, Azure (App Insights, Cosmos DB), Linux, GitHub Actions, CI/CD Automation, Terraform, PowerShell & Bash
-      - name: Software Engineering & Data Pipelines
+        text: Kubernetes (Pods, Services, Metrics, Logs), Docker, Linux, Clustered Server Environments & Horizontal Scaling, AWS, GCP Cloud Run, Azure (App Insights, Cosmos DB), GitHub Actions, CI/CD Automation, Terraform, PowerShell & Bash
+      - name: Software Engineering & Data Platforms
         level: 94
-        text: Python (FastAPI, Flask), Java, C# / .NET, Gosu, REST APIs, Microservices, Apache Kafka (troubleshooting & pipeline consumption), SQL & BigQuery, Redis, Event-Driven Architectures, Core Banking & Financial Platforms
+        text: Python (FastAPI, Flask), Java, C# / .NET, Gosu, RESTful APIs, Microservices, Apache Kafka (troubleshooting & pipeline consumption), SQL & BigQuery, Redis, Event-Driven Architectures & Distributed Systems
       - name: Applied AI, Scientific Data & MLOps
         level: 93
         text: Tool Invocation & Function Calling (MCP / FastMCP), NumPy, Pandas, Jupyter Notebooks, MLOps (MLflow, Evidently), Context Propagation & State Management, RAG Architectures, AI Safety & Explainability, Gemini / Vertex AI, Vector Databases
-      - name: Observability & Platform Reliability
+      - name: Observability, Reliability & Data Governance
         level: 92
-        text: Datadog, OpenTelemetry, Grafana, Splunk, New Relic, Distributed Tracing, Log / Metric Analysis, Synthetic Monitors & SLOs/SLIs, Root-Cause Analysis (RCA), Incident Response & Blameless Postmortems
+        text: OpenTelemetry, Datadog, Grafana, Splunk, New Relic, Distributed Tracing, Log / Metric Analysis, Synthetic Monitors & SLOs/SLIs, Root-Cause Analysis (RCA), Incident Response & Postmortems, Data Security & Privacy
