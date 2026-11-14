@@ -2,7 +2,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: ["master", "FDE-CV", "SRE-CV", "RE-CV"]
+    branches: ["master", "FDE-CV", "SRE-CV", "RE-CV", "cs-cv", "CE-CV"]
   workflow_dispatch:
 
 permissions:
@@ -37,7 +37,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build SRE, FDE and RE Jekyll sites
+      - name: Build SRE, FDE, RE and Customer Engineer Jekyll sites
         env:
           JEKYLL_ENV: production
         run: |
@@ -60,7 +60,21 @@ jobs:
           git checkout RE-CV
           bundle exec jekyll build --baseurl "${BASE_PREFIX}/re" --destination "./_site/re" --trace
 
-          # 4. Create Root Landing page
+          # 4. Build Customer Engineer site directly from cs-cv or CE-CV branch
+          echo "Building Customer Engineer CV..."
+          if git checkout cs-cv 2>/dev/null; then
+            echo "Checked out cs-cv"
+          elif git checkout CE-CV 2>/dev/null; then
+            echo "Checked out CE-CV"
+          elif git checkout -B cs-cv origin/cs-cv 2>/dev/null; then
+            echo "Checked out origin/cs-cv"
+          elif git checkout -B CE-CV origin/CE-CV 2>/dev/null; then
+            echo "Checked out origin/CE-CV"
+          fi
+          bundle exec jekyll build --baseurl "${BASE_PREFIX}/ce" --destination "./_site/ce" --trace
+          cp -r ./_site/ce ./_site/cs
+
+          # 5. Create Root Landing page
           cat << 'EOF' > ./_site/index.html
           <!DOCTYPE html>
           <html lang="en">
@@ -138,6 +152,10 @@ jobs:
               <h1>Select CV Profile</h1>
               <p class="sub">Please choose a resume version to view:</p>
               <div class="card-list">
+                <a class="cv-card" href="./ce/index.html">
+                  <div class="cv-title">🛠️ Customer Engineer (Operations & Site Reliability)</div>
+                  <div class="cv-desc">Focused on Tier-3 Escalations, Multi-Platform Operations, Observability, and Incident Triage.</div>
+                </a>
                 <a class="cv-card" href="./re/index.html">
                   <div class="cv-title">🔬 Senior Research Engineer (Systems & Platforms)</div>
                   <div class="cv-desc">Focused on Cloud Platforms, Kubernetes, Data Pipelines, and Scientific IT Systems.</div>

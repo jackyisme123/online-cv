@@ -9,8 +9,8 @@ sidebar:
 
     # Profile information
     name: Yuan Cui
-    tagline: Senior Platform Reliability & Software Engineer
-    location: Christchurch, New Zealand (Open to relocation to Utrecht / Wageningen, the Netherlands)
+    tagline: Site Reliability & Operations Support Engineer
+    location: Christchurch, New Zealand (Open to relocation to Amsterdam, the Netherlands)
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -53,7 +53,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Senior Platform Reliability & Software Engineer with a multidisciplinary engineering foundation (B.Eng in Chemical Engineering + GDip with Distinction in Computer Science) and 8+ years of software, platform, and data systems engineering experience. Proven track record of architecting resilient backend services (Python, Java, C#/.NET), containerized cloud environments (Kubernetes, AWS, GCP), and automated AI platforms. Experienced in partnering directly with domain researchers, engineers, and operational stakeholders to translate complex requirements into secure, maintainable self-service solutions. Combines deep analytical problem-solving with hands-on systems reliability, distributed data streams (Kafka, BigQuery), computational performance optimization, and explainable AI enablement.
+      Site Reliability & Operations Support Engineer with 8+ years of experience supporting mission-critical distributed systems and enterprise platform modernization across cloud and enterprise environments. Combines strong cross-functional engineering collaboration, stakeholder management, and customer-facing support with technical leadership and team mentorship. Deep expertise in advanced troubleshooting and root cause analysis, supportability engineering, and continuous operational improvement. Backed by solid software development and automation scripting capabilities, with hands-on experience designing AI and agentic workflows to eliminate toil and accelerate production incident resolution.
 
 education:
     title: Education & Certificates
@@ -88,22 +88,23 @@ education:
 experiences:
     title: Work Experience
     info:
-      - role: Senior Platform Reliability & Software Engineer
+      - role: Site Reliability & Operations Support Engineer
         time: Aug 2023 - Present
         company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">Distributed Java Platform Engineering, RCA & Bug Fixing:</strong> Support core enterprise backend platform (Java/Gosu). Perform deep root-cause analysis on production incidents, reproduce edge-case defects, and deliver Java backend fixes and architectural enhancements. Investigate backend logs, database queries, and API integrations to resolve complex data lifecycle and distributed transaction errors.
-          - <strong style="color: #666666;">Reliability, Observability & Data Pipelines:</strong> Strengthen backend reliability and visibility across unpredictable enterprise workloads by configuring full-stack observability and distributed tracing. Monitor and troubleshoot distributed microservices, Kubernetes pod metrics and lifecycle, and data pipeline health across Kafka event streams and BigQuery data stores.
-          - <strong style="color: #666666;">AI Activator & Technical Sparring Partner:</strong> Serve as an internal AI Activator and technical sparring partner bridging enterprise technical strategy with practical squad adoption. Consult directly with cross-functional and domain stakeholders to translate evolving, ambiguous requirements into reusable AI tools, standardized integration patterns, and developer automation. Champion engineering best practices across internal AI initiatives, including the production Agentic Incident Triage Engine and Release Whisperer.
-          - <strong style="color: #666666;">Self-Service Tooling, Explainability & Toil Reduction:</strong> Partner closely with domain users and technical teams to translate repetitive operational and data inquiries into automated, explainable self-service workflows (including an agentic Text-to-SQL data retrieval engine on BigQuery). Author Python and PowerShell automation scripts and troubleshooting runbooks, eliminating over 1,000 hours of manual operational toil annually.
-      - role: Full Stack Software Engineer (Core Computational & Transactional Backend)
+          - <strong style="color: #666666;">Multi-Platform Support, Modernization & Tier-3 Escalations:</strong> Supported enterprise platform modernization, transitioning multiple heritage NZ insurance systems into consolidated cloud platforms. Provided Tier-3 operational support across commercial Guidewire PolicyCenter (SaaS/Cloud, maintaining customized Java/Gosu code and integrations alongside vendor infrastructure) and retail AWS cloud-native policy and customer portals. Performed deep root-cause analysis, reproduced complex edge-case defects in non-production environments, and delivered backend bug fixes for critical policy lifecycle and transaction errors.
+          - <strong style="color: #666666;">Reliability & Observability for Variable Workloads:</strong> Strengthened backend reliability and visibility across unpredictable enterprise workloads by configuring full-stack observability (Datadog, New Relic, Splunk, Grafana) and OpenTelemetry distributed tracing. Analyzed API payloads, microservice latencies, and Kubernetes pod metrics to establish proactive SLO alerts and safeguard system uptime.
+          - <strong style="color: #666666;">AI Activator & Team Enablement:</strong> Served as an internal AI Activator bridging enterprise AI strategy with practical squad adoption. Built reusable AI skills, standardized integration patterns (MCP/FastMCP), and developer tooling while mentoring team members to adopt GenAI safely and efficiently. Championed engineering best practices to deliver production AI initiatives—including the Agentic Incident Triage Engine and Release Whisperer—enabling automated cross-system diagnostics and triage across Datadog, BigQuery, and ServiceNow.
+          - <strong style="color: #666666;">On-Call Incident Triage, Callouts & MIM Bridge Coordination:</strong> Handled rotating 24/7 on-call callouts to rapidly troubleshoot and isolate high-priority production incidents across firewalls (Illumio), networking (F5 load balancers), IAM permissions, core backend systems, and external service dependencies. Stepped into the Major Incident Management (MIM) bridge role to coordinate cross-functional teams (infrastructure, security, platform, and product squads) for rapid service restoration, and supported production TLS/SSL certificate renewals.
+          - <strong style="color: #666666;">Ops-to-SRE Cultural Transition & Toil Reduction:</strong> Spearheaded a team initiative transitioning legacy operations into an engineering-led SRE model. Established clear team boundaries, supportability standards, and code review practices for operational tooling. Engineered "runbook-as-code" automation to auto-remediate recurring production incidents, eliminating over 1,000 hours of manual operational toil per year.
+      - role: Senior Software Engineer & Tier-3 Escalations (Transactional Systems)
         time: 2018 - 2023
         company: FIS (Fortune 500 Financial Technology Leader), Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">Core Platform & Distributed Systems Engineering:</strong> Engineered mission-critical backend modules and business logic (C#/.NET) for Tier-1 global institutions (HSBC, BMW Finance, Toyota Finance), ensuring strict transactional consistency, high availability, and regulatory compliance.
-          - <strong style="color: #666666;">Complex Troubleshooting, RCA & Production Patches:</strong> Served as an escalation point for mission-critical client incidents and edge cases. Investigated complex system failures across distributed transaction flows, reproduced multi-threaded bugs in isolated environments, and implemented robust code fixes and production patches.
-          - <strong style="color: #666666;">Performance Optimization & Computational Latency:</strong> Diagnosed and resolved severe concurrency bottlenecks, database deadlocks, and slow query executions in high-throughput transactional environments. Re-architected computationally heavy rating calculations with pre-calculation caching and query optimization, reducing latency from 60 seconds to 20 seconds.
-          - <strong style="color: #666666;">Extensible Workflow Engine & Domain Enablement:</strong> Co-developed an extensible business rules and workflow engine within the core platform, allowing domain operations teams to configure custom business logic without code deployments, significantly reducing support ticket volumes.
+          - <strong style="color: #666666;">Mission-Critical Tier-3 Client Escalations & Production Patches:</strong> Served as Tier-3 technical escalation authority for Tier-1 global institutions (HSBC, BMW Finance, Toyota Finance). Investigated high-severity production outages across distributed transaction flows, reproduced complex multi-threaded concurrency bugs in dedicated lab environments, and engineered verified production patches under strict enterprise SLAs.
+          - <strong style="color: #666666;">Distributed System Performance & Network Latency Diagnostics:</strong> Diagnosed and resolved severe database deadlocks, socket connection timeouts, and computational concurrency bottlenecks across high-throughput transactional backends (C#/.NET, SQL). Re-architected batch rating engines with caching and query optimization, slashing processing latency from 60 seconds to 20 seconds.
+          - <strong style="color: #666666;">Operations Enablement & Self-Service Rule Engine:</strong> Co-developed an extensible workflow and business rules engine within the core platform, allowing client support and operations squads to configure dynamic business rules without code deployments, significantly deflecting recurring support tickets.
+          - <strong style="color: #666666;">Root Cause Analysis & Post-Incident Reviews:</strong> Authored comprehensive post-incident reviews (PIRs) and diagnostic guides for client engineering and internal operations teams. Conducted technical debriefs translating low-level crash dumps and transactional logs into actionable preventative measures for core product development.
       - role: Software Engineering Intern
         time: 2017 - 2018 (3 months)
         company: Weta Workshop (Academy Award-Winning Creative Studio), Wellington, New Zealand
@@ -142,15 +143,15 @@ projects:
 skills:
     title: Core Competencies & Tech Stack
     toolset:
-      - name: Cloud Infrastructure, Kubernetes & Systems
-        level: 94
-        text: Kubernetes (Pods, Services, Metrics, Logs), Docker, Linux, Clustered Server Environments & Horizontal Scaling, AWS, GCP Cloud Run, Azure (App Insights, Cosmos DB), GitHub Actions, CI/CD Automation, Terraform, PowerShell & Bash
+      - name: Cloud Infrastructure, Networking & Systems
+        level: 95
+        text: Kubernetes, Docker, Linux, F5 Load Balancers, Illumio Firewalls, TLS/SSL Certificate Lifecycle Management, AWS, GCP, Terraform, TCP/IP, DNS, HTTP/HTTPS, CI/CD (GitHub Actions), PowerShell & Bash
       - name: Software Engineering & Data Platforms
         level: 94
         text: Python (FastAPI, Flask), Java, C# / .NET, Gosu, RESTful APIs, Microservices, Kafka (troubleshooting & pipeline consumption), SQL & BigQuery, Redis, Event-Driven Architectures & Distributed Systems
-      - name: Applied AI, Scientific Data & MLOps
+      - name: Observability, SRE & Incident Management
+        level: 94
+        text: Datadog, OpenTelemetry, Grafana, Prometheus, Splunk, New Relic, Distributed Tracing, Log / Metric Telemetry, Major Incident Management Bridges, Root-Cause Analysis, Post-Incident Reviews (PIR), Synthetic Monitors & SLOs/SLIs, Runbook as Code & Auto-Remediation, Supportability Runbooks & Playbooks
+      - name: Applied AI & Operations Automation
         level: 93
-        text: Tool Invocation & Function Calling (MCP / FastMCP), NumPy, Pandas, Jupyter Notebooks, MLOps (MLflow, Evidently), Context Propagation & State Management, RAG Architectures, AI Safety & Explainability, Gemini / Vertex AI, Vector Databases
-      - name: Observability, Reliability & Data Governance
-        level: 92
-        text: OpenTelemetry, Datadog, Grafana, Splunk, New Relic, Distributed Tracing, Log / Metric Analysis, Synthetic Monitors & SLOs/SLIs, Root-Cause Analysis (RCA), Incident Response & Postmortems, Data Security & Privacy
+        text: Tool Invocation & Function Calling (MCP / FastMCP), Agentic Workflows, NumPy, Pandas, Jupyter Notebooks, MLOps (MLflow, Evidently), Context Propagation & State Management, RAG Architectures, AI Safety & Explainability, Gemini / Vertex AI, Vector Databases
