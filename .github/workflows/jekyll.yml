@@ -2,7 +2,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: ["master", "FDE-CV", "SRE-CV"]
+    branches: ["master", "FDE-CV", "SRE-CV", "iag-cv"]
   workflow_dispatch:
 
 permissions:
@@ -37,7 +37,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build SRE and FDE Jekyll sites
+      - name: Build SRE, FDE and IAG Jekyll sites
         env:
           JEKYLL_ENV: production
         run: |
@@ -55,7 +55,16 @@ jobs:
           git checkout FDE-CV
           bundle exec jekyll build --baseurl "${BASE_PREFIX}/fde" --destination "./_site/fde" --trace
 
-          # 3. Create Root Landing page
+          # 3. Build IAG site directly from iag-cv branch
+          echo "Building IAG (Senior Agentic Software Engineer) CV..."
+          if git checkout iag-cv 2>/dev/null; then
+            echo "Checked out iag-cv"
+          elif git checkout -B iag-cv origin/iag-cv 2>/dev/null; then
+            echo "Checked out origin/iag-cv"
+          fi
+          bundle exec jekyll build --baseurl "${BASE_PREFIX}/iag" --destination "./_site/iag" --trace
+
+          # 4. Create Root Landing page
           cat << 'EOF' > ./_site/index.html
           <!DOCTYPE html>
           <html lang="en">
@@ -80,7 +89,7 @@ jobs:
                 padding: 40px 32px;
                 border-radius: 12px;
                 box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-                max-width: 500px;
+                max-width: 540px;
                 width: 90%;
                 text-align: center;
               }
@@ -115,6 +124,14 @@ jobs:
                 transform: translateY(-2px);
                 box-shadow: 0 4px 12px rgba(3,102,214,0.12);
               }
+              .cv-card.featured {
+                border-color: #0969da;
+                background: #f6faff;
+              }
+              .cv-card.featured:hover {
+                background: #edf5fd;
+                box-shadow: 0 4px 12px rgba(9,105,218,0.18);
+              }
               .cv-title {
                 font-size: 16px;
                 font-weight: 600;
@@ -126,6 +143,17 @@ jobs:
                 color: #586069;
                 line-height: 1.4;
               }
+              .badge {
+                display: inline-block;
+                font-size: 11px;
+                font-weight: 600;
+                color: #0969da;
+                background: #ddf4ff;
+                padding: 2px 8px;
+                border-radius: 12px;
+                margin-left: 6px;
+                vertical-align: middle;
+              }
             </style>
           </head>
           <body>
@@ -133,6 +161,10 @@ jobs:
               <h1>Select CV Profile</h1>
               <p class="sub">Please choose a resume version to view:</p>
               <div class="card-list">
+                <a class="cv-card featured" href="./iag/index.html">
+                  <div class="cv-title">🤖 Senior Agentic Software Engineer <span class="badge">IAG Internal</span></div>
+                  <div class="cv-desc">Hands-on technical leadership in agentic engineering, reusable AI capabilities, reliable agent workflows, and Responsible AI systems.</div>
+                </a>
                 <a class="cv-card" href="./sre/index.html">
                   <div class="cv-title">⚙️ Senior Site Reliability & Software Engineer</div>
                   <div class="cv-desc">Focused on Cloud Infrastructure, SRE transformation, Observability, and AIOps.</div>
