@@ -9,8 +9,8 @@ sidebar:
 
     # Profile information
     name: Yuan Cui
-    tagline: Senior Agentic Software Engineer | Hands-on Technical Leader
-    location: Christchurch, New Zealand (IAG Internal | Open to Sydney, Melbourne, Brisbane & Hybrid)
+    tagline: Senior Agentic Software Engineer
+    location: Christchurch, New Zealand
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -54,7 +54,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Senior Software Engineer and internal AI Activator with 8+ years of engineering experience across enterprise software, distributed systems, and production AI enablement at IAG. Hands-on technical leader pioneering agentic software engineering practices—architecting multi-agent systems, reusable tool harnesses (FastMCP / Model Context Protocol), dynamic context management, and automated evaluation frameworks aligned with Responsible AI. Combines deep systems thinking with software engineering rigor across architecture, CI/CD, automated testing, observability, and production reliability. Experienced in converting incidents, recurring failures, and operational toil into reusable engineering assets, while exercising sound architectural judgement to balance deterministic controls with scalable agentic workflows. Proven track record of mentoring engineers, lifting team capability, and shaping human-agent collaborative systems across RIA.
+      Site Reliability Engineer with 8+ years of combined engineering experience, including 5 years of full-stack software engineering at FIS building mission-critical financial platforms, and currently supporting core enterprise insurance platforms at IAG (GPNZ_OPS_SUPPORT & COMMERCIAL_POLICYCENTER_SUPPORT). Spearheaded our team's transformation from reactive operations to a proactive SRE model, establishing runbooks, observability standards, and automations that eliminate over 1,000 hours of operational toil annually. Operating as an internal AI Activator, I partner directly with architecture, operations, development, and other business teams to translate recurring incidents, manual reviews, and operational bottlenecks into reliable automations and agentic workflows. Excited to bring strong systems thinking, production reliability rigor, and hands-on AI enablement to RIA's Agentic Software Engineering practice.
 
 education:
     title: Education & Certificates
@@ -89,15 +89,15 @@ education:
 experiences:
     title: Working Experiences
     info:
-      - role: Senior Platform Engineer & AI Activator (Agentic Engineering & SRE)
+      - role: Operations Analyst & AI Activator
         time: Aug 2023 - Present
-        company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid / Internal)
+        company: IAG, Christchurch, New Zealand (Hybrid)
         details: |
           - <strong style="color: #666666;">Agentic Software Engineering & Multi-System Orchestration:</strong> Architected and delivered functional agentic engineering workflows and MVPs (Agentic Incident Triage Engine using Gemini / Vertex AI, GCP Cloud Run, and vector databases). Engineered secure, parameterized tool endpoints and FastMCP servers that orchestrate multi-system enterprise APIs (ServiceNow, Datadog, Salesforce, Guidewire Cloud, AWS S3, BigQuery / Google Data Platform), enabling software agents to safely ingest context, execute diagnostics, and generate draft remediation PRs under strict least-privilege security boundaries.
           - <strong style="color: #666666;">Reusable Capabilities, Agent Instructions & Responsible AI Controls:</strong> Designed and standardized reusable engineering capabilities across squads, including modular agent instructions (system prompts and task boundaries), custom skills, automated evaluation benchmarks, and reference implementations. Embedded strict Responsible AI controls, PII data masking, and multi-agent challenger loops (e.g., Release Whisperer AI Agent) where a secondary reviewer agent independently challenges low-confidence outputs before human sign-off.
           - <strong style="color: #666666;">Reliable Workflows, Context Engineering & Escalation Mechanisms:</strong> Engineered resilient runtime harnesses providing software agents with scoped context windows, dynamic RAG injection, and deterministic fallback and recovery mechanisms. Established clear validation gates and automated escalation triggers that gracefully hand off execution to human engineers whenever confidence thresholds are unmet or sensitive operations occur, safeguarding production stability and auditability.
           - <strong style="color: #666666;">Converting Failures & Delivery Insights into Engineering Assets:</strong> Systematically transformed operational incidents, audit discrepancies, and recurring manual reviews into structural engineering improvements. Following an external audit risk on unverified release documentation, built an automated AI compliance reviewer that cross-references Jira, ServiceNow, and test artifacts, slashing manual review time from 30 minutes to 5 minutes while maintaining zero-defect regulatory compliance.
-          - <strong style="color: #666666;">Engineering Mentorship & Practice Enablement:</strong> Served as an internal AI Activator across RIA squads, driving practical adoption of AI coding tools, software agents, and agentic workflows. Coached engineers through their first agentic PRs, led technical design and code reviews, and authored comprehensive reference runbooks on agentic patterns and SRE principles. Led a team transformation that eliminated over 1,000 hours of manual operational toil per year.
+          - <strong style="color: #666666;">Engineering Mentorship & Practice Enablement:</strong> Served as an internal AI Activator across support and operations squads (GPNZ_OPS_SUPPORT & COMMERCIAL_POLICYCENTER_SUPPORT), driving practical adoption of AI coding tools, software agents, and agentic workflows. Coached engineers through their first agentic PRs, led technical design and code reviews, and authored comprehensive reference runbooks on agentic patterns and SRE principles. Led a team transformation that eliminated over 1,000 hours of manual operational toil per year.
           - <strong style="color: #666666;">Architectural Judgement (Deterministic vs. Agentic Systems):</strong> Applied sound engineering judgement to determine when agentic approaches are ready to scale versus when conventional deterministic engineering is required. For broker access code provisioning, replaced manual spreadsheet handling with an automated, deterministic Python-to-Gosu engine with safe public ID incrementation and comprehensive runtime logging, reducing turnaround from days to under 10 minutes with zero risk of database corruption.
       - role: Full Stack Software Engineer (Distributed Systems & Core Platforms)
         time: 2018 - 2023
