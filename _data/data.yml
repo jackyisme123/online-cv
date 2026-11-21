@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Yuan Cui
-    tagline: Platform Reliability & Software Engieer
+    tagline: Platform Reliability & Software Engineer
     location: Christchurch, New Zealand
     # avatar: Yuan.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -48,14 +48,17 @@ sidebar:
     referee:
       title: Referee
       info:
-        - item: Sashen Govender (team manager) +64273438411
-        - item: Edwin Manica (project manager) +61421774038
+        - name: Sashen Govender
+          jobtitle: IAG | Ops Team Manager | +64273438411
+
+        - name: Edwin Manica
+          jobtitle: IAG | CEP Project Manager | +61421774038
 
 
 career-profile:
     title: Career Profile
     summary: |
-      Site Reliability Engineer with 8+ years of combined engineering experience, including 5 years of full-stack software engineering at FIS building mission-critical financial platforms, and currently supporting core enterprise insurance platforms at IAG. Spearheaded our team's transformation from reactive operations to a proactive SRE model, establishing runbooks, observability standards, and automations that eliminate over 1,000 hours of operational toil annually. Operating as an internal AI Activator, I partner directly with architecture, operations, development, and other business teams to translate recurring incidents, manual reviews, and operational bottlenecks into reliable automations and agentic workflows. Excited to bring strong systems thinking, production reliability rigor, and hands-on AI enablement to RIA's Agentic Software Engineering practice.
+      Platform Reliability Engineer with 8+ years of combined engineering experience, including 5 years of full-stack software engineering at FIS building mission-critical financial platforms, and currently supporting core enterprise insurance platforms at IAG. Spearheaded our team's transformation from reactive operations to a proactive SRE model, establishing runbooks, observability standards, and automations that eliminate over 1,000 hours of operational toil annually. Operating as an internal AI Activator, I partner directly with architecture, operations, development, and other business teams to translate recurring incidents, manual reviews, and operational bottlenecks into reliable automations and agentic workflows. Excited to bring strong systems thinking, production reliability rigor, and hands-on AI enablement to RIA's Agentic Software Engineering practice.
 
 education:
     title: Education & Certificates
@@ -94,16 +97,16 @@ experiences:
         time: Aug 2023 - Present
         company: IAG, Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">Enterprise Application Modernisation Support:</strong> Supported the policy lifecycle migration as part of enterprise application modernisation, transitioning from NZ-based on-premise applications (Pulse, Exigen, WinAmigo, DataRich, Guidewire Red) to enterprise cloud platforms (EP and CEP). Collaborated widely across IAG teams (including IAM, Pricing, Billing, Portfolio, Documentation, API, Underwriting, Product SMEs, and Architecture) to ensure seamless policy data flow and operational continuity.
-          - <strong style="color: #666666;">CEP Escalations & Enhancements:</strong> Provided L1 to L3 incident triage and technical escalation support for CEP Guidewire PolicyCenter. Conducted deep root-cause analysis in Jira and implemented data bug fixes when defects blocked customer transactions. Enhanced operational processes and partnered directly with business stakeholders to design and implement small improvements to PolicyCenter.
-          - <strong style="color: #666666;">Internal AI Activator:</strong> Served as the team's internal AI Activator, bridging IAG enterprise AI strategy with practical squad requirements. Designed and delivered agentic solutions that solve real operational pain points, including automating cross-system incident triage and streamlining pre-deployment release compliance. Built reusable API adaptors and Model Context Protocol (MCP) servers to securely connect enterprise tools, created and maintained reusable AI Skills to accelerate daily team workflows, and actively mentored team members on IAG AI knowledge, standards, and engineering practices.
+          - <strong style="color: #666666;">Enterprise Application Modernisation Support:</strong> Supported enterprise application modernisation, transitioning from NZ-based on-premise applications (Pulse, Exigen, WinAmigo, Datarich, Guidewire Red) to enterprise cloud platforms (EP and CEP). Collaborated widely across IAG teams (including IAM, Pricing, Billing, Portfolio, Documentation, API, Underwriting, Product SMEs, and Architecture) to ensure seamless policy data flow and operational continuity.
+          - <strong style="color: #666666;">CEP Escalations & Enhancements:</strong> Provided L1 to L3 incident triage and technical escalation support for CEP Guidewire PolicyCenter. Conducted deep root-cause analysis in Jira and implemented fixes when defects blocked customer transactions. Enhanced operational processes and partnered directly with business stakeholders to design and implement improvements to PolicyCenter.
+          - <strong style="color: #666666;">Internal AI Activator:</strong> Served as the team's internal AI Activator, bridging IAG enterprise AI strategy with practical squad requirements. Designed and delivered agentic solutions that solve real operational pain points, including automating cross-system incident triage and streamlining pre-deployment release compliance. Built reusable API adaptors and MCP servers to securely connect enterprise tools, engineered and maintained reusable AI skills (system architecture scaffolding, automated code reviews, and pre-commit knowledge syncing) to codify engineering standards and accelerate human–agent delivery workflows, and actively mentored team members on IAG AI strategy, standards, and engineering practices.
           - <strong style="color: #666666;">Proactive Ops-to-SRE Transformation:</strong> Led the team's transition from traditional reactive operations to a proactive SRE model. Established engineering runbooks and automated controls that systematically prevented recurring incidents and eliminated over 1,000 hours of manual operational toil per year. Enabled the team to support expanding platform workloads with lower headcount than originally anticipated, unlocking more engineering time for proactive platform improvements.
           - <strong style="color: #666666;">On-Call, Release & Observability:</strong> Participated in primary on-call rotations, systematically reducing callouts by delivering detailed Post-Incident Reviews and implementing self-recovery mechanisms. Streamlined release management by automating manual verification steps and enhancing existing CI/CD pipelines. Deployed New Relic Synthetics to continuously monitor service health and critical business functions, catching anomalies before they impacted users.
       - role: Full Stack Software Engineer
         time: 2018 - 2023
         company: FIS, Christchurch, New Zealand (Hybrid)
         details: |
-          - <strong style="color: #666666;">Enterprise Platform Architecture:</strong> Engineered and maintained core financial modules within an asset finance monolith handling rating and billing for Tier-1 global institutions (HSBC, BMW Financial Services, Toyota Finance). Co-developed an extensible low-code business rules and workflow engine, empowering customer to safely configure complex business rules and workflows with minimal code changes.
+          - <strong style="color: #666666;">Enterprise Platform Architecture:</strong> Engineered and maintained core financial modules within an asset finance monolith handling rating and billing for Tier-1 global institutions. Co-developed an extensible low-code business rules and workflow engine, empowering customer to safely configure complex business rules and workflows with minimal code changes.
           - <strong style="color: #666666;">Application Performance Optimization:</strong> Diagnosed and resolved critical performance bottlenecks, database deadlocks, and query latencies in high-throughput transactional backends. Re-architected heavy rating calculation algorithms with lightweight pre-calculation caching and query optimization, slashing execution time from 60 seconds to 20 seconds.
           - <strong style="color: #666666;">QA & Devops Engineering:</strong> Maintained platform stability across Dev, Test, and UAT environments through comprehensive automated test suites and robust CI/CD pipelines. Built internal developer tools, custom automation plugins, and documentation guides, accelerating squad onboarding and mentoring junior engineers.
       - role: Software Engineering Intern
