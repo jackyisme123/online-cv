@@ -109,12 +109,7 @@ experiences:
           - <strong style="color: #666666;">Enterprise Platform Architecture:</strong> Engineered and maintained core financial modules within an asset finance monolith handling rating and billing for Tier-1 global institutions. Co-developed an extensible low-code business rules and workflow engine, empowering customer to safely configure complex business rules and workflows with minimal code changes.
           - <strong style="color: #666666;">Application Performance Optimization:</strong> Diagnosed and resolved critical performance bottlenecks, database deadlocks, and query latencies in high-throughput transactional backends. Re-architected heavy rating calculation algorithms with lightweight pre-calculation caching and query optimization, slashing execution time from 60 seconds to 20 seconds.
           - <strong style="color: #666666;">QA & Devops Engineering:</strong> Maintained platform stability across Dev, Test, and UAT environments through comprehensive automated test suites and robust CI/CD pipelines. Built internal developer tools, custom automation plugins, and documentation guides, accelerating squad onboarding and mentoring junior engineers.
-      - role: Software Engineering Intern
-        time: 2017 - 2018 (3 months)
-        company: Weta Workshop, Wellington, New Zealand
-        details: |
-          - <strong style="color: #666666;">Platform Extension:</strong> Developed custom Confluence wiki extensions that natively rendered 3D model formats inside internal documentation pages, bridging creative artists and technical engineering workflows.
-          - <strong style="color: #666666;">Asset Pipeline Automation:</strong> Built containerized plugins and automation scripts connecting internal production creative tools directly with asset tracking APIs, eliminating manual asset entry and streamlining production tracking.
+
 projects:
     title: Featured Projects & Reference Implementations
     intro: ""
