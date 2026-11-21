@@ -54,29 +54,29 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Site Reliability Engineer with 8+ years of combined engineering experience, including 5 years of full-stack software engineering at FIS building mission-critical financial platforms, and currently supporting core enterprise insurance platforms at IAG (GPNZ_OPS_SUPPORT & COMMERCIAL_POLICYCENTER_SUPPORT). Spearheaded our team's transformation from reactive operations to a proactive SRE model, establishing runbooks, observability standards, and automations that eliminate over 1,000 hours of operational toil annually. Operating as an internal AI Activator, I partner directly with architecture, operations, development, and other business teams to translate recurring incidents, manual reviews, and operational bottlenecks into reliable automations and agentic workflows. Excited to bring strong systems thinking, production reliability rigor, and hands-on AI enablement to RIA's Agentic Software Engineering practice.
+      Site Reliability Engineer with 8+ years of combined engineering experience, including 5 years of full-stack software engineering at FIS building mission-critical financial platforms, and currently supporting core enterprise insurance platforms at IAG. Spearheaded our team's transformation from reactive operations to a proactive SRE model, establishing runbooks, observability standards, and automations that eliminate over 1,000 hours of operational toil annually. Operating as an internal AI Activator, I partner directly with architecture, operations, development, and other business teams to translate recurring incidents, manual reviews, and operational bottlenecks into reliable automations and agentic workflows. Excited to bring strong systems thinking, production reliability rigor, and hands-on AI enablement to RIA's Agentic Software Engineering practice.
 
 education:
     title: Education & Certificates
     info:
       - degree: Graduate Diploma with Distinction in Computer Science
-        university: University of Canterbury (New Zealand)
+        university: University of Canterbury
         time: 2017 - 2019
 
       - degree: MBA
-        university: Tianjin University (China)
+        university: Tianjin University
         time: 2012 - 2014
 
       - degree: Bachelor of Engineering in Chemical Engineering
-        university: Tianjin University of Technology (China)
+        university: Tianjin University of Technology
         time: 2004 - 2008
 
       - degree: AWS Certified AI Practitioner
-        university: Amazon Web Services (AWS)
+        university: Amazon Web Services
         time: 2025 - 2028
 
       - degree: AWS Certified Solutions Architect – Associate
-        university: Amazon Web Services (AWS)
+        university: Amazon Web Services
         time: 2023 - 2026
 
       - degree: GitHub Actions
@@ -89,25 +89,25 @@ education:
 experiences:
     title: Working Experiences
     info:
-      - role: Site Reliability & Application Support Engineer (AI Activator)
+      - role: Operations Analysis (AI Activator)
         time: Aug 2023 - Present
-        company: IAG (Insurance Australia Group, ASX Top 50), Christchurch, New Zealand (Hybrid)
+        company: IAG, Christchurch, New Zealand (Hybrid)
         details: |
           - <strong style="color: #666666;">Enterprise Application Modernisation & Policy Lifecycle Support:</strong> Supported the policy lifecycle migration as part of enterprise application modernisation, transitioning from NZ-based on-premise applications (Pulse, Exigen, WinAmigo, DataRich, Guidewire Red) to enterprise cloud platforms (EP and CEP). Collaborated widely across IAG teams (including IAM, Pricing, Billing, Portfolio, Documentation, API, Underwriting, Product SMEs, and Architecture) to ensure seamless policy data flow and operational continuity.
           - <strong style="color: #666666;">CEP Guidewire PolicyCenter Escalations & Enhancements:</strong> Provided L1 to L3 incident triage and technical escalation support for CEP Guidewire PolicyCenter. Conducted deep root-cause analysis in Jira and implemented data bug fixes when defects blocked customer transactions. Enhanced operational processes and partnered directly with business stakeholders to design and implement small improvements to PolicyCenter.
           - <strong style="color: #666666;">Internal AI Activator & Enablement:</strong> Served as the team's internal AI Activator, bridging IAG enterprise AI strategy with practical squad requirements. Designed and delivered agentic solutions that solve real operational pain points, including automating cross-system incident triage and streamlining pre-deployment release compliance. Built reusable API adaptors and Model Context Protocol (MCP) servers to securely connect enterprise tools, created and maintained reusable AI Skills to accelerate daily team workflows, and actively mentored team members on IAG AI knowledge, standards, and engineering practices.
           - <strong style="color: #666666;">Proactive Ops-to-SRE Transformation:</strong> Led the team's transition from traditional reactive operations to a proactive SRE model. Established engineering runbooks and automated controls that systematically prevented recurring incidents and eliminated over 1,000 hours of manual operational toil per year. Enabled the team to support expanding platform workloads with lower headcount than originally anticipated, unlocking more engineering time for proactive platform improvements.
           - <strong style="color: #666666;">On-Call, Release & Observability:</strong> Participated in primary on-call rotations, systematically reducing callouts by delivering detailed Post-Incident Reviews and implementing self-recovery mechanisms. Streamlined release management by automating manual verification steps and enhancing existing CI/CD pipelines. Deployed New Relic Synthetics to continuously monitor service health and critical business functions, catching anomalies before they impacted users.
-      - role: Full Stack Software Engineer (Distributed Systems & Core Platforms)
+      - role: Full Stack Software Engineer
         time: 2018 - 2023
-        company: FIS (Fortune 500 Financial Technology Leader), Christchurch, New Zealand (Hybrid)
+        company: FIS, Christchurch, New Zealand (Hybrid)
         details: |
           - <strong style="color: #666666;">Enterprise Platform Architecture & Extensibility:</strong> Engineered and maintained core financial modules within an asset finance monolith handling rating and billing for Tier-1 global institutions (HSBC, BMW Financial Services, Toyota Finance). Co-developed an extensible low-code business rules and workflow engine, empowering operations teams to safely configure complex business rules and workflows with minimal code changes.
           - <strong style="color: #666666;">Computational Performance & Algorithmic Optimization:</strong> Diagnosed and resolved critical performance bottlenecks, database deadlocks, and query latencies in high-throughput transactional backends (C#/.NET, SQL). Re-architected heavy rating calculation algorithms with lightweight pre-calculation caching and query optimization, slashing execution time from 60 seconds to 20 seconds.
           - <strong style="color: #666666;">Quality Engineering, CI/CD & Developer Enablement:</strong> Maintained platform stability across Dev, Test, and UAT environments through comprehensive automated test suites and robust CI/CD pipelines. Built internal developer tools, custom automation plugins, and documentation guides, accelerating squad onboarding and mentoring junior engineers.
-      - role: Software Engineering Intern (Tooling & Pipeline Automation)
+      - role: Software Engineering Intern
         time: 2017 - 2018 (3 months)
-        company: Weta Workshop (Academy Award-Winning Creative Studio), Wellington, New Zealand
+        company: Weta Workshop, Wellington, New Zealand
         details: |
           - <strong style="color: #666666;">Custom Plugins & Platform Extension:</strong> Developed custom Confluence wiki extensions that natively rendered 3D model formats inside internal documentation pages, bridging creative artists and technical engineering workflows.
           - <strong style="color: #666666;">Asset Pipeline Automation:</strong> Built containerized plugins and automation scripts connecting internal production creative tools directly with asset tracking APIs, eliminating manual asset entry and streamlining production tracking.
@@ -119,8 +119,8 @@ projects:
         link: "#"
         tagline: 'Slow incident investigation was costing everyone. Ops teams lost hours gathering data from multiple systems before producing accurate RCAs. Dev teams reworked code due to incomplete or delayed handoffs. To address this, I architected and built a functional local MVP for an Agentic Incident Triage Engine using agentic workflows. Designed multi-system API integrations to fetch production data and logs, using a PII skill to avoid exposing any PII data, executing automated root-cause analysis and generating draft remediation PRs within strict AI safety boundaries. The local MVP has been adopted and used widely across our operations team to streamline investigations, while full enterprise production rollout remains in progress due to existing tool harness constraints and security boundaries. The initiative successfully proved that multi-system log enrichment accelerates incident triage from hours down to minutes, laying the architectural blueprint for future team AI tooling.'
       - title: Release Whisperer AI Agent
-        link: "https://iagau-my.sharepoint.com/:v:/r/personal/yuan_cui_iag_co_nz/Documents/Videos/Clipchamp/Video%20Project/Exports/Release-whisper%20full%20demo%20v3.mp4?d=we5f65f8360e64543aa1d3f5ac377ce32&csf=1&web=1&e=MeUW5Y&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"
-        tagline: 'Every release required reviewing four related documents, covering both technical details and paperwork. Ops checked service versions, test results, management sign-offs, configuration items, release timing, and stakeholder contacts. Release managers reviewed the same material with their own focus on release notes and test results. Platform managers could not sign off until every other team had already signed theirs. A big risk was raised by an external audit: a release had been signed off while a test document remained unsigned. I built an AI agent that automatically reviews and cross-validates release documents against our data systems. It finds issues early and generates an HTML report flagging each item with a confidence level, keeping a human in the loop. When confidence is low, a second agent challenges the outcome. Ops review time dropped from 30 minutes to 5, and releases now match auditing regulation standards. <a href="https://iagau-my.sharepoint.com/:v:/r/personal/yuan_cui_iag_co_nz/Documents/Videos/Clipchamp/Video%20Project/Exports/Release-whisper%20full%20demo%20v3.mp4?d=we5f65f8360e64543aa1d3f5ac377ce32&csf=1&web=1&e=MeUW5Y&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" style="color: #0366d6; text-decoration: underline;">[Internal Demo Video]</a>'
+        link: "#"
+        tagline: 'Every release required reviewing four related documents, covering both technical details and paperwork. Ops checked service versions, test results, management sign-offs, configuration items, release timing, and stakeholder contacts. Release managers reviewed the same material with their own focus on release notes and test results. Platform managers could not sign off until every other team had already signed theirs. A big risk was raised by an external audit: a release had been signed off while a test document remained unsigned. I built an AI agent that automatically reviews and cross-validates release documents against our data systems. It finds issues early and generates an HTML report flagging each item with a confidence level, keeping a human in the loop. When confidence is low, a second agent challenges the outcome. Ops review time dropped from 30 minutes to 5, and releases now match auditing regulation standards. <a href="https://iagau-my.sharepoint.com/:v:/r/personal/yuan_cui_iag_co_nz/Documents/Videos/Clipchamp/Video%20Project/Exports/Release-whisper%20full%20demo%20v3.mp4?d=we5f65f8360e64543aa1d3f5ac377ce32&csf=1&web=1&e=MeUW5Y&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" style="color: #0366d6; text-decoration: underline;">[Agent WorldCup Video]</a>'
       - title: Enterprise Self-Service Portal
         link: "#"
         tagline: 'Brokers needed producer codes to access our system. The previous process required ops to interpret business requests and manually upload spreadsheets into the system to generate the required codes. Because the same ID could be updated across separate spreadsheets by both Dev and Ops teams, mistakes were easy to make and hard to spot, and limited logging required manual database queries. Slow processing risked brokers leaving for faster competitors. I automated the end-to-end workflow with a Python engine that translates business requests into Gosu scripts with ops approval before execution, safely incrementing public IDs via built-in platform functions. Comprehensive runtime logging immediately surfaces any data issues, eliminating manual database digging. Output: processing time dropped from hours or days to under 10 minutes per request with zero data errors.'
@@ -128,20 +128,20 @@ projects:
         link: "#"
         tagline: 'Ops teams spent an hour every morning running manual Production Verification Testing checks across all heritage applications in pre-production and production environments. Additionally, release teams had to manually run the same functional tests before and after every release, adding 30 minutes of overhead per deployment. To eliminate this repetitive toil, I implemented New Relic synthetic monitors to continuously validate core product functions across every application, configured automated reliability alerts, and built centralized observability dashboards. The framework eliminated manual testing costs for both daily morning checks and releases, while proactive alerts now fire ahead of customer-reported health or functional issues, significantly reducing MTTR.'
 skills:
-    title: Core Competencies & Tech Stack
+    title: Core Tech Stack
     toolset:
-      - name: Agentic Software Engineering & Responsible AI
+      - name: Agentic & AI Engineering
         level: 96
         text: Agent Instructions & Prompts, Reusable Skills & MCP / FastMCP Tooling, Context Management & State Propagation, Human-in-the-Loop & Escalation Controls, Multi-Agent Challenger Loops, Responsible AI Safety Guardrails, Vertex AI / Gemini, Vector Databases & RAG
-      - name: Software Engineering & Distributed Systems
+      - name: Software Engineering
         level: 94
         text: Python (FastAPI, Pydantic, FastMCP), Java, Gosu, C# / .NET, TypeScript, SQL, Microservices, REST & GraphQL APIs, Event-Driven Patterns, Distributed Systems
       - name: Cloud, CI/CD & Platform Engineering
         level: 95
-        text: AWS, GCP (Cloud Run, Vertex AI), Azure, Kubernetes, Docker, GitHub Actions, CI/CD Automation, Terraform, HashiCorp Vault, Least-Privilege RBAC
+        text: AWS, GCP, Docker, GitHub Actions, CI/CD Automation, Terraform, HashiCorp Vault, Least-Privilege RBAC
       - name: Observability, SRE & Production Reliability
         level: 94
-        text: Datadog, OpenTelemetry, New Relic, Grafana, Splunk, Distributed Tracing, SLOs/SLIs & Synthetic Monitoring, Root-Cause Analysis, Post-Incident Reviews, Runbook as Code & Auto-Remediation
+        text: Datadog, OpenTelemetry, New Relic, Grafana, Splunk, Distributed Tracing, SLOs/SLIs & Synthetic Monitoring, Runbook as Code & Auto-Remediation
       - name: Enterprise Systems & API Integrations
         level: 92
         text: Multi-System API Integrations (Guidewire Cloud, ServiceNow, Salesforce, Datadog, Jira/Confluence MCP Servers, GitHub Copilot SDK, BigQuery SDK), API Gateways (MuleSoft)
